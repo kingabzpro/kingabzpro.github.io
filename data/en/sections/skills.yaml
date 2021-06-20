@@ -1,0 +1,72 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Data Science
+  logo: /images/sections/skills/kaggle.svg
+  summary: "I am experienced in Machine-learning, Data-Analysis, Deep-learning, NLP, Reinforcement-Learning, Transformers, deploying-web-apps, and researching on latest technology related to Ai Advancement."
+  url: "https://www.kaggle.com/kingabzpro"
+
+- name: Data Analysis
+  logo: /images/sections/skills/plotly.svg
+  summary: "Hands-on experience on SQL, plotly, matplotlib, ggplot, geopandas, seaborn, and Tableau. Exploratory Data Analysis, Geospatial analysis, and Time-series analysis."
+  url: "https://deepnote.com/@abid"
+
+- name: Machine Learning
+  logo: /images/sections/skills/scikitlearn.svg
+  summary: "I have worked on multiple machine learning problems, times series, tabular-structure/unstructured-data, NLP, CV, audio, and anomaly detection. I am regularly participating in competitions on Kaggle, Zindi, Driven Data, and DevPost."
+  url: "https://www.drivendata.org/users/kingabzpro/"
+
+- name: Natural Language Processing
+  logo: /images/sections/skills/HF.svg
+  summary: "Transformers, Machine Language Translation, Automatic speech recognition, text classification, question answering, OCR, text similarity. "
+  url: "https://zindi.africa/users/kingabzpro/competitions"
+
+- name: SQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Got certification in SQL Data Analysis and Design Databases With PostgreSQL. I have been researching on latest technology such as SQLLEX and DuckDB."
+  url: "/files/certificates/SQL.pdf"
+
+- name: R
+  logo: /images/sections/skills/r.svg
+  summary: "Worked on multiple R projects on Data Analysis and simple machine learning tasks. I have published few notebooks on Kaggle and Deepnote for beginners. "
+  url: "/files/certificates/Abid Ali Awan _ Codecademy Analyze Data with R Skill Path.pdf"
+
+- name: Tableau
+  logo: /images/sections/skills/tableau.svg
+  summary: "Published on Tableau public, worked on geospatial analysis and data analysis using visualization and integrate statistic formulas."
+  url: "/files/certificates/Analyzing Data in Tableau.pdf"
+
+- name: Webapp/Cloud
+  logo: /images/sections/skills/heroku.svg
+  summary: "Deployed multiple web apps on Streamlit and Heroku as a challenge and for a showcase of a personal project. For example : [Webapp-Repo](https://gitlab.com/kingabzpro/Airline-Tweets-NLP), [Webapp-Heroku](https://airline-tweets-nlp.herokuapp.com/)"
+  url: "https://www.heroku.com/home"
+
+- name: Ai Product Manager
+  logo: /images/sections/skills/udacity.svg
+  summary: "I have taken a course on developing and managing Ai products with includes AI in Business, Creating a Dataset, Build a Model, Measuring Impact, and Updating Models"
+  url: "https://www.udacity.com/course/ai-product-manager-nanodegree--nd088"
+
+- name: Deep learning
+  logo: /images/sections/skills/tensorflow.svg
+  summary: "Worked on Tensorflow, Pytorch, and Fast.Ai with various models, ANN, RNN, CNN, GRU, BiLSTM, Pretrained NN, GAN, CTGAN, transformers, TabNet, DAE, and bottleneck."
+  url: "https://www.kaggle.com/kingabzpro/code"
+
+- name: Graphic Designing / Photo Editing
+  logo: /images/sections/skills/adobe.svg
+  summary: "19 years of experience in Graphics Design and Photo editing on Adobe Photoshop and Illustrators. I have also worked on multiple art projects mostly Abstract art. I was a freelancer for merchandise design and Logo design for 3 years."
+  url: "https://www.behance.net/kingabzpro"
+
+- name: Ai Research/ Experimentation
+  logo: /images/sections/skills/deepnote.svg
+  summary: "I regularly publish an article on Deepnote on the latest technology and beginner-friendly guide to different problems in machine learning, data analysis, and python hacks. I have also published my work on Gitlab, Github, Kaggle, and Medium."
+  url: "https://deepnote.com/@abid"

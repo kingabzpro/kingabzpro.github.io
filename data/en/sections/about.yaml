@@ -39,6 +39,14 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://mobile.twitter.com/1abidaliawan"
 
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.com/kingabzpro"
+
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/kingabzpro"
+
 badges:
 - type: soft-skill-indicator
   name: Data Science
