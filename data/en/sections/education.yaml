@@ -16,6 +16,22 @@ degrees:
   institution:
     name: Staffordshire University
     url: "https://www.staffs.ac.uk/"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Strategic Planning and Systems Development
+      achieved: 4
+      outOf: 4
+    - name: Quality and Project Management for Technology
+      achieved: 3.5
+      outOf: 4
+    - name: Marketing Innovations
+      achieved: 4
+      outOf: 4
+    - name: Personal Development and Research Methods
+      achieved: 4
+      outOf: 4
   grade: #(optional)
     scale: Award
     achieved: Distinction with 3.7
@@ -23,6 +39,10 @@ degrees:
   publications: #(optional)
    - title: CHALLENGES IN IMPLEMENTING INTERNET OF THINGS-ENABLED SMART CITIES IN MALAYSIA.
      url: "#"
+  extracurricularActivities: #(optional)
+  - Organized Mega-event for Pakistan National Day.
+  - Usher and Managed Tech Talks and Bridging gaps between Academics and Industry.
+  - Photo Editing/ Video Editing for University Media Department.
   
 - name: B.Sc. in Electrical (Telecommunication) Engineering
   icon: fa-graduation-cap
