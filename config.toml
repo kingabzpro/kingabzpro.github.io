@@ -1,0 +1,64 @@
+languageCode =  "en-us"
+title =  "Abid's Portfolio"
+theme =  "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+enableEmoji = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+[languages.it]
+languageName = "Italiano"
+weight = 3
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+gitRepo = "https://github.com/abid/abid.github.io"
+gitBranch = "main"
+enableBlogPost = true
+enableTOC = true
+background= "images/wp2672841.jpg"
+
+  [params.newsletter]
+  enable = false
+  provider = "mailchimp"
+  mailchimpURL = "https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e"
+
+  [params.logo]
+  main = "images/Abz-main.png"
+  inverted = "images/Abz_inverted.png"
+  favicon = "images/Abz-favicon.png"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[footer]
+enable = true
+template = "footer.html"
+
+  [footer.navigation]
+  enable = true
+
+  [footer.contactMe]
+  enable = true
+
+  [footer.credentials]
+  enable = true
+
+  [footer.newsletter]
+  enable = false
+  provider = "mailchimp"
+  mailchimpURL = "https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e"
+
+  [footer.disclaimer]
+  enable = true

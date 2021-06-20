@@ -1,0 +1,20 @@
+name: "Abid Ali Awan"
+nickname: "Abid"
+image: "images/abidblue.jpg"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "abidaliawan@rocketmail.com"
+  phone: "+923137992953"
+
+# a summary of what you do
+summary:
+- I am a Data Scientist
+- I am a Technology Manager
+- I love to work with some fun projects
+- I love to work on NLP projects
+- I test Ai Products
+- I am Polymath

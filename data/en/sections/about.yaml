@@ -1,0 +1,71 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist/ Ai product Testing
+# your company information
+company:
+  name: PEC-PITC
+  url: "https://www.pitc-pec.com/"
+
+resume: "files/Abid_Resume.pdf"
+
+# a summary about you
+summary: 'I am NLP Data Scientist with a masters in Technology Management, and I am working on various Machine learning projects (Computer Vision, NLP, Classification, Reinforcement learning, ASR, Anomaly Detection). I am interested in collaborating with anyone with NLP-related projects. I am a polymath so my area of interest is quite wide. My goal in life is to make mental health accessible to all by using NLP and AI.'
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "abidaliawan@rocketmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/kingabzpro"
+
+- name: Deepnote
+  icon: "fab fa-dyalog"
+  url: "https://deepnote.com/@abid"
+
+- name: Kaggle
+  icon: "fab fa-kaggle"
+  url: "https://www.kaggle.com/kingabzpro"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://mobile.twitter.com/1abidaliawan"
+
+badges:
+- type: soft-skill-indicator
+  name: Data Science
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: Management
+  percentage: 70
+  color: blue
+
+- type: soft-skill-indicator
+  name: NLP
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Data Analysis
+  percentage: 80
+  color: "#4b4bc7"
+
+- type: soft-skill-indicator
+  name: Graphic Design 
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Ai / ML
+  percentage: 65
+  color: pink
