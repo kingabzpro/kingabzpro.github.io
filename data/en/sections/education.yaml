@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Msc. Technology Management
+  icon: fa-microscope
+  timeframe: 2015-2017
+  institution:
+    name: Staffordshire University
+    url: "https://www.staffs.ac.uk/"
+  grade: #(optional)
+    scale: Award
+    achieved: Distinction with 3.7
+    outOf: 4 
+  publications: #(optional)
+   - title: CHALLENGES IN IMPLEMENTING INTERNET OF THINGS-ENABLED SMART CITIES IN MALAYSIA.
+     url: "#"
+  
+- name: B.Sc. in Electrical (Telecommunication) Engineering
+  icon: fa-graduation-cap
+  timeframe: 2010-2014
+  institution:
+    name: COMSATS Institute of Information Technology
+    url: "https://www.comsats.edu.pk/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.09
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Microwave & Satellite Communication System
+      achieved: 3.0
+      outOf: 4
+    - name: Radars & Navigation Aids
+      achieved: 3.3
+      outOf: 4
+    - name: Signals & System
+      achieved: 4
+      outOf: 4
+    - name: Digital Communication System
+      achieved: 3.3
+      outOf: 4
+  publications: #(optional)
+  - title: An Energy Efficient Decoding Scheme for Wireless Body Area Sensor Networks.
+    url: "https://arxiv.org/abs/1309.4374"
+  - title: DREEM-ME Distributed Regional Energy Efficient Multi-hop Routing Protocol based on Maximum Energy in WSNs.
+    url: "https://arxiv.org/abs/1307.7075"
+  - title: REECH-ME Regional Energy Efficient Cluster Heads based on Maximum Energy Routing Protocol for WSNs.
+    url: "https://arxiv.org/abs/1307.7052"
+  - title: DREEM-ME distributed regional energy efficient multi-hop routing protocol based on maximum energy with mobile sink in WSNs.
+    url: "https://d1wqtxts1xzle7.cloudfront.net/34536873/DREEM-ME.pdf?1409019255=&response-content-disposition=inline%3B+filename%3DDREEM_ME_Distributed_Regional_Energy_Eff.pdf&Expires=1624203459&Signature=bmLalVk~BXisBYsBix1zwNk~nfrBFAcULavFUBBWoLsW4pURqSgOEZtgyp-kPIFc2dU4plb5E8FUWfqohBSuKn7pGuocuuq6ZiXnFSP5TEgzFGKuLcYGhKDwHVyfzRyyId2VNMN6mSW-e3Tlbf2ys0jXkOzssbAa~7WzNdEvoDJq0EMzY3Rpyx2JLJdugU7kuYfbcxj39PF7KD~yvjaKPZWmI6jslmq1EaD-JMK31zMP7G5QjnYXXgXEDgNI6MKEGXWj0g3oz6LznmQUJZwRVd4RjDFIaJ0eXz0py9ykcVUqk9R2GJ1h~s43egaOJ7gSph4SD4aJphJhC-G8Q4vtLQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+  extracurricularActivities: #(optional)
+  - Got First Prize in all University Graphic Desinging Competition.
+  - Participated in NAGS Lahore in Speed Wiring and Speed Programming.
+  - Video Making and Editing. 
+- name: A-Levels
+  icon: fa-university
+  timeframe: 2007-2009
+  institution:
+    name: The City School
+    url: "https://thecityschool.edu.pk/"
+  grade: #(optional)
+    scale: Grades
+    achieved: A, B, C
+    outOf: 3As
+  extracurricularActivities: #(optional)
+  - Deputy Head Prefect.
+  - Silver medal in Table Tennis (Punjab Olympics).
+ 
+- name: O-Levels
+  icon: fa-school
+  timeframe: 2005-2007
+  institution:
+    name: The City School
+    url: "https://thecityschool.edu.pk/"
+  grade: #(optional)
+    scale: Grades
+    achieved: 6Bs, C, D
+    outOf: 8As

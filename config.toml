@@ -9,9 +9,6 @@ enableEmoji = true
 [languages.en]
 languageName = "English"
 weight = 1
-[languages.it]
-languageName = "Italiano"
-weight = 3
 
 [markup.tableOfContents]
 startLevel = 2
