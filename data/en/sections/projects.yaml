@@ -1,0 +1,129 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Data Science
+  filter: "Data Science"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: NLP
+  filter: "NLP"
+- name: Data Analysis
+  filter: "Data Analysis"
+- name: Personal Projects
+  filter: "Personal Projects"
+- name: Competition
+  filter: "Competition"
+- name: Open source
+  filter: "Open source"
+
+# your projects
+projects:
+- name: Automatic Speech Recognition (WOLOF)
+  logo: /images/sections/projects/WOLOFASR.png
+  role: Owner
+  timeline: "June 2021"
+  repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Audio preprocessing and finetuning using wav2vec2-large-xlsr model on AI4D Baamtu Datamation - automatic speech recognition in WOLOF data.
+  tags: ["Machine Learning", "NLP", "Competition"]
+
+- name: SQLLEX
+  logo: /images/sections/projects/sqllex-logo.png
+  role: Contributor
+  timeline: "Jun 2021 - Present"
+  repo: https://github.com/v1a0/sqllex
+  #url: ""
+  summary: SQLLEX is a python library for comfortable and safe working with databases.
+  tags: ["Personal Projects", "Open source"]
+
+- name: MagNet Model the Geomagnetic Field
+  logo: /images/sections/projects/mag.png
+  role: Creator
+  timeline: "May 2021"
+  repo: "https://github.com/kingabzpro/MagNet-Model-the-Geomagnetic-Field"
+  summary: I scored 40th rank in this DrivenData competition and my Jounery started with simple LSTM.
+  tags: ["Competition","Machine Learning"]
+
+- name: Vaccine Automated Update Dashboard 
+  logo: /images/sections/projects/vac.jpg
+  role: Creator
+  timeline: "June 2021"
+  url: https://deepnote.com/@abid/Vaccine-Update-Dashboard-gybiCp-FTAyDgMjImOfj0w
+  #url: ""
+  summary: Automated System that collect data from web on Vaccine and created Data Analysis Dashboard.
+  tags: ["Competition", "Data Analysis"]
+
+- name: mRNA Vaccine Degradation Prediction 
+  logo: /images/sections/projects/mrna.jpg
+  role: Creator
+  timeline: "Jun 2021"
+  url: https://deepnote.com/@abid/mRNA-Vaccine-Degradation-Prediction-ZbqWvkGcQXGU3-1fDqb-fQ
+  summary: We need to design the model that will predict likely degradation rates at each base of an RNA molecule.
+  tags: ["Machine Learning","Data Science","Competition"]
+
+- name: Airline-Tweets-NLP
+  logo: /images/sections/projects/gitlab.png
+  role: Creator
+  timeline: "March 2021"
+  url: "https://gitlab.com/kingabzpro/Airline-Tweets-NLP"
+  summary: This project is one of my machine learning and data-driven web apps made using Streamlit. The goal of this project is to visualize various sentiment and exploratory analysis on tweets about US airlines.
+  tags: ["Competition","NLP","Data Analysis"]
+
+- name: Engineering Data Analysis
+  logo: /images/sections/projects/Deepnote-logo.png
+  role: Creator
+  timeline: "May 2021"
+  url: "https://deepnote.com/@abid/Engineering-Data-Analysis-fn8aALtMQwaElv_AUuwssg"
+  summary: In this exploratory data analysis, I have used PEC registered Engineers data up till 2019, which is publicly available on the official website. I wanted to use Plotly and in build, function to assist me in interactive and clean visualization for easy interpretations.
+  tags: ["Data Science","Data Analysis"]
+
+- name: Story of Gufhtugu Publications
+  logo: /images/sections/projects/kaggle.png
+  role: Creator
+  timeline: "Feb 2021"
+  url: "https://www.kaggle.com/kingabzpro/story-of-gufhtugu-publications"
+  summary: Exploratory Data Analysis and Machine learning techniques were used to process the Online book market.
+  tags: ["Data Science","Data Analysis", "Machine Learning", "Personal Projects"]
+
+- name: Trip Advisor Data Analysis/ML 
+  logo: /images/sections/projects/trip.png
+  role: Creator
+  timeline: "April 2021"
+  url: "https://deepnote.com/@abid/Trip-Advisor-Data-AnalysisML-9gYLOddsRXmWSKVLyLX_tQ"
+  summary: In this project, we will be exploring the hotel reviews and the rating base on customer hotel experience. We will be also looking at feature engineering and designing a deep learning model to predict ratings based on reviews.
+  tags: ["Competition", "NLP","Data Analysis", "Machine Learning"]
+
+- name: Machine Translation French to Fongbe and Ewe
+  logo: /images/sections/projects/zindi-logo.jpg
+  role: Creator
+  timeline: "May 2021"
+  repo: "https://github.com/kingabzpro/French-to-Fongbe-and-Ewe-MT"
+  summary: The objective of this challenge is to create a machine translation system capable of converting text from French into Fongbe or Ewe.
+  tags: ["Competition", "NLP", "Machine Learning"]
+
+- name: PEC Tableau Dashboard 
+  logo: /images/sections/projects/tab.png
+  role: Creator
+  timeline: "June 2021"
+  url: "https://public.tableau.com/app/profile/abid/viz/PITCData/Dashboard1"
+  summary: I have created Dashboard out of simple engineer data set, you can read more [here](https://deepnote.com/publish/18344b6a-b051-4695-b934-09dfeb74ac06).
+  tags: ["Data Analysis", "Personal Projects"]  
+
+- name: Wind-dependent Variables Predict Wind Speeds of Tropical Storms 
+  logo: /images/sections/projects/gitlab.png
+  role: Creator
+  timeline: "Feb 2021"
+  url: "https://gitlab.com/drivendata-competitions/wind-dependent-variables-predict-wind-speeds-of-tropical-storms"
+  summary: The goal of this challenge is to estimate the wind speeds of storms at different points in time using satellite images captured throughout a storm’s life cycle and the temporal memory of the storm.
+  tags: ["Machine Learning", "Competition","Data Science"]  

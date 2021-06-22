@@ -13,7 +13,7 @@ weight = 1
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 6
-ordered = false
+ordered = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
@@ -21,7 +21,7 @@ home = [ "HTML", "RSS", "JSON" ]
 [params]
 gitRepo = "https://github.com/abid/abid.github.io"
 gitBranch = "main"
-enableBlogPost = true
+enableBlogPost = false
 enableTOC = true
 background= "images/wp2672841.jpg"
 

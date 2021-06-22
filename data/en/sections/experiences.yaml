@@ -1,0 +1,83 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: PEC-PITC
+    url: "https://pitc-pec.com/"
+    location: Islamabad
+    # company overview
+    overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
+  positions:
+  - designation: Ai Tester/ Data Analyst
+    start: May 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and [Analyse Engineering Data Available at PEC](https://deepnote.com/publish/7e7f1a00-bb4c-4306-8496-ffc052ec2cb2)
+    - Creating WebApp.
+    - Ai Testing Team.
+    - Dashboarding on Tableau.
+
+
+- company:
+    name: Kaggle.
+    url: "https://www.kaggle.com"
+    location: Data Science Platform
+    overview: Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+  positions:
+  - designation: Kaggle Expert
+    start: Nov 2020
+    
+    responsibilities:
+    - Publishing Notebooks.
+    - Participating in Nearly every Machine Learning tournament.
+    - Contribute to Datasets.
+    - Improving the products.
+
+- company:
+    name: Freelancing
+    
+    location: Online
+    overview: Worked on multiple frealance platform suck as Fiverr and Upwork.
+  positions:
+  - designation: Research and Development
+    start: Jan 2019
+    end: July 2020
+    responsibilities:
+    - Worked on Various research projects.
+    - Worked on merchandise projects.
+    - Worked on building IoT adoption models.
+
+# - company:
+#     name: Gap year
+#     location: Pakistan
+#   positions:
+#   - designation: Dealing with Mental illness/ personal issues.
+#     start: Jan 2018
+#     end: Jan 2019
+
+- company:
+    name: CREDIT
+    url: "http://credit.apu.edu.my/"
+    location: KL, Malaysia
+    overview: The Center for REsearch and Development of IoT (CREDIT) was established on November 15, 2016. CREDIT aims to provide students and academic staff the opportunities to access IoT-related knowledge and know-how through various activities. It also acts as a hub to support commercialising potential solutions resulting from R&D projects.
+  positions:
+  - designation: Researcher / Event Organizer
+    start: Jan 2017
+    end: July 2017
+    responsibilities:
+    - Organized events, logo creation, marketing, managing events, and hosting event.
+    - Worked on IoT Research Projects.
+    - bridging gaps for academics and industries.
+    - Designed the framework for Research organization.
+

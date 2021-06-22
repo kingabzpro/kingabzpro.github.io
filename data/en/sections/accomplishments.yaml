@@ -1,0 +1,92 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Analyze Data with R Skill Path
+  timeline: "Sep 2020 - Nov 2020"
+  organization:
+    name: Codecademy
+    url: http://codecademy.com/
+  courseOverview: This course Helped my understand basics of R languages and taught me some of the basic of Data Analysis, with hand on working with real-life examples.
+  certificateURL: "files/certificates/Abid Ali Awan _ Codecademy Analyze Data with R Skill Path.pdf"
+
+- name: Analyze Data with SQL Skill Path
+  timeline: "Oct 2020 - Dec 2020"
+  organization:
+    name: Codecademy
+    url: http://codecademy.com/
+  courseOverview: "Learning Basics of SQL and using SQL query to analyze the data. This course has helped me learn more about the database and how to produce effective analysis."
+  certificateURL: "files/certificates/Abid Ali Awan _ Codecademy_ Analyze Data with SQL.pdf"
+
+- name: Data Scientist with Python Track
+  timeline: "Sep 2020 - Nov 2020"
+  organization:
+    name: Data Camp
+    url: http://www.datacamp.com
+  courseOverview: This course was my way to career change, I have learned the basics of Programming, Data analysis, and Data Science which also include Machine Learning.
+  certificateURL: "files/certificates/Data Scientist with Python.pdf"
+
+- name: Analyzing Data in Tableau
+  timeline: "Jan 2021 - Feb 2021"
+  organization:
+    name: Data Camp
+    url: http://www.datacamp.com
+  courseOverview: Learn Geospatial Analysis, Data Analysis, and Data Visualization on public Tableau. I have worked on Multiple real-life projects during my course.
+  certificateURL: "files/certificates/Analyzing Data in Tableau.pdf"
+
+- name: Natural Language Processing in Python certificate
+  timeline: "Dec 2020 - Jan 2021"
+  organization:
+    name: Data Camp
+    url: http://www.datacamp.com
+  courseOverview: I have learned the Basics of Natural language processing and how to get useful information from text, tokenization, machine learning and eventually using Spacy and NLTK to processes the text data.
+  certificateURL: "files/certificates/Natural Language Processing in Python certificate.pdf"
+
+- name: Deep Learning for NLP in Python Track
+  timeline: "Nov 2020 - Jan 2021"
+  organization:
+    name: Data Camp
+    url: http://www.datacamp.com
+  courseOverview: I have learned Natural language processing using Deep learning libraries especially Tensor-flow and how to get useful information from text, tokenization, machine learning and eventually using Spacy and NLTK to processes the text data.
+  certificateURL: "files/certificates/Deep Learning for NLP in Python Track.pdf"
+
+- name: Design Databases With PostgreSQL Skill Path
+  timeline: "Nov 2020 - Dec 2020"
+  organization:
+    name: Codecademy
+    url: http://codecademy.com/
+  courseOverview: Get hold of PostgreSQL and how to optimize database using index, learning new techniques to create database and maintaining the efficiency.
+  certificateURL: "files/certificates/Codecademy Desing Databases with PostgreSQL.pdf"
+
+- name: Feature Engineering
+  timeline: "Dec 2020 - Jan 2020"
+  organization:
+    name: Kaggle
+    url: http://www.kaggle.com
+  courseOverview: This course has helped me understand how feature engineering improves the overall score of machine learning models and how to process the features.
+  certificateURL: "files/certificates/Abid Ali Awan - Feature Engineering.png"
+
+- name: Competition MVP
+  timeline: "May 2021"
+  organization:
+    name: Deepnote
+    url: http://www.deepnote.com
+  courseOverview: I have published more than ten notebooks on the Deepnote platform and got MVP for publishing the highest number of notebooks on data analysis, Data Science, and Machine learning. 
+  certificateURL: "https://community.deepnote.com/c/announcements/deepnote-publishing-competition-results"
+
+- name: 10 Rank in WiDS Datathon 2021
+  timeline: "March 2021"
+  organization:
+    name: Kaggle
+    url: http://www.kaggle.com
+  courseOverview: Top ten spots by weightage ensembling automl, cat boost, lightgbm, and Xgbm. I have also used feature engineering and hyperparameters optimization to get better results.
+  certificateURL: "https://www.kaggle.com/c/widsdatathon2021/leaderboard"
