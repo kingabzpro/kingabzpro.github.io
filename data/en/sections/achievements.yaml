@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+
+- title: Top 10
+  image: /images/sections/achievements/certificate.jpg
+  summary: Achieving top 10 percent in more than 60 Data Science Competitions on Kaggle, DrivenData, Devpost, Zindi, BattleSnake, and Deepnote.
+- title: Data Science Certification
+  image: /images/sections/achievements/Data Scientist.jpg
+  summary: Completed career path on DataCamp on Data Science using Python and worked on more than 30 beginner projects. 
+- title: Masters of Science with Distinction
+  image: /images/sections/achievements/su-degree.jpg
+  summary: I got a Distinction in MSc. Technology Management with Thesis in industrial-based implementation of IoT product adoption.
+- title: Data Analysis Certification
+  image: /images/sections/achievements/Codecademy Analyze Data.jpg
+  summary: Completed career path on Codecademy on Data Analysis using R and worked on more than 10 beginner projects.
+- title: Tableau Certification
+  image: /images/sections/achievements/Analyzing Data in Tableau.jpg
+  summary: Completed certification on DataCamp on Data Analysis using Tableau and worked on more than 8 beginner projects.
