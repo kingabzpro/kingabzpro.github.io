@@ -48,7 +48,7 @@ skills:
 
 - name: Webapp/Cloud
   logo: /images/sections/skills/heroku.svg
-  summary: Deployed multiple web apps on Streamlit and Heroku as a challenge and for a showcase of a personal project. For example -> [Webapp-Repo](https://gitlab.com/kingabzpro/Airline-Tweets-NLP), [Webapp-Heroku](https://airline-tweets-nlp.herokuapp.com/)
+  summary: "Deployed multiple web apps on Streamlit and Heroku as a challenge and for a showcase of a personal project. For example : [Webapp-Repo](https://gitlab.com/kingabzpro/Airline-Tweets-NLP), [Webapp-Heroku](https://airline-tweets-nlp.herokuapp.com/)"
   url: "https://www.heroku.com/home"
 
 - name: Ai Product Manager
