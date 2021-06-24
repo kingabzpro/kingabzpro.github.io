@@ -16,7 +16,7 @@ company:
 resume: "files/Abid_Resume.pdf"
 
 # a summary about you
-summary: I am Technology Manager turned Data Scientist, who loves building machine learning models and Ai Products. Recently, I have trained the Automatic Speech Recognition (ASR) model on the Wolof language to help illiterate people interact with apps with just their voice, in a language they can already speak. I am currently testing Ai Products at PEC-PITC, which later get approved for human trials, eg: Breast Cancer Classifier. My vision is to build an Ai product that will help identify students that are struggling with mental illness. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
+summary: I am Technology Manager turned Data Scientist, who loves building machine learning models and Ai Products. Recently, I have trained the Automatic Speech Recognition (ASR) model on the Wolof language to help illiterate people interact with apps with just their voice, in a language they can already speak. I am currently testing Ai Products at PEC-PITC, which later get approved for human trials, eg. Breast Cancer Classifier. My vision is to build an Ai product that will help identify students that are struggling with mental illness. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
 
 socialLinks:
 - name: Email
