@@ -2,6 +2,9 @@ languageCode =  "en-us"
 title =  "Abid's Portfolio"
 theme =  "toha"
 
+# Enable Google Analytics
+googleAnalytics = "G-PQMV6SF4ML"
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 enableEmoji = true
@@ -60,5 +63,4 @@ template = "footer.html"
   [footer.disclaimer]
   enable = true
 
-# Enable Google Analytics
-googleAnalytics = "G-PQMV6SF4ML"
+
