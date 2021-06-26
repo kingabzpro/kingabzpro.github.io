@@ -31,8 +31,8 @@ background= "images/wp2672841.jpg"
   mailchimpURL = "https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e"
 
   [params.logo]
-  main = "images/Abz-main.png"
-  inverted = "images/Abz_inverted.png"
+  main = "images/Abz.svg"
+  inverted = "images/Abz.svg"
   favicon = "images/Abz.svg"
 
 [markup.goldmark.renderer]
