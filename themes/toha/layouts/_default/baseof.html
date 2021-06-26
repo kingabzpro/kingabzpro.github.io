@@ -11,7 +11,8 @@
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
     {{ if site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
   </head>
 
