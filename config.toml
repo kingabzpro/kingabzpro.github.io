@@ -61,4 +61,4 @@ template = "footer.html"
   enable = true
 
 # Enable Google Analytics
-googleAnalytics = "G-PQMV6SF4ML"
+googleAnalytics = "UA-200590576-1"
