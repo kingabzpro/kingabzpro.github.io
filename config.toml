@@ -36,7 +36,7 @@ background= "images/wp2672841.jpg"
   [params.logo]
   main = "images/Abz.svg"
   inverted = "images/Abz.svg"
-  favicon = "images/Abz-favicon.png"
+  favicon = "images/Abz.svg"
 
 [markup.goldmark.renderer]
 unsafe = true
