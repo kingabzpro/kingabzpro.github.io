@@ -8,14 +8,14 @@ sections:
   path: content/notes
   label: Notes
   create: documents
-  match: "**/*"
-  new_doc_ext: ".md"
+  match: "*.md"
+  new_doc_ext: md
 - type: directory
   path: content/posts
   label: Posts
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
