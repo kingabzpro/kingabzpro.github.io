@@ -8,8 +8,8 @@ sections:
   path: themes/toha/content/notes
   label: Notes
   create: documents
-  match: "*.md"
-  new_doc_ext: md
+  match: themes/toha/content/notes/*.md
+  new_doc_ext: ".md"
 - type: directory
   path: themes/toha/content/posts
   label: Posts
