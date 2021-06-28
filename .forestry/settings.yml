@@ -5,7 +5,7 @@ admin_path: forestry
 webhook_url: 
 sections:
 - type: directory
-  path: content/notes
+  path: themes/toha/content/notes
   label: Notes
   create: documents
   match: "*.md"
