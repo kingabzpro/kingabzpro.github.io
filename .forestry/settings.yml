@@ -9,7 +9,7 @@ sections:
   label: Notes
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: themes/toha/content/posts
   label: Posts
@@ -20,7 +20,7 @@ upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":filename:,:year:,:month:"
 build:
   preview_env:
   - HUGO_ENV=staging
