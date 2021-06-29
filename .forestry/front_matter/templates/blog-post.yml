@@ -12,9 +12,17 @@ fields:
 - type: text
   name: description
   label: description
+- name: add-banner
+  type: boolean
+  label: add-banner
 - type: file
   name: hero
   label: hero
+  showOnly:
+    field: add-banner
+- name: add-author
+  type: boolean
+  label: add-author
 - type: field_group
   name: author
   label: author
@@ -25,36 +33,9 @@ fields:
   - type: file
     name: image
     label: image
+  showOnly:
+    field: add-author
+    value: true
 - type: boolean
   name: math
   label: math
-- name: menu
-  type: field_group
-  config: {}
-  fields:
-  - name: sidebar
-    type: field_group
-    config: {}
-    fields:
-    - name: name
-      type: text
-      config:
-        required: false
-      label: name
-    - name: identifier
-      type: text
-      config:
-        required: false
-      label: identifier
-    - name: weight
-      type: number
-      label: weight
-      description: ''
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
-    label: sidebar
-  label: menu
