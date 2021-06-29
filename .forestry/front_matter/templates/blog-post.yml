@@ -27,5 +27,3 @@ fields:
 - type: boolean
   name: math
   label: math
-pages:
-- content/posts/life.md
