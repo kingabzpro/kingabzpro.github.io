@@ -5,22 +5,16 @@ admin_path: forestry
 webhook_url: 
 sections:
 - type: directory
-  path: data
-  label: pages
-  create: all
-  match: "**/*.yaml"
-  new_doc_ext: ".yaml"
-- type: directory
-  path: content/notes
+  path: themes/toha/content/notes
   label: Notes
-  create: all
-  match: "**/*.md"
+  create: documents
+  match: "*.md"
   new_doc_ext: md
 - type: directory
-  path: content/posts
+  path: themes/toha/content/posts
   label: Posts
-  create: all
-  match: "**/*.md"
+  create: documents
+  match: "*.md"
   new_doc_ext: md
 upload_dir: static/uploads
 public_path: "/uploads"
