@@ -1,6 +1,0 @@
-[submodule "themes/toha"]
-	path = themes/toha
-	url = https://github.com/hugo-toha/toha.git
-[submodule "themes/toha1"]
-	path = themes/toha1
-	url = https://github.com/hugo-toha/toha.git
