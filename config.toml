@@ -24,7 +24,7 @@ home = [ "HTML", "RSS", "JSON" ]
 [params]
 gitRepo = "https://github.com/abid/abid.github.io"
 gitBranch = "main"
-enableBlogPost = false
+enableBlogPost = true
 enableTOC = true
 background= "images/site/wp2672841.jpg"
 
