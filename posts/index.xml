@@ -50,4 +50,4 @@ Initial setup Search depends on additional output content type of JSON in config
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>life</title><link>/posts/life/life/</link><pubDate>Tue, 15 Jun 2021 19:00:00 +0000</pubDate><guid>/posts/life/life/</guid><description>life life</description></item></channel></rss>
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>life</title><link>/posts/life/</link><pubDate>Tue, 15 Jun 2021 19:00:00 +0000</pubDate><guid>/posts/life/</guid><description>life life</description></item></channel></rss>
