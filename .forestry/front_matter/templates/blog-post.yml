@@ -20,6 +20,7 @@ fields:
   label: hero
   showOnly:
     field: add-banner
+    value: true
 - name: add-author
   type: boolean
   label: add-author
