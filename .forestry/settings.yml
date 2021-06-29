@@ -9,7 +9,7 @@ sections:
   label: pages
   create: all
   match: "**/*.yaml"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 - type: directory
   path: content/notes
   label: Notes
