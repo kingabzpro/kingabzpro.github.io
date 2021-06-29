@@ -9,7 +9,7 @@ title = "Life gose"
 image = ""
 name = ""
 [menu.sidebar]
-identifier = "life gose"
+identifier = "life"
 name = "life gose"
 weight = 200
 
