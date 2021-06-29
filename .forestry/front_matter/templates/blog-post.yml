@@ -28,3 +28,33 @@ fields:
 - type: boolean
   name: math
   label: math
+- name: menu
+  type: field_group
+  config: {}
+  fields:
+  - name: sidebar
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: identifier
+      type: text
+      config:
+        required: false
+      label: identifier
+    - name: weight
+      type: number
+      label: weight
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+    label: sidebar
+  label: menu
