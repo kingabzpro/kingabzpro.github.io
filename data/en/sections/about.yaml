@@ -46,6 +46,9 @@ socialLinks:
 - name: Reddit
   icon: "fab fa-reddit"
   url: "https://www.reddit.com/user/kingabzpro"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/abid-ali-awan-57b466216/"
 
 badges:
 - type: soft-skill-indicator
