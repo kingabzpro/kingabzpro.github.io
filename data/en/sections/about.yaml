@@ -1,82 +1,73 @@
+---
 section:
   name: About
   id: about
   enable: true
-  weight: 1
+  weight: "1"
   showOnNavbar: true
   template: sections/about.html
-
-# your designation
 designation: Data Scientist/ Ai product Testing
-# your company information
 company:
   name: PEC-PITC
-  url: "https://www.pitc-pec.com/"
-
-resume: "files/Abid_Resume.pdf"
-
-# a summary about you
-summary: I am Technology Manager turned Data Scientist, who loves building machine learning models and Ai Products. Recently, I have trained the Automatic Speech Recognition (ASR) model on the Wolof language to help illiterate people interact with apps with just their voice, in a language they can already speak. I am currently testing Ai Products at PEC-PITC, which later get approved for human trials, eg. Breast Cancer Classifier. My vision is to build an Ai product that will help identify students that are struggling with mental illness. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
-
+  url: https://www.pitc-pec.com/
+resume: files/Abid_Resume.pdf
+summary: I am Technology Manager turned Data Scientist, who loves building machine
+  learning models and Ai Products. Recently, I have trained the Automatic Speech Recognition
+  (ASR) model on the Wolof language to help illiterate people interact with apps with
+  just their voice, in a language they can already speak. I am currently testing Ai
+  Products at PEC-PITC, which later get approved for human trials, eg. Breast Cancer
+  Classifier. My vision is to build an Ai product that will help identify students
+  that are struggling with mental illness. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
 socialLinks:
+- name: Medium
+  icon: fab fa-medium
+  url: https://kingabzpro.medium.com/
 - name: Email
-  icon: "fas fa-envelope"
-  url: "abidaliawan@rocketmail.com"
-
+  icon: fas fa-envelope
+  url: abidaliawan@rocketmail.com
 - name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/kingabzpro"
-
+  icon: fab fa-github
+  url: https://www.github.com/kingabzpro
 - name: Deepnote
-  icon: "fab fa-dyalog"
-  url: "https://deepnote.com/@abid"
-
+  icon: fab fa-dyalog
+  url: https://deepnote.com/@abid
 - name: Kaggle
-  icon: "fab fa-kaggle"
-  url: "https://www.kaggle.com/kingabzpro"
-
+  icon: fab fa-kaggle
+  url: https://www.kaggle.com/kingabzpro
 - name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://mobile.twitter.com/1abidaliawan"
-
+  icon: fab fa-twitter
+  url: https://mobile.twitter.com/1abidaliawan
 - name: Gitlab
-  icon: "fab fa-gitlab"
-  url: "https://gitlab.com/kingabzpro"
-
+  icon: fab fa-gitlab
+  url: https://gitlab.com/kingabzpro
 - name: Reddit
-  icon: "fab fa-reddit"
-  url: "https://www.reddit.com/user/kingabzpro"
+  icon: fab fa-reddit
+  url: https://www.reddit.com/user/kingabzpro
 - name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/abid-ali-awan-57b466216/"
-
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/1abidaliawan/
 badges:
 - type: soft-skill-indicator
   name: Data Science
-  percentage: 80
+  percentage: "80"
   color: green
-
 - type: soft-skill-indicator
   name: Management
-  percentage: 70
+  percentage: "70"
   color: blue
-
 - type: soft-skill-indicator
   name: NLP
-  percentage: 80
+  percentage: "80"
   color: yellow
-
 - type: soft-skill-indicator
   name: Data Analysis
-  percentage: 80
+  percentage: "80"
   color: "#4b4bc7"
-
 - type: soft-skill-indicator
-  name: Graphic Design 
-  percentage: 90
+  name: Graphic Design
+  percentage: "90"
   color: orange
-
 - type: soft-skill-indicator
   name: Ai / ML
-  percentage: 65
+  percentage: "65"
   color: pink
