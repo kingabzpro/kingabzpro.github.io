@@ -46,6 +46,9 @@ socialLinks:
 - name: LinkedIn
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/1abidaliawan/
+- name: Polywork
+  icon: fab fa-users
+  url: https://www.polywork.com/kingabzpro
 badges:
 - type: soft-skill-indicator
   name: Data Science
