@@ -13,11 +13,11 @@ experiences:
 - company:
     name: PEC-PITC
     url: "https://pitc-pec.com/"
-    location: Islamabad
+    location: ISB, Pakistan
     # company overview
     overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
   positions:
-  - designation: Ai Tester/ Data Analyst
+  - designation: AI Tester/ Data Analyst
     start: May 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
@@ -82,4 +82,31 @@ experiences:
     - Worked on IoT Research Projects.
     - bridging gaps for academics and industries.
     - Designed the framework for Research organization.
+
+- company:
+    name: Beyond Media
+    url: "https://www.facebook.com/APUBeyondMedia/"
+    location: KL, Malaysia
+    overview: Beyond Media is the official media team at APU/APIIT. We are passionate and enthusiastic in expressing the lifestyle of students in APIIT Education Group.
+  positions:
+  - designation: Designer and Editor
+    start: Jan 2016
+    end: Mar 2017
+    responsibilities:
+    - Malaysia event coverage and providing all kinds of media services
+    - Poster Designer
+    - Bridging gaps for academics and industries.
+    - Photo Editor
+
+- company:
+    name: Heal Pakistan
+    url: "https://www.linkedin.com/company/heal-pakistan/about/"
+    location: ISB, Pakistan
+    overview: NGO, working for the youth of Pakistan.
+  positions:
+  - designation: Partner
+    start: Apr 2014
+    end: Jun 2015
+    responsibilities:
+    - I have worked for the different project as the graphic designer and video editor.
 

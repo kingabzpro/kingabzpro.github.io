@@ -48,10 +48,10 @@ skills:
 
 - name: Webapp/Cloud
   logo: /images/sections/skills/heroku.svg
-  summary: "Deployed multiple web apps on Streamlit and Heroku as a challenge and for a showcase of a personal project. For example : [Webapp-Repo](https://gitlab.com/kingabzpro/Airline-Tweets-NLP), [Webapp-Heroku](https://airline-tweets-nlp.herokuapp.com/)"
+  summary: "Deployed multiple web apps on Streamlit and Heroku as a challenge and for a showcase of a personal project."
   url: "https://www.heroku.com/home"
 
-- name: Ai Product Manager
+- name: AI Product Manager
   logo: /images/sections/skills/udacity.svg
   summary: "I have taken a course on developing and managing Ai products with includes AI in Business, Creating a Dataset, Build a Model, Measuring Impact, and Updating Models"
   url: "https://www.udacity.com/course/ai-product-manager-nanodegree--nd088"
@@ -66,7 +66,23 @@ skills:
   summary: "19 years of experience in Graphics Design and Photo editing on Adobe Photoshop and Illustrators. I have also worked on multiple art projects mostly Abstract art. I was a freelancer for merchandise design and Logo design for 3 years."
   url: "https://www.behance.net/kingabzpro"
 
-- name: Ai Research/ Experimentation
+
+- name: AI Research/ Experimentation
   logo: /images/sections/skills/deepnote.svg
   summary: "I regularly publish an article on Deepnote on the latest technology and beginner-friendly guide to different problems in machine learning, data analysis, and python hacks. I have also published my work on Gitlab, Github, Kaggle, and Medium."
   url: "https://deepnote.com/@abid"
+
+- name: Technical Writer
+  logo: /images/sections/skills/medium.svg
+  summary: "I am writer at Deepnote, Towards Data Science, Towards AI, Geek Culture and Kaggle"
+  url: "https://kingabzpro.medium.com/"
+
+- name: Event Management
+  logo: /images/sections/skills/event.svg
+  summary: "I have organized Technical Events, hosted and Designed art for promotion. I had also the chance to manage the security team while organizing a big event."
+  url: ""
+
+- name: Julia
+  logo: /images/sections/skills/julia.svg
+  summary: "I am experimenting with Julia Language, working on multiple data projects and I am still learning Machine learning with Julia."
+  url: "https://julialang.org/"
