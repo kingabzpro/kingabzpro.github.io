@@ -11,6 +11,14 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name: Data Scientist Professional Certificate
+  timeline: "Aug 2021 - Aug 2023"
+  organization:
+    name: DataCamp
+    url: https://learn.datacamp.com/
+  courseOverview: To get certified this candidate had to display that they have the knowledge, skills, and abilities to perform a Data Scientist role. These included but were not limited to Data Management, Exploratory Analysis, Statistical Experimentation, Model Development, Coding for Production Environments, Communication, and Reporting.
+  certificateURL: "https://www.datacamp.com/certificate/DS0011522977504"
+
 - name: Analyze Data with R Skill Path
   timeline: "Sep 2020 - Nov 2020"
   organization:
@@ -90,3 +98,11 @@ accomplishments:
     url: http://www.kaggle.com
   courseOverview: Top ten spots by weightage ensembling automl, cat boost, lightgbm, and Xgbm. I have also used feature engineering and hyperparameters optimization to get better results.
   certificateURL: "https://www.kaggle.com/c/widsdatathon2021/leaderboard"
+
+- name: Registered Engineer
+  timeline: "Aug 2021"
+  organization:
+    name: PEC
+    url: https://www.pec.org.pk/
+  courseOverview: Became Lifetime Member of PEC.
+  certificateURL: "sections/achievements/re.jpg"

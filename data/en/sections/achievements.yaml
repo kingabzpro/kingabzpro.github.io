@@ -11,6 +11,9 @@ section:
 # Your achievements achievements
 achievements:
 
+- title: Data Scientist Professional Certificate
+  image: /images/sections/achievements/dc.png
+  summary: To get certified this candidate had to display that they have the knowledge, skills, and abilities to perform a Data Scientist role. These included but were not limited to Data Management, Exploratory Analysis, Statistical Experimentation, Model Development, Coding for Production Environments, Communication, and Reporting.
 - title: Top 10
   image: /images/sections/achievements/certificate.jpg
   summary: Achieving top 10 percent in more than 60 Data Science Competitions on Kaggle, DrivenData, Devpost, Zindi, BattleSnake, and Deepnote.

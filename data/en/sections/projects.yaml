@@ -24,6 +24,8 @@ buttons:
   filter: "Personal Projects"
 - name: Competition
   filter: "Competition"
+- name: WebApp
+  filter: "WebApp"  
 - name: Open source
   filter: "Open source"
 
@@ -127,3 +129,78 @@ projects:
   url: "https://gitlab.com/drivendata-competitions/wind-dependent-variables-predict-wind-speeds-of-tropical-storms"
   summary: The goal of this challenge is to estimate the wind speeds of storms at different points in time using satellite images captured throughout a storm’s life cycle and the temporal memory of the storm.
   tags: ["Machine Learning", "Competition","Data Science"]  
+
+
+#####  
+- name: ORCHEST 
+  logo: /images/sections/projects/orchest.png
+  role: Contributor
+  timeline: "Aug 2021"
+  repo: "https://github.com/orchest/orchest"
+  summary: Build data pipelines, the easy way. Orchest is a tool for building data pipelines that don’t require DAGs and frameworks. The environment is simple to navigate, and you can code Python, R, and Julia.
+  tags: ["Machine Learning","Data Science", "Open source"]  
+
+- name: Goodreads Recommedations WebApp
+  logo: /images/sections/projects/goodreads.jpeg
+  role: Creator
+  timeline: "Sep 2021"
+  url: "https://deepnote.com/@abid/Goodreads-Recommedations-xSSkkmqVTc-12__gKZxu4A"
+  summary: Discover your reading patterns and recommendations for a new book to read.
+  tags: ["NLP", "Data Analysis","WebApp"]   
+
+- name: FastAPI ML Project
+  logo: /images/sections/projects/fastapi.jpeg
+  role: Creator
+  timeline: "Aug 2021"
+  repo: "https://github.com/kingabzpro/FastAPI-ML-Project"
+  summary: build an application programming interface (API) for your machine learning model and then deploy it with simple code.
+  tags: ["Machine Learning","WebApp"] 
+
+- name: OmdenaLore
+  logo: /images/sections/projects/omdenalore.jpg
+  role: Contributor
+  timeline: "Sep 2021"
+  url: "https://omdena.com/omdenalore/"
+  summary: OmdenaLore is world’s biggest AI4Good library for real-world projects.
+  tags: ["Machine Learning", "NLP","Data Science","Open source"]   
+
+- name: Image-Classification-FastAI.jl
+  logo: /images/sections/projects/fastai.jpeg
+  role: Researcher
+  timeline: "Sep 2021"
+  repo: "https://github.com/kingabzpro/Image-Classification-FastAI.jl"
+  summary: Using FastAI.jl library to classify images from the Imagnet dataset.
+  tags: ["Machine Learning"]     
+
+- name: Evolution of Digital Learning During COVID19
+  logo: /images/sections/projects/evo.jpeg
+  role: Creator
+  timeline: "Sep 2021"
+  url: "https://www.kaggle.com/kingabzpro/evolution-of-digital-learning-during-covid19"
+  summary: We will use data analysis tools to figure out trends in digital learning and how it is effective towards improvised communities.
+  tags: ["Data Anlaysis"]       
+
+
+- name: Covid19 Vaccine Epitope Prediction ML Pipeline Using Orchest
+  logo: /images/sections/projects/ml.jpeg
+  role: Creator
+  timeline: "Aug 2021"
+  url: "https://github.com/kingabzpro/Covid19-Vaccine-ML-Pipeline"
+  summary: Designing machine learning pipeline with few lines of codes using Orchest. You will learn to preprocess the data, train the machine learning model, and evaluate the results.
+  tags: ["Machine Learning","Data Science"]   
+
+- name: DailoGPT-RickBot
+  logo: /images/sections/projects/hf.png
+  role: Creator
+  timeline: "Aug 2021"
+  url: "https://github.com/kingabzpro/DailoGPT-RickBot"
+  summary: Discord bot using DailoGPT pretrained model on Rick& Morty Dataset from Kaggle.
+  tags: ["Machine Learning","NLP"]     
+
+- name: Annual Recycled Energy Saved in Singapore
+  logo: /images/sections/projects/sng.jpeg
+  role: Creator
+  timeline: "Aug 2021"
+  url: "https://github.com/kingabzpro/Annual-Recycled-Energy-Saved-in-Singapore"
+  summary: Learn how much Singapore is saving energy per years by recycling plastics, paper, glass, ferrous and non-ferrous metal.
+  tags: ["Data Anlaysis"]      
