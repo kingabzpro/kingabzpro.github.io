@@ -40,15 +40,18 @@ socialLinks:
 - name: Gitlab
   icon: fab fa-gitlab
   url: https://gitlab.com/kingabzpro
-- name: Reddit
-  icon: fab fa-reddit
-  url: https://www.reddit.com/user/kingabzpro
 - name: LinkedIn
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/1abidaliawan/
 - name: Polywork
   icon: fa fa-users
   url: https://www.polywork.com/kingabzpro
+- name: Dev.to
+  icon: fab fa-dev
+  url: https://dev.to/kingabzpro
+- name: ko-fi
+  icon: fa fa-coffee
+  url: https://ko-fi.com/kingabzpro
 badges:
 - type: soft-skill-indicator
   name: Data Science
@@ -71,6 +74,6 @@ badges:
   percentage: "90"
   color: orange
 - type: soft-skill-indicator
-  name: Ai / ML
+  name: AI / ML
   percentage: "65"
   color: pink
