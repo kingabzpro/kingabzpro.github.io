@@ -25,9 +25,59 @@ experiences:
     responsibilities:
     - Design and [Analyse Engineering Data Available at PEC](https://deepnote.com/publish/7e7f1a00-bb4c-4306-8496-ffc052ec2cb2)
     - Creating WebApp.
-    - Ai Testing Team.
+    - AI Testing Team.
     - Dashboarding on Tableau.
-
+- company:
+    name: DAGsHub
+    url: "https://dagshub.com/"
+    location: Online
+    overview: DAGsHub is a web platform for data version control and collaboration for data scientists and machine learning engineers.
+  positions:
+  - designation: SOTA
+    start: Oct 2021
+    
+    responsibilities:
+    - Blogs about DVC 
+    - State of the art projects 
+    - Hackathon Contribution.
+- company:
+    name: KDnuggets
+    url: "https://www.kdnuggets.com/author/abidali-awan"
+    location: Online
+    overview: KDnuggets™ is a leading site on AI, Analytics, Big Data, Data Mining, Data Science, and Machine Learning.
+  positions:
+  - designation: Writer
+    start: Sep 2021
+    
+    responsibilities:
+    - Blogs about Machine learning 
+    - Career Advice 
+- company:
+    name: Towards Data Science
+    url: "https://towardsdatascience.com/"
+    location: Online
+    overview: Towards Data Science Inc. is a corporation registered in Canada. Using Medium, we provide a platform for thousands of people to exchange ideas and to expand our understanding of data science.
+  positions:
+  - designation: Technical Writer
+    start: July 2021
+    
+    responsibilities:
+    - Blogs about Machine learning 
+    - Career Advice 
+    - Natural language processing projects.
+- company:
+    name: Analytics Vidhya
+    url: "https://www.analyticsvidhya.com/blog/"
+    location: Online
+    overview: nalytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals.
+  positions:
+  - designation: Technical Writer / Creator Club
+    start: July 2021
+    
+    responsibilities:
+    - Blogs about Machine learning 
+    - Blogs about NLP
+    - Blogs about Analytics
 
 - company:
     name: Kaggle.
