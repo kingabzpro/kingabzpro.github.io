@@ -11,13 +11,7 @@ company:
   name: PEC-PITC
   url: https://www.pitc-pec.com/
 resume: files/Abid_Resume.pdf
-summary: I am Technology Manager turned Data Scientist, who loves building machine
-  learning models and AI Products. Recently, I have trained the Automatic Speech Recognition
-  (ASR) model on the Wolof language to help illiterate people interact with apps with
-  just their voice, in a language they can already speak. I am currently testing AI
-  Products at PEC-PITC, which later get approved for human trials, eg. Breast Cancer
-  Classifier. My vision is to build an AI product that will help identify students
-  that are struggling with mental illness. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
+summary:  I am certified data scientist professional who loves building machine learning models and write blogs on AI technologies. Currently, focusing on content creation, building brand, and startup. My vision is to build an AI product that will identify students struggling with mental illness. I am open to working as a contractor and providing consultancy on data science tools. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
 socialLinks:
 - name: Medium
   icon: fab fa-medium
