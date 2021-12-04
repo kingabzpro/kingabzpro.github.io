@@ -5,6 +5,9 @@ description: Portfolio and personal blog of Abid Ali Awan.
 customMenus:
 - name: "Buy a Coffee"
   url: https://ko-fi.com/kingabzpro
+  
+- name: "eXfinite"
+  url: https://exfinity.netlify.app/
 
 - name: "Blogs"
   url: https://www.kdnuggets.com/author/abidali-awan
