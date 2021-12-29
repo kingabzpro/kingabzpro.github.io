@@ -11,22 +11,37 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: PEC-PITC
-    url: "https://pitc-pec.com/"
-    location: ISB, Pakistan
-    # company overview
-    overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
+    name: KDnuggets
+    url: "https://www.kdnuggets.com/author/abidali-awan"
+    location: Online
+    overview: KDnuggets™ is a leading site on AI, Analytics, Big Data, Data Mining, Data Science, and Machine Learning.
   positions:
-  - designation: AI Tester/ Data Analyst
-    start: May 2021
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Staff Writer
+    start: Dec 2021
     responsibilities:
-    - Design and [Analyse Engineering Data Available at PEC](https://deepnote.com/publish/7e7f1a00-bb4c-4306-8496-ffc052ec2cb2)
-    - Creating WebApp.
-    - AI Testing Team.
-    - Dashboarding on Tableau.
+    - Writing blogs on Deep Learning, MLOps, Data Analytics and Career Advice.
+- company:
+    name: KDnuggets
+    url: "https://www.kdnuggets.com/author/abidali-awan"
+    location: Online
+    overview: KDnuggets™ is a leading site on AI, Analytics, Big Data, Data Mining, Data Science, and Machine Learning.
+  positions:
+  - designation: Writer
+    start: Sep 2021
+    end: Dec 2021
+    responsibilities:
+    - Wrote multiple beginner friendly blog that focuses on career path and Data Science tooling.
+- company:
+    name: DataCamp
+    url: "https://www.datacamp.com/"
+    location: Online
+    overview: DataCamp offers interactive R, Python, Sheets, SQL and shell courses.
+  positions:
+  - designation: Data Science Copywriter
+    start: Dec 2021
+    responsibilities:
+    - Writing blogs, articles, tutorials, guides and books on Data Science.
+    
 - company:
     name: DAGsHub
     url: "https://dagshub.com/"
@@ -40,14 +55,7 @@ experiences:
     - Blogs about DVC 
     - State of the art projects 
     - Hackathon Contribution.
-- company:
-    name: KDnuggets
-    url: "https://www.kdnuggets.com/author/abidali-awan"
-    location: Online
-    overview: KDnuggets™ is a leading site on AI, Analytics, Big Data, Data Mining, Data Science, and Machine Learning.
-  positions:
-  - designation: Writer
-    start: Sep 2021
+
     
     responsibilities:
     - Blogs about Machine learning 
@@ -95,6 +103,23 @@ experiences:
     - Improving the products.
     - Deep learning, Tabular Machine Learning projects.
     - Natural language processing projects.
+- company:
+    name: PEC-PITC
+    url: "https://pitc-pec.com/"
+    location: ISB, Pakistan
+    # company overview
+    overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
+  positions:
+  - designation: AI Tester/ Data Analyst
+    start: Apr 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and [Analyse Engineering Data Available at PEC](https://deepnote.com/publish/7e7f1a00-bb4c-4306-8496-ffc052ec2cb2)
+    - Creating WebApp.
+    - AI Testing Team.
+    - Dashboarding on Tableau.
 
 - company:
     name: Freelancing
