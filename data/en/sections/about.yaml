@@ -6,10 +6,10 @@ section:
   weight: "1"
   showOnNavbar: true
   template: sections/about.html
-designation: Data Scientist/ AI product Testing
+designation: Data Science Copywriter
 company:
-  name: PEC-PITC
-  url: https://www.pitc-pec.com/
+  name: KDnuggets
+  url: https://www.kdnuggets.com/
 resume: files/Abid_Resume.pdf
 summary:  I am certified data scientist professional who loves building machine learning models and write blogs on AI technologies. Currently, focusing on content creation, building brand, and startup. My vision is to build an AI product that will identify students struggling with mental illness. I am open to working as a contractor and providing consultancy on data science tools. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
 socialLinks:
@@ -31,29 +31,18 @@ socialLinks:
 - name: Twitter
   icon: fab fa-twitter
   url: https://mobile.twitter.com/1abidaliawan
-- name: Gitlab
-  icon: fab fa-gitlab
-  url: https://gitlab.com/kingabzpro
 - name: LinkedIn
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/1abidaliawan/
-- name: Polywork
-  icon: fa fa-users
-  url: https://www.polywork.com/kingabzpro
-- name: Dev.to
-  icon: fab fa-dev
-  url: https://dev.to/kingabzpro
-- name: ko-fi
-  icon: fa fa-coffee
-  url: https://ko-fi.com/kingabzpro
+
 badges:
 - type: soft-skill-indicator
   name: Data Science
   percentage: "80"
   color: green
 - type: soft-skill-indicator
-  name: Management
-  percentage: "70"
+  name: Technical Writing
+  percentage: "90"
   color: blue
 - type: soft-skill-indicator
   name: NLP
@@ -68,6 +57,6 @@ badges:
   percentage: "90"
   color: orange
 - type: soft-skill-indicator
-  name: AI / ML
-  percentage: "65"
+  name: ML/MLOps
+  percentage: "75"
   color: pink
