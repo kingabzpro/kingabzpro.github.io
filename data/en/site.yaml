@@ -3,8 +3,6 @@ description: This site contains Abid's Machine learning Projects, Resume, Contac
 # Meta description for your site.  This will help the search engines to find your site.
 description: Resume and Portfolio of Abid Ali Awan.
 customMenus:
-- name: "Buy a Coffee"
-  url: https://ko-fi.com/kingabzpro
   
 - name: "eXfinite"
   url: https://exfinite.netlify.app/

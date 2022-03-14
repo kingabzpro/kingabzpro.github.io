@@ -37,6 +37,14 @@ background= "images/site/landscape-1631711601813-850.jpg"
   main = "images/site/Abz.svg"
   inverted = "images/site/Abz.svg"
   favicon = "images/site/Abz.svg"
+  [params.features.support]
+  enabled = true
+
+    [params.features.support.kofi]
+    user = "kingabzpro"
+    text = "Support me"
+    textColor = "#fff"
+    backgroundColor = "#45b3e0"
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -63,11 +71,4 @@ template = "footer.html"
   [footer.disclaimer]
   enable = true
 
-[support]
-enabled = true
 
- [support.kofi]
- user = "kingabzpro"
- text = "Tip Me"
- textColor = "#f9fafc"
- backgroundColor = "#248aaa"
