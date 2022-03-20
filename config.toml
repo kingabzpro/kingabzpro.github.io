@@ -46,6 +46,12 @@ background= "images/site/landscape-1631711601813-850.jpg"
     textColor = "#fff"
     backgroundColor = "#45b3e0"
 
+
+    
+    [params.features.portfolio]
+    enable=true
+    
+
 [markup.goldmark.renderer]
 unsafe = true
 
