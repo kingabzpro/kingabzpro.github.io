@@ -10,13 +10,15 @@ section:
 
 # Your achievements achievements
 achievements:
-
+- title: DataCamp talent profile
+  image: /images/sections/achievements/top.jpeg
+  summary: Top 1% in all assessment tests. 
+- title: Winner of Robust Speech Recognition 2022
+  image: /images/sections/achievements/winner.png
+  summary: I am one the winner of Robust Speech Recognition 2022 organized by Hugging Face. Four of my models got state of the art status.
 - title: Data Scientist Professional Certificate
   image: /images/sections/achievements/dc.png
   summary: To get certified this candidate had to display that they have the knowledge, skills, and abilities to perform a Data Scientist role. These included but were not limited to Data Management, Exploratory Analysis, Statistical Experimentation, Model Development, Coding for Production Environments, Communication, and Reporting.
-- title: Top 10
-  image: /images/sections/achievements/certificate.jpg
-  summary: Achieving top 10 percent in more than 60 Data Science Competitions on Kaggle, DrivenData, Devpost, Zindi, BattleSnake, and Deepnote.
 - title: Data Science Certification
   image: /images/sections/achievements/Data Scientist.jpg
   summary: Completed career path on DataCamp on Data Science using Python and worked on more than 30 beginner projects. 
