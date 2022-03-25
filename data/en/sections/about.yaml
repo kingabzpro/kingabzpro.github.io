@@ -6,7 +6,7 @@ section:
   weight: "1"
   showOnNavbar: true
   template: sections/about.html
-designation: Data Science Copywriter
+designation: Data Science Copywriter & Editor
 company:
   name: KDnuggets
   url: https://www.kdnuggets.com/
@@ -34,6 +34,9 @@ socialLinks:
 - name: LinkedIn
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/1abidaliawan/
+- name: HuggingFace
+  icon: fab fa-usb
+  url: https://www.huggingface.co/kingabzpro/
 
 badges:
 - type: soft-skill-indicator

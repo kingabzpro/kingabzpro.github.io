@@ -31,6 +31,43 @@ buttons:
 
 # your projects
 projects:
+
+- name: Automatic Speech Recognition (Urdu)
+  logo: /images/sections/projects/asr.jpeg
+  role: Owner
+  timeline: "March 2022"
+  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://dagshub.com/kingabzpro/Urdu-ASR-SOTA"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Urdu Automatic Speech Recognition is SOTA Solution is here and I am looking for opensource contribution to reach 20 WER by using text and audio processing.
+  tags: ["Machine Learning","NLP","Open Source","Competition"]
+
+- name: SavtaDepth
+  logo: /images/sections/projects/savta.jpeg
+  role: Contributor
+  timeline: "Feb 2022"
+  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://dagshub.com/kingabzpro/SavtaDepth/src/dagshub"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Open Source Data Science (OSDS) Monocular Depth Estimation, Turn 2d photos into 3d photos, show your grandma the awesome results.
+  tags: ["Machine Learning", "Open Source"]
+
+- name: Intro-to-AutoXGB
+  logo: /images/sections/projects/xgb.jpeg
+  role: Owner
+  timeline: "Feb 2022"
+  repo: https://github.com/kingabzpro/Intro-to-AutoXGB # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Creating guide for AutoXGB which includes training and running web server.
+  tags: ["Machine Learning"]
+
+- name: Pneumonia Classification
+  logo: /images/sections/projects/pc.png
+  role: Contributor
+  timeline: "Dec 2021"
+  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://dagshub.com/kingabzpro/Pneumonia-Classification/src/DVC"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Classifying chest X-Ray images for Pneumonia
+  tags: ["Machine Learning","Open Source"]
+
 - name: Automatic Speech Recognition (WOLOF)
   logo: /images/sections/projects/WOLOFASR.png
   role: Owner
