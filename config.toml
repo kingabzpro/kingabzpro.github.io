@@ -3,7 +3,7 @@ title =  "Abid's Portfolio"
 theme =  "toha"
 
 # Enable Google Analytics
-googleAnalytics = "G-PQMV6SF4ML"
+googleAnalytics = "G-C8RQZHQ428"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -22,7 +22,7 @@ ordered = true
 home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-gitRepo = "https://github.com/abid/abid.github.io"
+gitRepo = "https://github.com/kingabzpro/kingabzpro.github.io"
 gitBranch = "main"
 enableBlogPost = false
 enableTOC = true
