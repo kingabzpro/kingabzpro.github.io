@@ -145,14 +145,6 @@ projects:
   summary: This project is one of my machine learning and data-driven web apps made using Streamlit. The goal of this project is to visualize various sentiment and exploratory analysis on tweets about US airlines.
   tags: ["Competition","NLP","Data Analysis"]
 
-- name: Engineering Data Analysis
-  logo: /images/sections/projects/Deepnote-logo.png
-  role: Creator
-  timeline: "May 2021"
-  url: "https://deepnote.com/@abid/Engineering-Data-Analysis-fn8aALtMQwaElv_AUuwssg"
-  summary: In this exploratory data analysis, I have used PEC registered Engineers data up till 2019, which is publicly available on the official website. I wanted to use Plotly and in build, function to assist me in interactive and clean visualization for easy interpretations.
-  tags: ["Data Science","Data Analysis"]
-
 - name: Story of Gufhtugu Publications
   logo: /images/sections/projects/kaggle.png
   role: Creator
@@ -242,7 +234,6 @@ projects:
   url: "https://www.kaggle.com/kingabzpro/evolution-of-digital-learning-during-covid19"
   summary: We will use data analysis tools to figure out trends in digital learning and how it is effective towards improvised communities.
   tags: ["Data Anlaysis"]       
-
 
 - name: Covid19 Vaccine Epitope Prediction ML Pipeline Using Orchest
   logo: /images/sections/projects/ml.jpeg
