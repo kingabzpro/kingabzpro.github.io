@@ -32,6 +32,32 @@ buttons:
 # your projects
 projects:
 
+- name: Deep RL Class
+  logo: /images/sections/projects/hf.png
+  role: Contributor
+  timeline: "July 2022"
+  repo: https://github.com/huggingface/deep-rl-class # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: This repo contain the syllabus of the Hugging Face Deep Reinforcement Learning Class.
+  tags: ["Machine Learning","Open Source"]
+
+- name: Rick & Morty ChatBot
+  logo: /images/sections/projects/gradio.png
+  role: Owner
+  timeline: "June 2022"
+  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://huggingface.co/spaces/Gradio-Blocks/RickandMorty-BlockParty"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Participated in Gradio Block Competition and create an interactive chatbot trained on Rick and Morty's conversation. 
+  tags: ["Machine Learning","NLP","Competition","Open Source","WebApp"]
+
+- name: Unity3D MLAgents Pyramids
+  logo: /images/sections/projects/hf.png
+  role: Owner
+  timeline: "July 2022"
+  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://huggingface.co/kingabzpro/MLAgents-Pyramids"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Trained Deep Reinforcement Learning model on Unity 3D Environment. 
+  tags: ["Machine Learning","Open Source"]
+
 - name: Automatic Speech Recognition (Urdu)
   logo: /images/sections/projects/asr.jpeg
   role: Owner
