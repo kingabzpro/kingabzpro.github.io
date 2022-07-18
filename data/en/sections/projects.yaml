@@ -41,7 +41,7 @@ projects:
   tags: ["Machine Learning","Open Source"]
 
 - name: Rick & Morty ChatBot
-  logo: /images/sections/projects/gradio.png
+  logo: /images/sections/projects/gradio.svg
   role: Owner
   timeline: "June 2022"
   # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -256,7 +256,7 @@ projects:
   logo: /images/sections/projects/hf.png
   role: Creator
   timeline: "Aug 2021"
-  url: "https://github.com/kingabzpro/DailoGPT-RickBot"
+  repo: "https://github.com/kingabzpro/DailoGPT-RickBot"
   summary: Discord bot using DailoGPT pretrained model on Rick& Morty Dataset from Kaggle.
   tags: ["Machine Learning","NLP"]     
 

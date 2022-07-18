@@ -40,11 +40,11 @@ socialLinks:
 
 badges:
 - type: soft-skill-indicator
-  name: Data Science
+  name: DS Editing
   percentage: "80"
-  color: green
+  color: "#4b4bc7"
 - type: soft-skill-indicator
-  name: Technical Writing
+  name: Copy Writing
   percentage: "90"
   color: blue
 - type: soft-skill-indicator
@@ -52,9 +52,9 @@ badges:
   percentage: "80"
   color: yellow
 - type: soft-skill-indicator
-  name: Data Analysis
+  name: Data Science
   percentage: "80"
-  color: "#4b4bc7"
+  color: green
 - type: soft-skill-indicator
   name: Graphic Design
   percentage: "90"

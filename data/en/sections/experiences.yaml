@@ -37,16 +37,17 @@ experiences:
     location: Global-Remote
     overview: DataCamp offers interactive R, Python, Sheets, SQL and shell courses.
   positions:
-  - designation: Data Science Copywriter
-    start: Dec 2021
-    responsibilities:
-    - Writing blogs, articles, tutorials, guides and books on Data Science.
   - designation: Data Science Editor
     start: May 2022
     responsibilities:
     - Data Science Editing
-    - Fact checks
+    - Fact checking
     - Review the article and make suggestions to the author
+  - designation: Data Science Copywriter
+    start: Dec 2021
+    responsibilities:
+    - Writing blogs, articles, tutorials, guides and books on Data Science.
+
     
 - company:
     name: DAGsHub
@@ -81,7 +82,7 @@ experiences:
     location: Online
     overview: nalytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals.
   positions:
-  - designation: Technical Writer / Creator Club
+  - designation: Technical Writer
     start: July 2021
     
     responsibilities:
@@ -90,52 +91,23 @@ experiences:
     - Blogs about Analytics
 
 - company:
-    name: Kaggle.
-    url: "https://www.kaggle.com"
-    location: Data Science Platform
-    overview: Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
-  positions:
-  - designation: Freelancing / Kaggle Expert
-    start: Nov 2020
-    
-    responsibilities:
-    - Publishing Notebooks. 
-    - Participating in Nearly every Machine Learning tournament.
-    - Contribute to Datasets.
-    - Improving the products.
-    - Deep learning, Tabular Machine Learning projects.
-    - Natural language processing projects.
-- company:
     name: PEC-PITC
     url: "https://pitc-pec.com/"
     location: ISB, Pakistan
     # company overview
     overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
   positions:
-  - designation: AI Tester/ Data Analyst
+  - designation: Data Analyst
     start: Apr 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: Sep 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Design and [Analyse Engineering Data Available at PEC](https://deepnote.com/publish/7e7f1a00-bb4c-4306-8496-ffc052ec2cb2)
-    - Creating WebApp.
-    - AI Testing Team.
+    - Created WebApp.
+    - Part of AI Testing Team.
     - Dashboarding on Tableau.
 
-- company:
-    name: Freelancing
-    
-    location: Online
-    overview: Worked on multiple frealance platform such as Fiverr and Upwork.
-  positions:
-  - designation: Research and Development
-    start: Feb 2019
-    end: July 2020
-    responsibilities:
-    - Worked on Various research projects.
-    - Worked on merchandise projects.
-    - Worked on building IoT adoption models.
 
 # - company:
 #     name: Gap year
