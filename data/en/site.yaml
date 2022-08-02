@@ -2,9 +2,6 @@ copyright: © 2022 Copyright.
 description: Abid's Data Science Projects, Resume, Socials, and Achievements.
 # Meta description for your site.  This will help the search engines to find your site.
 customMenus:
-  
-- name: "eXfinite"
-  url: https://exfinite.netlify.app/
 
 - name: "Blogs"
-  url: https://www.kdnuggets.com/author/abidali-awan
+  url: https://www.abid.works/kingabzpro/collections/893
