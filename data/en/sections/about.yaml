@@ -20,11 +20,11 @@ socialLinks:
   icon: fas fa-envelope
   url: abidaliawan@rocketmail.com
 - name: Github
-  icon: fab fa-github
+  icon: fa-brands fa-github
   url: https://www.github.com/kingabzpro
-- name: Deepnote
-  icon: fab fa-dyalog
-  url: https://deepnote.com/@abid
+- name: DataCamp
+  icon: fa-solid fa-certificate
+  url: https://www.datacamp.com/profile/kingabzpro
 - name: Kaggle
   icon: fab fa-kaggle
   url: https://www.kaggle.com/kingabzpro
@@ -35,7 +35,7 @@ socialLinks:
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/1abidaliawan/
 - name: HuggingFace
-  icon: fab fa-usb
+  icon: fa-solid fa-face-smile-beam
   url: https://www.huggingface.co/kingabzpro/
 
 badges:
