@@ -38,7 +38,7 @@ background= "images/site/background4.png"
   inverted = "images/site/Abz.svg"
   favicon = "images/site/Abz.svg"
   [params.features.support]
-  enabled = true
+  enabled = false
 
     [params.features.support.kofi]
     user = "kingabzpro"
