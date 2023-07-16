@@ -11,6 +11,15 @@ section:
 
 # Your accomplishments
 accomplishments:
+
+- name: Data Scientist Professional Certificate
+  timeline: "July 2023 - July 2025"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com/
+  courseOverview: To get certified this candidate had to display that they have the knowledge, skills, and abilities to perform a Data Scientist role. These included but were not limited to Data Management, Exploratory Analysis, Statistical Experimentation, Model Development, Coding for Production Environments, Communication, and Reporting.
+  certificateURL: "https://www.datacamp.com/certificate/DS0023551293745"
+
 - name: Data Scientist Professional Certificate
   timeline: "Aug 2021 - Aug 2023"
   organization:
