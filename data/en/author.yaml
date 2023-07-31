@@ -9,7 +9,6 @@ greeting: "Hi, I am"
 contactInfo:
   Email: "dsabid@tuta.io"
   Polywork: "https://abid.work"
-  GitHub: "kingabzpro"
   LinkedIn: "1abidaliawan"
 
 # a summary of what you do
@@ -18,4 +17,4 @@ summary:
 - I am a Tech Copywriter
 - I love building AI projects
 - I am a SEO Editor
-- I am a Polymath
+- I am an author of "Maximizing Productivity with ChatGPT"

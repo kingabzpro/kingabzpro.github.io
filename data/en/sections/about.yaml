@@ -11,7 +11,7 @@ company:
   name: KDnuggets
   url: https://www.kdnuggets.com/
 resume: files/Abid_Resume.pdf
-summary:  I am certified data scientist professional who loves building machine learning models and write blogs on AI technologies. Currently, focusing on content creation, building brand, and startup. My vision is to build an AI product that will identify students struggling with mental illness. I am open to working as a contractor and providing consultancy on data science tools. Do check my [Data Science Portfolio](https://deepnote.com/@abid).
+summary:  I am a certified data scientist who enjoys building machine learning applications and writing blogs on data science. I am currently focusing on content creation, editing, and working with large language models.
 socialLinks:
 - name: Medium
   icon: fab fa-medium
@@ -40,20 +40,20 @@ socialLinks:
 
 badges:
 - type: soft-skill-indicator
-  name: DS Editing
-  percentage: "80"
+  name: Editing
+  percentage: "90"
   color: "#4b4bc7"
 - type: soft-skill-indicator
   name: Copy Writing
-  percentage: "90"
+  percentage: "95"
   color: blue
 - type: soft-skill-indicator
-  name: NLP
-  percentage: "80"
+  name: LLMs
+  percentage: "60"
   color: yellow
 - type: soft-skill-indicator
   name: Data Science
-  percentage: "80"
+  percentage: "90"
   color: green
 - type: soft-skill-indicator
   name: Graphic Design

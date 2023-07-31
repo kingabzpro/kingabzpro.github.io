@@ -28,9 +28,28 @@ buttons:
   filter: "WebApp"  
 - name: Open source
   filter: "Open source"
+- name: ChatGPT
+  filter: "ChatGPT" 
+  
 
 # your projects
 projects:
+
+- name: Maximizing Productivity with ChatGPT
+  logo: /images/sections/projects/book.webp
+  role: Author
+  timeline: "July 2023"
+  repo: https://machinelearningmastery.com/productivity-with-chatgpt/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
+  tags: ["Data Science","ChatGPT"]
+
+- name: The Journey of Tabular Data
+  logo: /images/sections/projects/kaggle.png
+  role: Owner
+  timeline: "July 2023"
+  repo: https://www.kaggle.com/code/kingabzpro/from-analysis-to-ai-the-journey-of-tabular-data # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
+  tags: ["Data Science","Competition","ChatGPT"]
 
 - name: Deep RL Class
   logo: /images/sections/projects/hf.png

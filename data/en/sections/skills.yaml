@@ -15,11 +15,11 @@ skills:
 - name: Data Science Editor
   logo: /images/sections/skills/datacamp.svg
   summary: "I am responsible for reviewing and editing data science posts, fact-checking the technical information, and finalizing the posts."
-  url: "https://www.datacamp.com/tutorial"
+  url: "https://www.kdnuggets.com/about/index.html"
 
 - name: Data Science Copywriter
   logo: /images/sections/skills/kdn.svg
-  summary: "I am writer at DataCamp, Kdnuggets, Analytical Vidhya, Deepnote, Towards Data Science, Towards AI, Geek Culture, and Kaggle"
+  summary: "I am writer at DataCamp, KDnuggets, Analytical Vidhya, Deepnote, Towards Data Science, Towards AI, Geek Culture, and Kaggle"
   url: "https://www.polywork.com/kingabzpro/collections/893"
 
 - name: Data Science
@@ -39,7 +39,7 @@ skills:
 
 - name: Natural Language Processing
   logo: /images/sections/skills/HF.svg
-  summary: "Transformers, Machine Language Translation, Automatic speech recognition, text classification, question answering, OCR, text similarity. "
+  summary: "Transformers, Large Language Models, Machine Language Translation, Automatic speech recognition, text classification, question answering, OCR, text similarity. "
   url: "https://huggingface.co/kingabzpro"
 
 - name: SQL
