@@ -20,8 +20,6 @@ buttons:
   filter: "NLP"
 - name: Data Analysis
   filter: "Data Analysis"
-- name: Personal Projects
-  filter: "Personal Projects"
 - name: Competition
   filter: "Competition"
 - name: WebApp
@@ -138,7 +136,7 @@ projects:
   repo: https://github.com/v1a0/sqllex
   #url: ""
   summary: SQLLEX is a python library for comfortable and safe working with databases.
-  tags: ["Personal Projects", "Open source"]
+  tags: ["Open source"]
 
 - name: MagNet Model the Geomagnetic Field
   logo: /images/sections/projects/mag.png
@@ -179,7 +177,7 @@ projects:
   timeline: "Feb 2021"
   url: "https://www.kaggle.com/kingabzpro/story-of-gufhtugu-publications"
   summary: Exploratory Data Analysis and Machine learning techniques were used to process the Online book market.
-  tags: ["Data Science","Data Analysis", "Machine Learning", "Personal Projects"]
+  tags: ["Data Science","Data Analysis", "Machine Learning"]
 
 - name: Trip Advisor Data Analysis/ML 
   logo: /images/sections/projects/trip.png
@@ -203,7 +201,7 @@ projects:
   timeline: "June 2021"
   url: "https://public.tableau.com/app/profile/abid/viz/PITCData/Dashboard1"
   summary: I have created Dashboard out of simple engineer data set, you can read more [here](https://deepnote.com/publish/18344b6a-b051-4695-b934-09dfeb74ac06).
-  tags: ["Data Analysis", "Personal Projects"]  
+  tags: ["Data Analysis"]  
 
 - name: Wind-dependent Variables Predict Wind Speeds of Tropical Storms 
   logo: /images/sections/projects/gitlab.png
