@@ -30,16 +30,25 @@ buttons:
   filter: "Open source"
 - name: ChatGPT
   filter: "ChatGPT" 
-  
+- name: MLOps
+  filter: "MLOps" 
 
 # your projects
 projects:
+
+- name: CI/CD For Machine Learning
+  logo: /images/sections/projects/cicd.png
+  role: Author
+  timeline: "Feb 2024"
+  repo: https://github.com/kingabzpro/CICD-for-Machine-Learning # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: A beginners project on automating the training, evaluation, versioning, and deployment of models using GitHub Actions.
+  tags: ["Machine Learning","WebApp","MLOps"]
 
 - name: Maximizing Productivity with ChatGPT
   logo: /images/sections/projects/book.webp
   role: Author
   timeline: "July 2023"
-  repo: https://machinelearningmastery.com/productivity-with-chatgpt/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://machinelearningmastery.com/productivity-with-chatgpt/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
   summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
   tags: ["Data Science","ChatGPT"]
 
@@ -47,7 +56,7 @@ projects:
   logo: /images/sections/projects/kaggle.png
   role: Owner
   timeline: "July 2023"
-  repo: https://www.kaggle.com/code/kingabzpro/from-analysis-to-ai-the-journey-of-tabular-data # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://www.kaggle.com/code/kingabzpro/from-analysis-to-ai-the-journey-of-tabular-data # If your project is a public repo on GitHub, then provide this link. it will show star count.
   summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
   tags: ["Data Science","Competition","ChatGPT"]
 
