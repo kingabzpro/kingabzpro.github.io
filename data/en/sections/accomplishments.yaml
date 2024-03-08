@@ -12,6 +12,30 @@ section:
 # Your accomplishments
 accomplishments:
 
+- name: Nova Membership Certificate
+  timeline: "March 2024"
+  organization:
+    name: Nova Talent
+    url: https://www.novatalent.com/
+  courseOverview: During the selection process you have demonstrated to possess the right mix of leadership potential, logical reasoning skills, personality traits and values all combined with a humble attitude and a sense of care for the greater good.
+  certificateURL: "https://digital-agent.novatalent.net/open/certificate/FKBQQOCUQSP4AH61E4188SHEV"
+
+- name: KaggleX Mentorship Program
+  timeline: "November 2023"
+  organization:
+    name: KaggleX
+    url: https://www.kaggle.com/kagglex
+  courseOverview: During the mentorship program, I guided Sakshi, a CS student, in building a Hindi automatic speech recognition system.
+  certificateURL: "https://www.linkedin.com/posts/1abidaliawan_its-hard-to-believe-the-kagglex-mentorship-activity-7131608530259693568-0U6_/"
+
+- name: Celebrating New Milestones at KDnuggets
+  timeline: "October 2023"
+  organization:
+    name: KDnuggets
+    url: https://www.kdnuggets.com
+  courseOverview: Our editorial work and strategy have made KDnuggets more popular than ever, resulting in a record high number of unique page views that we have maintained until now.
+  certificateURL: "https://www.linkedin.com/feed/update/urn:li:activity:7122144649196056578/"
+
 - name: Data Scientist Professional Certificate
   timeline: "July 2023 - July 2025"
   organization:
@@ -47,50 +71,10 @@ accomplishments:
 - name: Data Scientist with Python Track
   timeline: "Sep 2020 - Nov 2020"
   organization:
-    name: Data Camp
+    name: DataCamp
     url: http://www.datacamp.com
   courseOverview: This course was my way to career change, I have learned the basics of Programming, Data analysis, and Data Science which also include Machine Learning.
   certificateURL: "files/certificates/Data Scientist with Python.pdf"
-
-- name: Analyzing Data in Tableau
-  timeline: "Jan 2021 - Feb 2021"
-  organization:
-    name: Data Camp
-    url: http://www.datacamp.com
-  courseOverview: Learn Geospatial Analysis, Data Analysis, and Data Visualization on public Tableau. I have worked on Multiple real-life projects during my course.
-  certificateURL: "files/certificates/Analyzing Data in Tableau.pdf"
-
-- name: Natural Language Processing in Python certificate
-  timeline: "Dec 2020 - Jan 2021"
-  organization:
-    name: Data Camp
-    url: http://www.datacamp.com
-  courseOverview: I have learned the Basics of Natural language processing and how to get useful information from text, tokenization, machine learning and eventually using Spacy and NLTK to processes the text data.
-  certificateURL: "files/certificates/Natural Language Processing in Python certificate.pdf"
-
-- name: Deep Learning for NLP in Python Track
-  timeline: "Nov 2020 - Jan 2021"
-  organization:
-    name: Data Camp
-    url: http://www.datacamp.com
-  courseOverview: I have learned Natural language processing using Deep learning libraries especially Tensor-flow and how to get useful information from text, tokenization, machine learning and eventually using Spacy and NLTK to processes the text data.
-  certificateURL: "files/certificates/Deep Learning for NLP in Python Track.pdf"
-
-- name: Design Databases With PostgreSQL Skill Path
-  timeline: "Nov 2020 - Dec 2020"
-  organization:
-    name: Codecademy
-    url: http://codecademy.com/
-  courseOverview: Get hold of PostgreSQL and how to optimize database using index, learning new techniques to create database and maintaining the efficiency.
-  certificateURL: "files/certificates/Codecademy Desing Databases with PostgreSQL.pdf"
-
-- name: Feature Engineering
-  timeline: "Dec 2020 - Jan 2020"
-  organization:
-    name: Kaggle
-    url: http://www.kaggle.com
-  courseOverview: This course has helped me understand how feature engineering improves the overall score of machine learning models and how to process the features.
-  certificateURL: "files/certificates/Abid Ali Awan - Feature Engineering.png"
 
 - name: Competition MVP
   timeline: "May 2021"
