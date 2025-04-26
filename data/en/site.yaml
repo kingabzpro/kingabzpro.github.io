@@ -1,10 +1,10 @@
-copyright: © 2023 Copyright.
-description: View Abid's portfolio showcasing exceptional writing, editing, and data science skills. His projects highlight proficiency in Python, machine learning, SQL, and deriving data-driven insights. Check out his resume detailing 3+ years of machine learning experience, an MSc in Technology Management, and proven data analytic talent. Abid has accomplished many goals, including co-authoring the book, winning ML competitions, getting professional, and more.
+copyright: © 2025 Copyright.
+description: View Abid's portfolio showcasing exceptional writing, editing, and data science skills. His projects highlight proficiency in Python, machine learning, SQL, and deriving data-driven insights. 
 # Meta description for your site.  This will help the search engines to find your site.
 customMenus:
 
 - name: "Blogs"
-  url: https://abid.work/portfolios/675?page=1
+  url: https://abid.work
 
 - name: "Projects"
-  url: https://www.datascienceportfol.io/abid
+  url: https://github.com/kingabzpro

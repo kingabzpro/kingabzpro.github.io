@@ -1,2 +1,2 @@
 # Abid
-My portfolio : Projects, Resume, Contacts ,Blogs, and fun tool tips
+My portfolio : Projects, Contacts ,Blogs, and fun tool tips

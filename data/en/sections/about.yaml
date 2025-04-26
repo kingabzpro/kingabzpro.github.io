@@ -10,15 +10,11 @@ designation: Data Science Copywriter & Editor
 company:
   name: KDnuggets
   url: https://www.kdnuggets.com/
-resume: files/Abid_Resume.pdf
 summary:  I am a certified data scientist who enjoys building machine learning applications and writing blogs on data science. I am currently focusing on content creation, editing, and working with large language models.
 socialLinks:
 - name: Medium
   icon: fab fa-medium
   url: https://kingabzpro.medium.com/
-- name: Email
-  icon: fas fa-envelope
-  url: abidaliawan@rocketmail.com
 - name: Github
   icon: fa-brands fa-github
   url: https://www.github.com/kingabzpro
