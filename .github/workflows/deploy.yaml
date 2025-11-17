@@ -10,43 +10,43 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-     # checkout to the commit that has been pushed
-     - uses: actions/checkout@v4
-       with:
-         submodules: true  # Fetch Hugo themes (true OR recursive)
-         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v4
+      with:
+        submodules: true  # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-     # Ensure submodules are properly initialized
-     - name: Initialize submodules
-       run: git submodule update --init --recursive
+    # Ensure submodules are properly initialized
+    - name: Initialize submodules
+      run: git submodule update --init --recursive
 
-     # Setup Node.js for theme dependencies
+    # Setup Node.js for theme dependencies
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
 
-     # Generate node dependency configuration
-     - name: Generate package.json
-       run: hugo mod npm pack
+    # Generate node dependency configuration
+    - name: Generate package.json
+      run: hugo mod npm pack
 
-     # Install theme dependencies
-     - name: Install dependencies
-       run: npm install
+    # Install theme dependencies
+    - name: Install dependencies
+      run: npm install
 
-      # install Hugo
-      - name: Setup Hugo
+    # install Hugo
+    - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.152.2'
         extended: true
 
-      # build website
-      - name: Build
+    # build website
+    - name: Build
       run: hugo --minify
 
-      # push the generated content into the `main` branch.
-      - name: Deploy
+    # push the generated content into the `main` branch.
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
