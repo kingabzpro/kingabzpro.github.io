@@ -6,10 +6,10 @@ section:
   weight: 1
   showOnNavbar: true
   template: sections/about.html
-designation: Data Science Copywriter & Editor
+designation: Copywriter & Editor
 company:
-  name: KDnuggets
-  url: https://www.kdnuggets.com/
+  name: DataCamp
+  url: https://www.datacamp.com/tutorial/gpt-5-1-codex-guide-with-hands-on-project
 summary:  I am a certified data scientist who enjoys building machine learning applications and writing blogs on data science. I am currently focusing on content creation, editing, and working with large language models.
 socialLinks:
 - name: Medium
