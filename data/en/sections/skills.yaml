@@ -11,21 +11,30 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: MLOps
+  logo: /images/sections/skills/heroku.svg
+  summary: "Production-ready MLOps pipelines with Docker, MLflow, Prefect, monitoring, and CI/CD automation for scalable ML systems."
+  url: "https://github.com/kingabzpro/A-to-Z-MLOps"
+
+- name: LLMs & Fine-Tuning
+  logo: /images/sections/skills/HF.svg
+  summary: "Expertise in fine-tuning large language models for medical, legal, and specialized applications."
+  url: "https://huggingface.co/kingabzpro"
+
+- name: DevRel & Technical Writing
+  logo: /images/sections/skills/kdn.svg
+  summary: "Technical writing focused on AI/ML, data science, Python, data analytics, MLOps, and other related topics."
+  url: "https://www.kdnuggets.com/author/abidali-awan"
 
 - name: Data Science Editor
   logo: /images/sections/skills/datacamp.svg
-  summary: "I am responsible for reviewing and editing data science posts, fact-checking the technical information, and finalizing the posts."
+  summary: "I am responsible for reviewing and editing data science posts, fact-checking technical information, and finalizing posts."
   url: "https://www.kdnuggets.com/about/index.html"
-
-- name: Data Science Copywriter
-  logo: /images/sections/skills/kdn.svg
-  summary: "I am writer at DataCamp, KDnuggets, Analytical Vidhya, Deepnote, Towards Data Science, Towards AI, Geek Culture, and Kaggle"
-  url: "https://www.polywork.com/kingabzpro/collections/893"
 
 - name: Data Science
   logo: /images/sections/skills/kaggle.svg
-  summary: "I am experienced in Machine-learning, Data-Analysis, Deep-learning, NLP, Reinforcement-Learning, Transformers, deploying-web-apps, and researching on latest technology related to Ai Advancement."
-  url: "https://www.datacamp.com/profile/kingabzpro"
+  summary: "I am experienced in Machine-learning, Data-Analysis, Deep-learning, NLP, Reinforcement-Learning, Transformers, deploying-web-apps, and researching on latest technology related to AI Advancement."
+  url: "https://www.kaggle.com/kingabzpro"
 
 - name: Data Analytics
   logo: /images/sections/skills/plotly.svg
@@ -34,42 +43,16 @@ skills:
 
 - name: Machine Learning
   logo: /images/sections/skills/scikitlearn.svg
-  summary: "I have worked on multiple machine learning problems, times series, tabular-structure/unstructured-data, NLP, CV, audio, and anomaly detection. I am regularly participating in competitions on Kaggle, Zindi, Driven Data, and DevPost."
+  summary: "I have worked on multiple machine learning problems, time series, tabular-structure/unstructured-data, NLP, CV, audio, and anomaly detection."
   url: "https://www.kaggle.com/kingabzpro"
 
 - name: Natural Language Processing
   logo: /images/sections/skills/HF.svg
-  summary: "Transformers, Large Language Models, Machine Language Translation, Automatic speech recognition, text classification, question answering, OCR, text similarity. "
-  url: "https://huggingface.co/kingabzpro"
-
-- name: SQL
-  logo: /images/sections/skills/postgresql.svg
-  summary: "Got certification in SQL Data Analysis and Design Databases With PostgreSQL. I have been researching on latest technology such as SQLLEX and DuckDB."
-  url: "/files/certificates/SQL.pdf"
-
-- name: R
-  logo: /images/sections/skills/r.svg
-  summary: "Worked on multiple R projects realted to Data Analysis and simple machine learning tasks. I have published few notebooks on Kaggle and Deepnote for beginners. "
-  url: "/files/certificates/Abid Ali Awan _ Codecademy Analyze Data with R Skill Path.pdf"
-
-- name: Tableau
-  logo: /images/sections/skills/tableau.svg
-  summary: "Published the work on Tableau public, worked on geospatial analysis and data analysis using visualization and integrate statistic formulas."
-  url: "https://public.tableau.com/app/profile/abid"
-
-- name: Webapp
-  logo: /images/sections/skills/heroku.svg
-  summary: "Developed and deployed multiple web apps on Streamlit, HF Sapces, Deepnote, and Heroku."
+  summary: "Transformers, Large Language Models, Machine Language Translation, Automatic speech recognition, text classification, question answering, OCR, text similarity."
   url: "https://huggingface.co/kingabzpro"
 
 - name: Deep learning
   logo: /images/sections/skills/tensorflow.svg
-  summary: "Worked on Tensorflow, Pytorch, and Fast.Ai with various models, ANN, RNN, CNN, GRU, BiLSTM, Pretrained NN, GAN, CTGAN, Transformers, TabNet, DAE, and bottleneck."
+  summary: "Worked on Tensorflow, Pytorch, and Fast.AI with various models, ANN, RNN, CNN, GRU, BiLSTM, Pretrained NN, GAN, CTGAN, Transformers, TabNet, DAE, and bottleneck."
   url: "https://www.kaggle.com/kingabzpro/code"
-
-- name: Graphic Designing
-  logo: /images/sections/skills/adobe.svg
-  summary: "19 years of experience in Graphics Design and Photo editing on Adobe Photoshop and Illustrators."
-  url: "https://www.behance.net/kingabzpro"
-
 

@@ -9,7 +9,36 @@ section:
   # hideTitle: true 
 
 # Your experiences
+
+
 experiences:
+- company:
+    name: NexusML
+    url: "https://nexusml.com/"
+    location: Islamabad, Pakistan
+    overview: AI & ML consulting and development company.
+  positions:
+  - designation: Co-Founder & ML Engineer
+    start: Feb 2025
+    responsibilities:
+    - Leading AI/ML project development and consulting
+    - Building scalable machine learning solutions
+    - Technical architecture design and implementation
+    - Client relationship management and project delivery
+
+- company:
+    name: Firecrawl
+    url: "https://www.firecrawl.dev/blog"
+    location: Global-Remote
+    overview: Firecrawl is a leading web scraping and data extraction API service that provides structured data from any website.
+  positions:
+  - designation: Technical Writer
+    start: Sep 2024
+    responsibilities:
+    - Technical writing for AI and ML topics
+    - Creating tutorials for developers
+    - Writing blog posts about web scraping and data extraction
+
 - company:
     name: KDnuggets
     url: "https://www.kdnuggets.com/author/abidali-awan"
@@ -19,7 +48,7 @@ experiences:
   - designation: Assistant Editor
     start: Apr 2022
     responsibilities:
-    - Preparation of KDnugget technical posts and publishing it on  the platform.
+    - Preparation of KDnugget technical posts and publishing it on platform.
   - designation: Staff Writer
     start: Dec 2021
     responsibilities:
@@ -29,7 +58,6 @@ experiences:
     end: Dec 2021
     responsibilities:
     - Wrote multiple beginner friendly blog that focuses on career path and data science tooling.
-
 
 - company:
     name: DataCamp
@@ -42,120 +70,24 @@ experiences:
     responsibilities:
     - Data Science Editing
     - Fact checking
-    - Review the article and make suggestions to the author
+    - Review article and make suggestions to author
   - designation: Data Science Copywriter
     start: Dec 2021
     responsibilities:
     - Writing blogs, articles, tutorials, guides and books on Data Science.
 
-    
-- company:
-    name: DAGsHub
-    url: "https://dagshub.com/"
-    location: Global-Remote
-    overview: DAGsHub is a web platform for data version control and collaboration for data scientists and machine learning engineers.
-  positions:
-  - designation: SOTA
-    start: Oct 2021
-    
-    responsibilities:
-    - Blogs about DVC 
-    - State of the art projects 
-    - Hackathon Contribution.
-
-- company:
-    name: Towards Data Science
-    url: "https://towardsdatascience.com/"
-    location: Online
-    overview: Towards Data Science Inc. is a corporation registered in Canada. Using Medium, we provide a platform for thousands of people to exchange ideas and to expand our understanding of data science.
-  positions:
-  - designation: Technical Writer
-    start: July 2021
-    
-    responsibilities:
-    - Blogs about Machine learning 
-    - Career Advice 
-    - Natural language processing projects.
-- company:
-    name: Analytics Vidhya
-    url: "https://www.analyticsvidhya.com/blog/"
-    location: Online
-    overview: nalytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals.
-  positions:
-  - designation: Technical Writer
-    start: July 2021
-    
-    responsibilities:
-    - Blogs about Machine learning 
-    - Blogs about NLP
-    - Blogs about Analytics
-
 - company:
     name: PEC-PITC
     url: "https://pitc-pec.com/"
     location: ISB, Pakistan
-    # company overview
-    overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for the purpose of creating, developing, elaborating, and prototyping products/ solutions to the prevailing challenges for long-term social impact.
+    overview: PITC has two main functional streams; Innovation and Testing. It aims to engage diverse stakeholders and provide them a platform to collaborate for purpose of creating, developing, elaborating, and prototyping products/ solutions to prevailing challenges for long-term social impact.
   positions:
   - designation: Data Analyst
     start: Apr 2021
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: Sep 2021
-    # give some points about what was your responsibilities at the company.
     responsibilities:
     - Design and Analyse Engineering Data Available at PEC
     - Created WebApp.
     - Part of AI Testing Team.
     - Dashboarding on Tableau.
-
-
-# - company:
-#     name: Gap year
-#     location: Pakistan
-#   positions:
-#   - designation: Dealing with Mental illness/ personal issues.
-#     start: Jan 2018
-#     end: Jan 2019
-
-- company:
-    name: CREDIT
-    url: "http://credit.apu.edu.my/"
-    location: KL, Malaysia
-    overview: The Center for Research and Development of IoT (CREDIT) was established on November 15, 2016. CREDIT aims to provide students and academic staff the opportunities to access IoT-related knowledge and know-how through various activities. It also acts as a hub to support commercialising potential solutions resulting from R&D projects.
-  positions:
-  - designation: Researcher / Event Organizer
-    start: Feb 2017
-    end: July 2017
-    responsibilities:
-    - Organized events, logo creation, marketing, managing events, and hosting event.
-    - Worked on IoT Research Projects.
-    - bridging gaps for academics and industries.
-    - Designed the framework for Research organization.
-
-- company:
-    name: Beyond Media
-    url: "https://www.facebook.com/APUBeyondMedia/"
-    location: KL, Malaysia
-    overview: Beyond Media is the official media team at APU/APIIT. We are passionate and enthusiastic in expressing the lifestyle of students in APIIT Education Group.
-  positions:
-  - designation: Designer and Editor
-    start: Jan 2016
-    end: Mar 2017
-    responsibilities:
-    - Malaysia event coverage and providing all kinds of media services
-    - Poster Designer
-    - Bridging gaps for academics and industries.
-    - Photo Editor
-
-- company:
-    name: Heal Pakistan
-    url: "https://www.linkedin.com/company/heal-pakistan/about/"
-    location: ISB, Pakistan
-    overview: NGO, working for the youth of Pakistan.
-  positions:
-  - designation: Partner
-    start: Apr 2014
-    end: Jun 2015
-    responsibilities:
-    - I have worked for the different project as the graphic designer and video editor.
 

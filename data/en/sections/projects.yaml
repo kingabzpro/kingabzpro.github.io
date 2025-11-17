@@ -20,267 +20,164 @@ buttons:
   filter: "NLP"
 - name: Data Analysis
   filter: "Data Analysis"
-- name: Competition
-  filter: "Competition"
 - name: WebApp
   filter: "WebApp"  
-- name: Open source
-  filter: "Open source"
-- name: ChatGPT
-  filter: "ChatGPT" 
 - name: MLOps
   filter: "MLOps" 
 
 # your projects
 projects:
 
+- name: Deploying LLM Applications with Docker
+  role: Author
+  timeline: "Jan 2025"
+  repo: https://github.com/kingabzpro/Deploying-LLM-Applications-with-Docker
+  summary: Building and deploying a document Q&A application on Hugging Face cloud using Docker with 46 stars.
+  tags: ["Machine Learning","Docker","Open Source"]
+
+- name: Gemini 2.5 Pro Coding App
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/Gemini-2.5-Pro-Coding-App
+  summary: Load the project from the zip file and ask Gemini 2.5 Pro to improve it with 9 stars.
+  tags: ["Machine Learning","WebApp","Open Source"]
+
+- name: Redis ML Project
+  role: Author
+  timeline: "Mar 2025"
+  repo: https://github.com/kingabzpro/Redis-ml-project
+  summary: Model serving with FastAPI and Redis caching to enable fast and efficient inference by reducing latency for repeated predictions with 8 stars.
+  tags: ["Machine Learning","WebApp","Open Source"]
+
+- name: Stress Testing FastAPI
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/Stress-Testing-FastAPI
+  summary: Build a FastAPI web application and perform stress testing using Locust with 6 stars.
+  tags: ["Machine Learning","WebApp","Open Source"]
+
+- name: Gemini 2 Pro Chat
+  role: Author
+  timeline: "Feb 2025"
+  repo: https://github.com/kingabzpro/Gemini-2-Pro-Chat
+  summary: Gemini 2 Pro app for Image, Audio, and Document understanding + Code Execution with 4 stars.
+  tags: ["Machine Learning","WebApp","Open Source"]
+
+- name: Deploying the Magistral with Modal
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/Deploying-the-Magistral-with-Modal
+  summary: Deploy the Magistral-Small-2506 model using vLLM and Modal with 2 stars.
+  tags: ["Machine Learning","Open Source"]
+
+- name: RegRadar
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/RegRadar
+  summary: RegRadar watches the worlds regulators so you dont have to with 2 stars.
+  tags: ["WebApp","NLP","Open Source"]
+
+- name: FastMCP Project
+  role: Author
+  timeline: "Jul 2025"
+  repo: https://github.com/kingabzpro/FastMCP-Project
+  summary: Building the Simple MCP server and Client with FastMCP 2.0 with 1 star.
+  tags: ["Machine Learning","Open Source"]
+
+- name: Simple MLOps with BentoML
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/Simple-MLOPs-with-BentoML
+  summary: Data processing, training, evaluation, serving, and monitoring are all performed using BentoCloud for production ML deployment with 1 star.
+  tags: ["Machine Learning","MLOps"]
+
+- name: Simple MLOps with Urdu ASR
+  role: Author
+  timeline: "Jul 2025"
+  repo: https://github.com/kingabzpro/simple-mlops-with-urdu-asr
+  summary: A beginner-friendly project for building, testing, and deploying an Urdu ASR (Automatic Speech Recognition) model with 1 star.
+  tags: ["Machine Learning","NLP","MLOps"]
+
+- name: Claude Agent Projects
+  role: Author
+  timeline: "Sep 2025"
+  repo: https://github.com/kingabzpro/claude-agent-projects
+  summary: Claude Agent SDK + Claude 4.5 - three minimal projects, from one-shot to custom-tool agents with 7 stars.
+  tags: ["Machine Learning","NLP","Open Source"]
+
+- name: ECom-Intel
+  role: Author
+  timeline: "Oct 2025"
+  repo: https://github.com/kingabzpro/ECom-Intel
+  summary: Product Review Analyzer using ecommerce business intelligence and OpenAI API with Firecrawl AI for web scraping with 2 stars.
+  tags: ["Data Analysis","WebApp","Open Source"]
+
+- name: A-to-Z MLOps
+  role: Author
+  timeline: "Oct 2025"
+  repo: https://github.com/kingabzpro/A-to-Z-MLOps
+  summary: Production-Ready MLOps Pipeline for News Classification with complete data pipeline, model training, API serving, monitoring, orchestration, and deployment with 8 stars.
+  tags: ["Machine Learning","MLOps","WebApp","Open Source"]
+
+- name: Travel with Kimi K2
+  role: Author
+  timeline: "Nov 2025"
+  repo: https://github.com/kingabzpro/Travel-with-Kimi-K2
+  summary: A web application to help you find and summarize best flight deals between any two cities, powered by Firecrawl and Kimi-K2 APIs with 3 stars.
+  tags: ["WebApp","Open Source"]
+
+- name: Issue Analyzer
+  role: Author
+  timeline: "Nov 2025"
+  repo: https://github.com/kingabzpro/Issue-Analyzer
+  summary: AI-Powered GitHub Issue Analysis and Execution Planning using GPT-5.1 Codex, OpenAI Agents, GitHub CLI, and Firecrawl to automatically analyze GitHub issues and generate detailed execution plans with 2 stars.
+  tags: ["Machine Learning","NLP","Open Source","WebApp"]
+
+- name: Whisper Large V3 Turbo Urdu
+  role: Author
+  timeline: "Jul 2025"
+  url: https://huggingface.co/kingabzpro/whisper-large-v3-turbo-urdu
+  summary: Fine-tuned Whisper Large V3 Turbo model for Urdu Automatic Speech Recognition with 26.23% WER and 477 monthly downloads. Achieves state-of-the-art performance on Urdu speech recognition tasks.
+  tags: ["Machine Learning","NLP","Open Source"]
+
+- name: Wav2Vec2 Large XLS-R 300M Urdu
+  role: Author
+  timeline: "Aug 2025"
+  url: https://huggingface.co/kingabzpro/wav2vec2-large-xls-r-300m-Urdu
+  summary: Urdu speech recognition model with 552k monthly downloads and 13 stars. Fine-tuned Wav2Vec2 Large XLS-R model optimized for Urdu language processing.
+  tags: ["Machine Learning","NLP","Open Source"]
+
+- name: GPT-OSS 20B Medical QA
+  role: Author
+  timeline: "Aug 2025"
+  url: https://huggingface.co/kingabzpro/gpt-oss-20b-medical-qa
+  summary: 20B parameter medical question-answering model fine-tuned for medical domain applications and healthcare Q&A tasks.
+  tags: ["Machine Learning","NLP","Open Source"]
+
+- name: Urdu STT with GPT-OSS Space
+  role: Author
+  timeline: "2025"
+  url: https://huggingface.co/spaces/kingabzpro/Urdu-STT-with-GPT-OSS
+  summary: High-quality Urdu speech-to-text application using Faster-Whisper and large language models for improved transcription accuracy.
+  tags: ["Machine Learning","NLP","WebApp"]
+
+- name: RegRadar
+  role: Author
+  timeline: "Jun 2025"
+  repo: https://github.com/kingabzpro/RegRadar
+  summary: RegRadar watches the worlds regulators so you dont have to - a regulatory monitoring system using web crawling, Gradio, and AI APIs.
+  tags: ["WebApp","NLP","Open Source"]
+
 - name: CI/CD For Machine Learning
-  logo: /images/sections/projects/cicd.png
   role: Author
   timeline: "Feb 2024"
-  repo: https://github.com/kingabzpro/CICD-for-Machine-Learning # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/kingabzpro/CICD-for-Machine-Learning
   summary: A beginners project on automating the training, evaluation, versioning, and deployment of models using GitHub Actions.
   tags: ["Machine Learning","WebApp","MLOps"]
 
 - name: Maximizing Productivity with ChatGPT
-  logo: /images/sections/projects/book.webp
   role: Author
   timeline: "July 2023"
   url: https://machinelearningmastery.com/productivity-with-chatgpt/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
-  tags: ["Data Science","ChatGPT"]
-
-- name: The Journey of Tabular Data
-  logo: /images/sections/projects/kaggle.png
-  role: Owner
-  timeline: "July 2023"
-  url: https://www.kaggle.com/code/kingabzpro/from-analysis-to-ai-the-journey-of-tabular-data # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  summary: Discover how Tabular data space is being transformed by Kaggle competitions, the open-source community, and generative AI.
-  tags: ["Data Science","Competition","ChatGPT"]
-
-- name: Deep RL Class
-  logo: /images/sections/projects/hf.png
-  role: Contributor
-  timeline: "July 2022"
-  repo: https://github.com/huggingface/deep-rl-class # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  summary: This repo contain the syllabus of the Hugging Face Deep Reinforcement Learning Class.
-  tags: ["Machine Learning","Open Source"]
-
-- name: Rick & Morty ChatBot
-  logo: /images/sections/projects/gradio.svg
-  role: Owner
-  timeline: "June 2022"
-  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://huggingface.co/spaces/Gradio-Blocks/RickandMorty-BlockParty"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Participated in Gradio Block Competition and create an interactive chatbot trained on Rick and Morty's conversation. 
-  tags: ["Machine Learning","NLP","Competition","Open Source","WebApp"]
-
-- name: Unity3D MLAgents Pyramids
-  logo: /images/sections/projects/hf.png
-  role: Owner
-  timeline: "July 2022"
-  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://huggingface.co/kingabzpro/MLAgents-Pyramids"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Trained Deep Reinforcement Learning model on Unity 3D Environment. 
-  tags: ["Machine Learning","Open Source"]
-
-- name: Automatic Speech Recognition (Urdu)
-  logo: /images/sections/projects/asr.jpeg
-  role: Owner
-  timeline: "March 2022"
-  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://dagshub.com/kingabzpro/Urdu-ASR-SOTA"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Urdu Automatic Speech Recognition is SOTA Solution is here and I am looking for opensource contribution to reach 20 WER by using text and audio processing.
-  tags: ["Machine Learning","NLP","Open Source","Competition"]
-
-- name: SavtaDepth
-  logo: /images/sections/projects/savta.jpeg
-  role: Contributor
-  timeline: "Feb 2022"
-  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://dagshub.com/kingabzpro/SavtaDepth/src/dagshub"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Open Source Data Science (OSDS) Monocular Depth Estimation, Turn 2d photos into 3d photos, show your grandma the awesome results.
-  tags: ["Machine Learning", "Open Source"]
-
-- name: Intro-to-AutoXGB
-  logo: /images/sections/projects/xgb.jpeg
-  role: Owner
-  timeline: "Feb 2022"
-  repo: https://github.com/kingabzpro/Intro-to-AutoXGB # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Creating guide for AutoXGB which includes training and running web server.
-  tags: ["Machine Learning"]
-
-- name: Pneumonia Classification
-  logo: /images/sections/projects/pc.png
-  role: Contributor
-  timeline: "Dec 2021"
-  # repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://dagshub.com/kingabzpro/Pneumonia-Classification/src/DVC"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Classifying chest X-Ray images for Pneumonia
-  tags: ["Machine Learning","Open Source"]
-
-- name: Automatic Speech Recognition (WOLOF)
-  logo: /images/sections/projects/WOLOFASR.png
-  role: Owner
-  timeline: "June 2021"
-  repo: https://github.com/kingabzpro/WOLOF-ASR-Wav2Vec2 # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Audio preprocessing and finetuning using wav2vec2-large-xlsr model on AI4D Baamtu Datamation - automatic speech recognition in WOLOF data.
-  tags: ["Machine Learning", "NLP", "Competition"]
-
-- name: SQLLEX
-  logo: /images/sections/projects/sqllex-logo.png
-  role: Contributor
-  timeline: "Jun 2021 - Present"
-  repo: https://github.com/v1a0/sqllex
-  #url: ""
-  summary: SQLLEX is a python library for comfortable and safe working with databases.
-  tags: ["Open source"]
-
-- name: MagNet Model the Geomagnetic Field
-  logo: /images/sections/projects/mag.png
-  role: Creator
-  timeline: "May 2021"
-  repo: "https://github.com/kingabzpro/MagNet-Model-the-Geomagnetic-Field"
-  summary: I scored 40th rank in this DrivenData competition and my Jounery started with simple LSTM.
-  tags: ["Competition","Machine Learning"]
-
-- name: Vaccine Automated Update Dashboard 
-  logo: /images/sections/projects/vac.jpg
-  role: Creator
-  timeline: "June 2021"
-  url: https://deepnote.com/@abid/Vaccine-Update-Dashboard-gybiCp-FTAyDgMjImOfj0w
-  #url: ""
-  summary: Automated System that collect data from web on Vaccine and created Data Analysis Dashboard.
-  tags: ["Competition", "Data Analysis"]
-
-- name: mRNA Vaccine Degradation Prediction 
-  logo: /images/sections/projects/mrna.jpg
-  role: Creator
-  timeline: "Jun 2021"
-  url: https://deepnote.com/@abid/mRNA-Vaccine-Degradation-Prediction-ZbqWvkGcQXGU3-1fDqb-fQ
-  summary: We need to design the model that will predict likely degradation rates at each base of an RNA molecule.
-  tags: ["Machine Learning","Data Science","Competition"]
-
-- name: Airline-Tweets-NLP
-  logo: /images/sections/projects/gitlab.png
-  role: Creator
-  timeline: "March 2021"
-  url: "https://gitlab.com/kingabzpro/Airline-Tweets-NLP"
-  summary: This project is one of my machine learning and data-driven web apps made using Streamlit. The goal of this project is to visualize various sentiment and exploratory analysis on tweets about US airlines.
-  tags: ["Competition","NLP","Data Analysis"]
-
-- name: Story of Gufhtugu Publications
-  logo: /images/sections/projects/kaggle.png
-  role: Creator
-  timeline: "Feb 2021"
-  url: "https://www.kaggle.com/kingabzpro/story-of-gufhtugu-publications"
-  summary: Exploratory Data Analysis and Machine learning techniques were used to process the Online book market.
-  tags: ["Data Science","Data Analysis", "Machine Learning"]
-
-- name: Trip Advisor Data Analysis/ML 
-  logo: /images/sections/projects/trip.png
-  role: Creator
-  timeline: "April 2021"
-  url: "https://deepnote.com/@abid/Trip-Advisor-Data-AnalysisML-9gYLOddsRXmWSKVLyLX_tQ"
-  summary: In this project, we will be exploring the hotel reviews and the rating base on customer hotel experience. We will be also looking at feature engineering and designing a deep learning model to predict ratings based on reviews.
-  tags: ["Competition", "NLP","Data Analysis", "Machine Learning"]
-
-- name: Machine Translation French to Fongbe and Ewe
-  logo: /images/sections/projects/zindi-logo.jpg
-  role: Creator
-  timeline: "May 2021"
-  repo: "https://github.com/kingabzpro/French-to-Fongbe-and-Ewe-MT"
-  summary: The objective of this challenge is to create a machine translation system capable of converting text from French into Fongbe or Ewe.
-  tags: ["Competition", "NLP", "Machine Learning"]
-
-- name: PEC Tableau Dashboard 
-  logo: /images/sections/projects/tab.png
-  role: Creator
-  timeline: "June 2021"
-  url: "https://public.tableau.com/app/profile/abid/viz/PITCData/Dashboard1"
-  summary: I have created Dashboard out of simple engineer data set, you can read more [here](https://deepnote.com/publish/18344b6a-b051-4695-b934-09dfeb74ac06).
-  tags: ["Data Analysis"]  
-
-- name: Wind-dependent Variables Predict Wind Speeds of Tropical Storms 
-  logo: /images/sections/projects/gitlab.png
-  role: Creator
-  timeline: "Feb 2021"
-  url: "https://gitlab.com/drivendata-competitions/wind-dependent-variables-predict-wind-speeds-of-tropical-storms"
-  summary: The goal of this challenge is to estimate the wind speeds of storms at different points in time using satellite images captured throughout a storm’s life cycle and the temporal memory of the storm.
-  tags: ["Machine Learning", "Competition","Data Science"]  
-
-
-#####  
-- name: ORCHEST 
-  logo: /images/sections/projects/orchest.png
-  role: Contributor
-  timeline: "Aug 2021"
-  repo: "https://github.com/orchest/orchest"
-  summary: Build data pipelines, the easy way. Orchest is a tool for building data pipelines that don’t require DAGs and frameworks. The environment is simple to navigate, and you can code Python, R, and Julia.
-  tags: ["Machine Learning","Data Science", "Open source"]  
-
-- name: Goodreads Recommedations WebApp
-  logo: /images/sections/projects/goodreads.jpeg
-  role: Creator
-  timeline: "Sep 2021"
-  url: "https://deepnote.com/@abid/Goodreads-Recommedations-xSSkkmqVTc-12__gKZxu4A"
-  summary: Discover your reading patterns and recommendations for a new book to read.
-  tags: ["NLP", "Data Analysis","WebApp"]   
-
-- name: FastAPI ML Project
-  logo: /images/sections/projects/fastapi.jpeg
-  role: Creator
-  timeline: "Aug 2021"
-  repo: "https://github.com/kingabzpro/FastAPI-ML-Project"
-  summary: build an application programming interface (API) for your machine learning model and then deploy it with simple code.
-  tags: ["Machine Learning","WebApp"] 
-
-- name: OmdenaLore
-  logo: /images/sections/projects/omdenalore.jpg
-  role: Contributor
-  timeline: "Sep 2021"
-  url: "https://omdena.com/omdenalore/"
-  summary: OmdenaLore is world’s biggest AI4Good library for real-world projects.
-  tags: ["Machine Learning", "NLP","Data Science","Open source"]   
-
-- name: Image-Classification-FastAI.jl
-  logo: /images/sections/projects/fastai.jpeg
-  role: Researcher
-  timeline: "Sep 2021"
-  repo: "https://github.com/kingabzpro/Image-Classification-FastAI.jl"
-  summary: Using FastAI.jl library to classify images from the Imagnet dataset.
-  tags: ["Machine Learning"]     
-
-- name: Evolution of Digital Learning During COVID19
-  logo: /images/sections/projects/evo.jpeg
-  role: Creator
-  timeline: "Sep 2021"
-  url: "https://www.kaggle.com/kingabzpro/evolution-of-digital-learning-during-covid19"
-  summary: We will use data analysis tools to figure out trends in digital learning and how it is effective towards improvised communities.
-  tags: ["Data Anlaysis"]       
-
-- name: Covid19 Vaccine Epitope Prediction ML Pipeline Using Orchest
-  logo: /images/sections/projects/ml.jpeg
-  role: Creator
-  timeline: "Aug 2021"
-  url: "https://github.com/kingabzpro/Covid19-Vaccine-ML-Pipeline"
-  summary: Designing machine learning pipeline with few lines of codes using Orchest. You will learn to preprocess the data, train the machine learning model, and evaluate the results.
-  tags: ["Machine Learning","Data Science"]   
-
-- name: DailoGPT-RickBot
-  logo: /images/sections/projects/hf.png
-  role: Creator
-  timeline: "Aug 2021"
-  repo: "https://github.com/kingabzpro/DailoGPT-RickBot"
-  summary: Discord bot using DailoGPT pretrained model on Rick& Morty Dataset from Kaggle.
-  tags: ["Machine Learning","NLP"]     
-
-- name: Annual Recycled Energy Saved in Singapore
-  logo: /images/sections/projects/sng.jpeg
-  role: Creator
-  timeline: "Aug 2021"
-  url: "https://github.com/kingabzpro/Annual-Recycled-Energy-Saved-in-Singapore"
-  summary: Learn how much Singapore is saving energy per years by recycling plastics, paper, glass, ferrous and non-ferrous metal.
-  tags: ["Data Anlaysis"]      
+  summary: This ebook is written in the engaging and approachable style that you’re familiar with from the Machine Learning Mastery series. 
+  tags: ["Data Science"] 
