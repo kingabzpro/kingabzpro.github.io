@@ -20,6 +20,13 @@ jobs:
     - name: Initialize submodules
       run: git submodule update --init --recursive
 
+    # install Hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: '0.152.2'
+        extended: true
+
     # Setup Node.js for theme dependencies
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -33,13 +40,6 @@ jobs:
     # Install theme dependencies
     - name: Install dependencies
       run: npm install
-
-    # install Hugo
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.152.2'
-        extended: true
 
     # build website
     - name: Build
