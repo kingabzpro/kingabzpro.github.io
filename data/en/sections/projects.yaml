@@ -77,19 +77,6 @@ projects:
   summary: 20B parameter medical question-answering model fine-tuned for medical domain applications and healthcare Q&A tasks.
   tags: ["Machine Learning","NLP","Open Source"]
 
-- name: FastMCP Project
-  role: Author
-  timeline: "Jul 2025"
-  repo: https://github.com/kingabzpro/FastMCP-Project
-  summary: Building the Simple MCP server and Client with FastMCP 2.0 with 1 star.
-  tags: ["Machine Learning","Open Source"]
-
-- name: Simple MLOps with Urdu ASR
-  role: Author
-  timeline: "Jul 2025"
-  repo: https://github.com/kingabzpro/simple-mlops-with-urdu-asr
-  summary: A beginner-friendly project for building, testing, and deploying an Urdu ASR (Automatic Speech Recognition) model with 1 star.
-  tags: ["Machine Learning","NLP","MLOps"]
 
 - name: Whisper Large V3 Turbo Urdu
   role: Author
@@ -118,20 +105,6 @@ projects:
   repo: https://github.com/kingabzpro/Deploying-the-Magistral-with-Modal
   summary: Deploy the Magistral-Small-2506 model using vLLM and Modal with 2 stars.
   tags: ["Machine Learning","Open Source"]
-
-- name: RegRadar
-  role: Author
-  timeline: "Jun 2025"
-  repo: https://github.com/kingabzpro/RegRadar
-  summary: RegRadar watches the worlds regulators so you dont have to - a regulatory monitoring system using web crawling, Gradio, and AI APIs.
-  tags: ["WebApp","NLP","Open Source"]
-
-- name: Simple MLOps with BentoML
-  role: Author
-  timeline: "Jun 2025"
-  repo: https://github.com/kingabzpro/Simple-MLOPs-with-BentoML
-  summary: Data processing, training, evaluation, serving, and monitoring are all performed using BentoCloud for production ML deployment with 1 star.
-  tags: ["Machine Learning","MLOps"]
 
 - name: Redis ML Project
   role: Author
