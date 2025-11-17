@@ -37,21 +37,21 @@ projects:
   timeline: "Nov 2025"
   repo: https://github.com/kingabzpro/Travel-with-Kimi-K2
   summary: A web application to help you find and summarize best flight deals between any two cities, powered by Firecrawl and Kimi-K2 APIs with 3 stars.
-  tags: ["WebApp","LLMs"]
+  tags: ["WebApp","AI/LLMs"]
 
 - name: Issue Analyzer
   role: Author
   timeline: "Nov 2025"
   repo: https://github.com/kingabzpro/Issue-Analyzer
   summary: AI-Powered GitHub Issue Analysis and Execution Planning using GPT-5.1 Codex, OpenAI Agents, GitHub CLI, and Firecrawl to automatically analyze GitHub issues and generate detailed execution plans with 2 stars.
-  tags: ["LLMs","Agents"]
+  tags: ["AI/LLMs","AI Agents"]
 
 - name: ECom-Intel
   role: Author
   timeline: "Oct 2025"
   repo: https://github.com/kingabzpro/ECom-Intel
   summary: Product Review Analyzer using ecommerce business intelligence and OpenAI API with Firecrawl AI for web scraping with 2 stars.
-  tags: ["Data Analysis","WebApp","Agents"]
+  tags: ["Data Analysis","WebApp","AI Agents"]
 
 - name: A-to-Z MLOps
   role: Author
@@ -65,7 +65,7 @@ projects:
   timeline: "Sep 2025"
   repo: https://github.com/kingabzpro/claude-agent-projects
   summary: Claude Agent SDK + Claude 4.5 - three minimal projects, from one-shot to custom-tool agents with 7 stars.
-  tags: ["Agents","LLMs"]
+  tags: ["AI Agents","AI/LLMs"]
 
 - name: Wav2Vec2 Large XLS-R 300M Urdu
   role: Author
@@ -79,7 +79,7 @@ projects:
   timeline: "Aug 2025"
   url: https://huggingface.co/kingabzpro/gpt-oss-20b-medical-qa
   summary: 20B parameter medical question-answering model fine-tuned for medical domain applications and healthcare Q&A tasks.
-  tags: ["Machine Learning","LLMs","Open Source"]
+  tags: ["Machine Learning","AI/LLMs","Open Source"]
 
 
 - name: Whisper Large V3 Turbo Urdu
@@ -94,7 +94,7 @@ projects:
   timeline: "Jun 2025"
   repo: https://github.com/kingabzpro/Gemini-2.5-Pro-Coding-App
   summary: Load the project from the zip file and ask Gemini 2.5 Pro to improve it with 9 stars.
-  tags: ["Agents","WebApp","Open Source"]
+  tags: ["AI Agents","WebApp","Open Source"]
 
 - name: Stress Testing FastAPI
   role: Author
@@ -122,21 +122,21 @@ projects:
   timeline: "Feb 2025"
   repo: https://github.com/kingabzpro/Gemini-2-Pro-Chat
   summary: Gemini 2 Pro app for Image, Audio, and Document understanding + Code Execution with 4 stars.
-  tags: ["Machine Learning","LLMs","WebApp"]
+  tags: ["Machine Learning","AI/LLMs","WebApp"]
 
 - name: Deploying LLM Applications with Docker
   role: Author
   timeline: "Jan 2025"
   repo: https://github.com/kingabzpro/Deploying-LLM-Applications-with-Docker
   summary: Building and deploying a document Q&A application on Hugging Face cloud using Docker with 46 stars.
-  tags: ["Machine Learning", "Agents", "MLOps"]
+  tags: ["Machine Learning", "AI Agents", "MLOps"]
 
 - name: Urdu STT with GPT-OSS Space
   role: Author
   timeline: "2025"
   url: https://huggingface.co/spaces/kingabzpro/Urdu-STT-with-GPT-OSS
   summary: High-quality Urdu speech-to-text application using Faster-Whisper and large language models for improved transcription accuracy.
-  tags: ["NLP","WebApp","LLMs"]
+  tags: ["NLP","WebApp","AI/LLMs"]
 
 - name: CI/CD For Machine Learning
   role: Author
