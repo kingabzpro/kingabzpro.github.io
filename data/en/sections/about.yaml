@@ -3,7 +3,7 @@ section:
   name: About
   id: about
   enable: true
-  weight: "1"
+  weight: 1
   showOnNavbar: true
   template: sections/about.html
 designation: Data Science Copywriter & Editor
