@@ -34,18 +34,18 @@ jobs:
      - name: Install dependencies
        run: npm install
 
-    # install Hugo
+      # install Hugo
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.152.2'
         extended: true
 
-    # build website
+      # build website
     - name: Build
       run: hugo --minify
 
-    # push the generated content into the `main` branch.
+      # push the generated content into the `main` branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
