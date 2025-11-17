@@ -1,10 +1,10 @@
 name: Deploy to Github Pages
 
-# run when a commit is pushed to "main" branch
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-    - main
+    - source
 
 jobs:
   deploy:
