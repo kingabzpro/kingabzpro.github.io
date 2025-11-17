@@ -37,25 +37,25 @@ socialLinks:
 badges:
 - type: soft-skill-indicator
   name: Editing
-  percentage: "90"
+  percentage: 90
   color: "#4b4bc7"
 - type: soft-skill-indicator
   name: Copy Writing
-  percentage: "95"
+  percentage: 95
   color: blue
 - type: soft-skill-indicator
   name: LLMs
-  percentage: "60"
+  percentage: 60
   color: yellow
 - type: soft-skill-indicator
   name: Data Science
-  percentage: "90"
+  percentage: 90
   color: green
 - type: soft-skill-indicator
   name: Graphic Design
-  percentage: "90"
+  percentage: 90
   color: orange
 - type: soft-skill-indicator
   name: ML/MLOps
-  percentage: "75"
+  percentage: 75
   color: pink
