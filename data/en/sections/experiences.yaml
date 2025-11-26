@@ -27,19 +27,6 @@ experiences:
     - Client relationship management and project delivery
 
 - company:
-    name: Firecrawl
-    url: "https://www.firecrawl.dev/blog"
-    location: Global-Remote
-    overview: Firecrawl is a leading web scraping and data extraction API service that provides structured data from any website.
-  positions:
-  - designation: Technical Writer
-    start: Sep 2024
-    responsibilities:
-    - Technical writing for AI and ML topics
-    - Creating tutorials for developers
-    - Writing blog posts about web scraping and data extraction
-
-- company:
     name: KDnuggets
     url: "https://www.kdnuggets.com/author/abidali-awan"
     location: Global-Remote
@@ -75,6 +62,20 @@ experiences:
     start: Dec 2021
     responsibilities:
     - Writing blogs, articles, tutorials, guides and books on Data Science.
+
+- company:
+    name: Firecrawl
+    url: "https://www.firecrawl.dev/blog"
+    location: Global-Remote
+    overview: Firecrawl is a leading web scraping and data extraction API service that provides structured data from any website.
+  positions:
+  - designation: Technical Writer
+    start: Sep 2025
+    end: Nov 2025
+    responsibilities:
+    - Technical writing for AI and ML topics
+    - Creating tutorials for developers
+    - Writing blog posts about web scraping and data extraction
 
 - company:
     name: PEC-PITC
