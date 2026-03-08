@@ -1,0 +1,49 @@
+---
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import * as about from "../pages/about/about.md";
+import profileImage from "../assets/profile.png";
+---
+
+<header class="mx-auto pt-6 pb-2 relative">
+  <article
+    class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
+  >
+    <div
+      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-sm overflow-hidden"
+    >
+      <Image
+        alt={`Profile picture of ${about.frontmatter.name}`}
+        src={profileImage}
+        width={120}
+        height={120}
+        loading="eager"
+        class="grayscale-[50] hover:grayscale-0"
+      />
+    </div>
+
+    <div class="text-center">
+      <div class="flex justify-center items-center mb-2">
+        <div class="relative flex flex-col items-center">
+          <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl">
+            {about.frontmatter.name}
+          </h1>
+          {about.frontmatter.pronouns && (
+            <div
+              class="badge w-max text-sm font-light badge-outline shadow-lg mt-2 sm:mt-0 sm:absolute sm:top-1/2 sm:left-full sm:ml-3 sm:-translate-y-1/2"
+            >
+              {about.frontmatter.pronouns}
+            </div>
+          )}
+        </div>
+      </div>
+      <h2 class="text-lg mb-2 text-secondary">
+        {about.frontmatter.designation}
+      </h2>
+      <div class="flex items-center justify-center mt-1">
+        <Icon name="carbon:location" class="w-4 h-4 mr-1" />
+        <p class="text-sm text-secondary">{about.frontmatter.location}</p>
+      </div>
+    </div>
+  </article>
+</header>

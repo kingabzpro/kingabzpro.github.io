@@ -1,0 +1,45 @@
+import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+import sharp from "sharp";
+
+const rootDir = process.cwd();
+const outputDir = path.join(rootDir, "public");
+
+await mkdir(outputDir, { recursive: true });
+
+const faviconSvg = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Abid Ali Awan favicon">
+  <rect width="100" height="100" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="94" height="94" rx="17" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5"/>
+
+  <path
+    d="M20 80 L50 20 L80 80 M35 55 L65 55"
+    stroke="#FFFFFF"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <circle cx="50" cy="20" r="3.2" fill="#FFFFFF"/>
+  <circle cx="20" cy="80" r="3.2" fill="#FFFFFF"/>
+  <circle cx="80" cy="80" r="3.2" fill="#FFFFFF"/>
+
+  <line x1="50" y1="20" x2="20" y2="80" stroke="#FFFFFF" stroke-width="1" opacity="0.28"/>
+  <line x1="50" y1="20" x2="80" y2="80" stroke="#FFFFFF" stroke-width="1" opacity="0.28"/>
+</svg>
+`.trim();
+
+await writeFile(path.join(outputDir, "favicon.svg"), faviconSvg, "utf8");
+
+await sharp(Buffer.from(faviconSvg))
+  .resize(64, 64)
+  .png()
+  .toFile(path.join(outputDir, "favicon.png"));
+
+await sharp(Buffer.from(faviconSvg))
+  .resize(180, 180)
+  .png()
+  .toFile(path.join(outputDir, "apple-touch-icon.png"));
+
+console.log("Generated favicon from custom A mark in public/");

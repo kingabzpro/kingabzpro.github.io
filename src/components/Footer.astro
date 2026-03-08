@@ -1,0 +1,23 @@
+---
+const getYear = () => new Date().getFullYear().toString();
+---
+
+<footer class="flex flex-col justify-center items-center bg-transparent py-4">
+  <p class="flex items-center text-center font-light text-sm text-secondary">
+    &copy; {getYear()} developed by
+    <a
+      target="_blank"
+      class="link ml-1"
+      href="https://github.com/kingabzpro"
+      rel="noopener noreferrer">Abid Ali Awan</a
+    >
+  </p>
+  <p class="mt-1 text-[9px] leading-none text-base-content/30 hover:text-base-content/50 transition-colors">
+    <a
+      target="_blank"
+      class="link no-underline hover:underline"
+      href="https://github.com/mmouzo/astro-cv-esquelete"
+      rel="noopener noreferrer">theme: astro-cv-esquelete</a
+    >
+  </p>
+</footer>
