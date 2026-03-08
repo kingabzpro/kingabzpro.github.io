@@ -6,4 +6,4 @@ tags: ["Redis", "Inference", "API"]
 image: /project-placeholder.png
 ---
 
-Fast model serving pattern with Redis caching to reduce prediction latency.
+Model serving with FastAPI and Redis caching to reduce latency for repeated predictions.

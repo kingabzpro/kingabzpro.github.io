@@ -1,9 +1,14 @@
 ---
 const { icon, url, url_name } = Astro.props;
 import { Icon } from "astro-icon/components";
+const isExternal = /^(https?:\/\/|mailto:)/i.test(url);
 ---
 
-<a target="_blank" href={url} rel="noopener noreferrer">
+<a
+  href={url}
+  target={isExternal ? "_blank" : undefined}
+  rel={isExternal ? "noopener noreferrer" : undefined}
+>
   <button class="btn btn-outline btn-md mr-2"
     ><Icon name={icon} class="w-6 h-6" />{url_name}</button
   >

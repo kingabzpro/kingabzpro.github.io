@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { Icon } from "astro-icon/components";
+import * as about from "../about/about.md";
+
+const title = `Contact - ${about.frontmatter.name}`;
+---
+
+<BaseLayout title={title}>
+  <Header />
+  <div
+    class="flex items-center absolute top-4 right-4 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10 z-10"
+  >
+    <Icon name="carbon:moon" class="w-4 h-4" />
+    <input
+      type="checkbox"
+      data-toggle-theme="black,lofi"
+      data-act-class="ACTIVECLASS"
+      class="toggle toggle-sm mx-1 bg-secondary"
+      checked
+      aria-label="Toggle theme"
+    />
+    <Icon name="carbon:light" class="w-4 h-4" />
+  </div>
+  <div
+    class="divider mx-auto h-fit max-w-3xl w-[95vw] flex flex-nowrap bg-secondary"
+  >
+  </div>
+
+  <main class="mx-auto flex-grow max-w-3xl py-2 grid w-[95vw]">
+    <section class="card card-compact card-bordered border border-[oklch(var(--s))] w-full hover:shadow-lg transition-all my-4">
+      <div class="card-body p-5 md:p-6">
+        <h1 class="uppercase card-title font-extrabold tracking-tighter md:text-2xl">Contact</h1>
+        <p class="text-secondary">Send a message using the form below.</p>
+
+        <form action="https://formspree.io/f/mreybvww" method="POST" class="mt-2 grid gap-4">
+        <label class="block">
+          <span class="mb-2 block text-sm font-semibold text-secondary">Name</span>
+          <input
+            type="text"
+            name="name"
+            required
+            class="input input-bordered h-12 w-full border-[oklch(var(--s))] bg-base-100 shadow-sm focus:shadow-md"
+            placeholder="Your name"
+          />
+        </label>
+
+        <label class="block">
+          <span class="mb-2 block text-sm font-semibold text-secondary">Email</span>
+          <input
+            type="email"
+            name="email"
+            required
+            class="input input-bordered h-12 w-full border-[oklch(var(--s))] bg-base-100 shadow-sm focus:shadow-md"
+            placeholder="you@example.com"
+          />
+        </label>
+
+        <label class="block">
+          <span class="mb-2 block text-sm font-semibold text-secondary">Message</span>
+          <textarea
+            name="message"
+            required
+            class="textarea textarea-bordered min-h-56 w-full border-[oklch(var(--s))] bg-base-100 shadow-sm focus:shadow-md"
+            placeholder="Write your message..."
+          ></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-outline w-full border-[oklch(var(--s))] shadow-md">Send Message</button>
+      </form>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>

@@ -2,8 +2,8 @@
 title: Claude Agent Projects
 date: Sep 2025
 url: https://github.com/kingabzpro/claude-agent-projects
-tags: ["AI Agents", "SDK", "Open Source"]
+tags: ["Agents", "LLMs", "Automation"]
 image: /project-placeholder.png
 ---
 
-Minimal agent projects covering one shot and custom tool designs.
+Three minimal Claude Agent SDK projects from one shot to custom tool agents.

@@ -108,8 +108,8 @@ async function main() {
     }
   }
 
-  if (sectionCounts.projects !== 12) {
-    errors.push(`projects: expected 12 markdown files, found ${sectionCounts.projects}`);
+  if (sectionCounts.projects !== 15) {
+    errors.push(`projects: expected 15 markdown files, found ${sectionCounts.projects}`);
   }
 
   for (const section of ["about", "works", "studies", "certificates", "contact"]) {

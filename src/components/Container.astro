@@ -26,8 +26,28 @@ function sortMarkdownModules(modules: Record<string, unknown>): MarkdownInstance
     .map(([, module]) => module as MarkdownInstance);
 }
 
+function toSortableDate(dateValue?: string): number {
+  if (!dateValue) {
+    return 0;
+  }
+
+  const direct = Date.parse(dateValue);
+  if (!Number.isNaN(direct)) {
+    return direct;
+  }
+
+  const monthYearMatch = dateValue.match(/^([A-Za-z]{3,9})\s+(\d{4})$/);
+  if (monthYearMatch) {
+    const parsed = Date.parse(`${monthYearMatch[1]} 1, ${monthYearMatch[2]}`);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  return 0;
+}
+
 const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eager: true }));
-const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", { eager: true }));
+const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", { eager: true }))
+  .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
 const studies = sortMarkdownModules(import.meta.glob("../pages/studies/*.md", { eager: true }));
 const certificates = sortMarkdownModules(import.meta.glob("../pages/certificates/*.md", { eager: true }));
 const contact = sortMarkdownModules(import.meta.glob("../pages/contact/*.md", { eager: true }));

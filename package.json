@@ -35,5 +35,13 @@
     "@tailwindcss/typography": "^0.5.10",
     "baseline-browser-mapping": "^2.10.0",
     "daisyui": "^4.12.24"
+  },
+  "overrides": {
+    "astro": {
+      "svgo": "4.0.1"
+    },
+    "astro-compress": {
+      "svgo": "4.0.1"
+    }
   }
 }
