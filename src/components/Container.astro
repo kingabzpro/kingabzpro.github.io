@@ -3,6 +3,7 @@ import AccordionLayout from "../layouts/AccordionLayout.astro";
 import * as about from "../pages/about/about.md";
 import Card from "./Card.astro";
 import ContactCard from "./ContactCard.astro";
+import ContactForm from "./ContactForm.astro";
 
 type MarkdownInstance = {
   frontmatter: {
@@ -51,6 +52,14 @@ const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", 
 const studies = sortMarkdownModules(import.meta.glob("../pages/studies/*.md", { eager: true }));
 const certificates = sortMarkdownModules(import.meta.glob("../pages/certificates/*.md", { eager: true }));
 const contact = sortMarkdownModules(import.meta.glob("../pages/contact/*.md", { eager: true }));
+
+function isContactItem(item: MarkdownInstance): boolean {
+  const link = item.frontmatter.url ?? "";
+  return link.startsWith("/") || link.startsWith("mailto:") || link.startsWith("#");
+}
+
+const contactLinks = contact.filter((item) => isContactItem(item));
+const socialLinks = contact.filter((item) => !isContactItem(item));
 ---
 
 <div class="join join-vertical gap-1">
@@ -132,7 +141,24 @@ const contact = sortMarkdownModules(import.meta.glob("../pages/contact/*.md", { 
   <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
-        contact.map((item) => {
+        contactLinks.map((item) => {
+          return (
+            <ContactCard
+              url={item.frontmatter.url}
+              url_name={item.frontmatter.title}
+              icon={item.frontmatter.icon}
+            />
+          );
+        })
+      }
+    </div>
+    <ContactForm />
+  </AccordionLayout>
+
+  <AccordionLayout title={"Links"} icon={"carbon:share"}>
+    <div class="flex flex-wrap content-around gap-4 justify-center">
+      {
+        socialLinks.map((item) => {
           return (
             <ContactCard
               url={item.frontmatter.url}
