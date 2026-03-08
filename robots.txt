@@ -7,4 +7,4 @@ Disallow: /projects/
 Disallow: /certificates/
 Disallow: /contact/
 
-Sitemap: https://abidaliawan.com/sitemap-index.xml
+Sitemap: https://abidaliawan.com/sitemap.xml
