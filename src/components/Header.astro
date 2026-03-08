@@ -23,17 +23,19 @@ import profileImage from "../assets/profile.png";
     </div>
 
     <div class="text-center">
-      <div
-        class="flex justify-center md:justify-between items-center mb-2 relative"
-      >
-        <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl relative">
-          {about.frontmatter.name}
-          <div class="absolute top-0 left-full ml-2 -mt-4">
-            <div class="badge w-max text-sm font-light badge-outline shadow-lg">
+      <div class="flex justify-center items-center mb-2">
+        <div class="relative flex flex-col items-center">
+          <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl">
+            {about.frontmatter.name}
+          </h1>
+          {about.frontmatter.pronouns && (
+            <div
+              class="badge w-max text-sm font-light badge-outline shadow-lg mt-2 sm:mt-0 sm:absolute sm:top-1/2 sm:left-full sm:ml-3 sm:-translate-y-1/2"
+            >
               {about.frontmatter.pronouns}
             </div>
-          </div>
-        </h1>
+          )}
+        </div>
       </div>
       <h2 class="text-lg mb-2 text-secondary">
         {about.frontmatter.designation}
@@ -45,14 +47,3 @@ import profileImage from "../assets/profile.png";
     </div>
   </article>
 </header>
-
-<style>
-  @media (max-width: 768px) {
-    .flex-col.justify-end {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-</style>
