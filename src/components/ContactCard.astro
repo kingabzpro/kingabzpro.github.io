@@ -8,8 +8,7 @@ const isExternal = /^(https?:\/\/|mailto:)/i.test(url);
   href={url}
   target={isExternal ? "_blank" : undefined}
   rel={isExternal ? "noopener noreferrer" : undefined}
+  class="btn btn-outline min-h-11 mr-2"
 >
-  <button class="btn btn-outline btn-md mr-2"
-    ><Icon name={icon} class="w-6 h-6" />{url_name}</button
-  >
+  <Icon name={icon} class="w-6 h-6" />{url_name}
 </a>

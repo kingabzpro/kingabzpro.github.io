@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/dm-sans";
+import dmSansLatinWoff2 from "@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2";
 
 interface Props {
   title?: string;
@@ -35,6 +36,7 @@ const escapedStructuredData = structuredData
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preload" as="font" type="font/woff2" href={dmSansLatinWoff2} crossorigin />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -90,12 +92,6 @@ const escapedStructuredData = structuredData
         .container {
             display: flex;
             flex-wrap: wrap;
-        }
-    }
-
-    @media only screen and (max-width: 480px) {
-        * {
-            font-size: 12px;
         }
     }
 

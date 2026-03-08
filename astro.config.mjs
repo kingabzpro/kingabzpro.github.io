@@ -7,5 +7,8 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
   output: "static",
-  site: "https://abidaliawan.com"
+  site: "https://abidaliawan.com",
+  build: {
+    inlineStylesheets: "always",
+  },
 });
