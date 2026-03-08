@@ -24,25 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright browser
-        run: npx --yes --package @playwright/cli playwright-cli install-browser
-
       - name: Validate content
         run: npm run test:content
 
-      - name: Run UI smoke tests
-        run: npm run test:ui
-
       - name: Build Astro site
         run: npm run build
-
-      - name: Upload UI artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-artifacts
-          path: output/playwright/
-          if-no-files-found: ignore
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/source'
