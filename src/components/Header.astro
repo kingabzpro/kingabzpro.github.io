@@ -17,11 +17,12 @@ import profileImage from "../assets/profile.png";
       <Image
         alt={`Profile picture of ${about.frontmatter.name}`}
         src={profileImage}
-        width={120}
-        height={120}
+        width={288}
+        height={288}
+        quality={100}
         loading="eager"
         fetchpriority="high"
-        class="grayscale-[50] hover:grayscale-0"
+        class="h-full w-full object-cover grayscale-[50] hover:grayscale-0"
       />
     </a>
 
