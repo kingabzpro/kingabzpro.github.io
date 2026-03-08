@@ -6,9 +6,14 @@ import { Icon } from "astro-icon/components";
 import * as about from "../about/about.md";
 
 const title = `Contact - ${about.frontmatter.name}`;
+const description = "Contact Abid Ali Awan for data science, AI, MLOps, and technical writing opportunities.";
 ---
 
-<BaseLayout title={title}>
+<BaseLayout
+  title={title}
+  description={description}
+  canonical="https://abidaliawan.com/contact/"
+>
   <Header />
   <div
     class="flex items-center absolute top-4 right-4 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10 z-10"

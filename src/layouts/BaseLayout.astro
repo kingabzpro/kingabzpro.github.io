@@ -1,16 +1,33 @@
 ---
 import "@fontsource-variable/dm-sans";
-import { themeChange } from "theme-change";
 
 interface Props {
   title?: string;
   description?: string;
+  canonical?: string;
+  image?: string;
+  noindex?: boolean;
+  structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
 const {
-  title = "CV Template",
-  description = "A minimalist CV template built with Astro and Tailwind CSS",
+  title = "Abid Ali Awan - Data Scientist & Technical Writer",
+  description = "Official website of Abid Ali Awan, Data Scientist and Technical Writer focused on AI systems, MLOps, and technical content.",
+  canonical,
+  image = "/og-image.png",
+  noindex = false,
+  structuredData,
 } = Astro.props;
+
+const siteUrl = Astro.site ?? new URL("https://abidaliawan.com");
+const canonicalUrl = canonical
+  ? new URL(canonical, siteUrl).toString()
+  : new URL(`${Astro.url.pathname}${Astro.url.search}`, siteUrl).toString();
+const imageUrl = new URL(image, siteUrl).toString();
+const robots = noindex ? "noindex, nofollow" : "index, follow";
+const escapedStructuredData = structuredData
+  ? JSON.stringify(structuredData).replace(/</g, "\\u003c")
+  : null;
 ---
 
 <!doctype html>
@@ -22,8 +39,29 @@ const {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <meta name="generator" content={Astro.generator} />
+        <meta name="author" content="Abid Ali Awan" />
         <meta name="description" content={description} />
+        <meta name="robots" content={robots} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:site_name" content="Abid Ali Awan" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={imageUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={imageUrl} />
         <title>{title}</title>
+        {
+            escapedStructuredData && (
+                <script
+                    type="application/ld+json"
+                    set:html={escapedStructuredData}
+                />
+            )
+        }
         <script is:inline>
             if (localStorage.getItem("theme") === null) {
                 document.documentElement.setAttribute("data-theme", "lofi");

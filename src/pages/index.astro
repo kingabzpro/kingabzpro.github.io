@@ -7,9 +7,77 @@ import { Icon } from "astro-icon/components";
 import * as about from "./about/about.md";
 
 const title = `${about.frontmatter.name} - ${about.frontmatter.designation}`;
+const description = "Official website of Abid Ali Awan. Data Scientist and Technical Writer building practical AI systems, production ML pipelines, and technical content.";
+const sameAs = [
+  "https://www.linkedin.com/in/1abidaliawan/",
+  "https://github.com/kingabzpro",
+  "https://kingabzpro.medium.com/",
+  "https://www.datacamp.com/profile/kingabzpro",
+  "https://huggingface.co/kingabzpro",
+  "https://abid.work",
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://abidaliawan.com/#website",
+      url: "https://abidaliawan.com/",
+      name: "Abid Ali Awan",
+      alternateName: "Abid Ali Awan - Data Scientist & Technical Writer",
+      description,
+      inLanguage: "en",
+    },
+    {
+      "@type": "Person",
+      "@id": "https://abidaliawan.com/#person",
+      name: "Abid Ali Awan",
+      url: "https://abidaliawan.com/",
+      image: "https://abidaliawan.com/og-image.png",
+      jobTitle: "Data Scientist & Technical Writer",
+      description,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Islamabad",
+        addressCountry: "Pakistan",
+      },
+      sameAs,
+      knowsAbout: [
+        "Data Science",
+        "Machine Learning",
+        "Natural Language Processing",
+        "MLOps",
+        "Large Language Models",
+        "Technical Writing",
+      ],
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          contactType: "professional",
+          url: "https://abidaliawan.com/contact/",
+        },
+      ],
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://abidaliawan.com/#profile",
+      url: "https://abidaliawan.com/",
+      name: "Abid Ali Awan",
+      mainEntity: {
+        "@id": "https://abidaliawan.com/#person",
+      },
+    },
+  ],
+};
 ---
 
-<BaseLayout title={title}>
+<BaseLayout
+  title={title}
+  description={description}
+  canonical="https://abidaliawan.com/"
+  structuredData={structuredData}
+>
   <Header />
   <div
     class="flex items-center absolute top-4 right-4 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10 z-10"
