@@ -14,7 +14,6 @@
     "generate:favicon": "node scripts/generate-favicon.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.6.0",
     "@astrojs/tailwind": "^5.1.5",
     "@fontsource-variable/dm-sans": "^5.0.5",
     "@fontsource-variable/space-grotesk": "^5.2.7",

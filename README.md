@@ -13,7 +13,6 @@ Personal portfolio and CV site built with Astro.
 ## Tech Stack
 
 - Astro
-- @astrojs/sitemap
 - Tailwind CSS
 - daisyUI
 - Astro Icon
@@ -51,12 +50,12 @@ Main content lives in:
 ## SEO Strategy
 
 - Canonical index target: `https://abidaliawan.com/`
-- Generated sitemap via `@astrojs/sitemap` (filtered to include only `/`)
+- Single-file sitemap at `public/sitemap.xml`
 - Crawl control via [`public/robots.txt`](public/robots.txt) to block thin utility/content routes
 
-Sitemap output is generated at build time and published as:
+Sitemap file is copied during build and published as:
 
-- `https://abidaliawan.com/sitemap-index.xml`
+- `https://abidaliawan.com/sitemap.xml`
 
 ## Favicon Generation
 
