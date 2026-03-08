@@ -13,7 +13,8 @@
     "astro": "astro",
     "test:content": "node scripts/test-content.mjs",
     "test:ui": "node scripts/test-ui.mjs",
-    "generate:images": "node scripts/generate-images.mjs"
+    "generate:images": "node scripts/generate-images.mjs",
+    "generate:favicon": "node scripts/generate-favicon.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.5",
