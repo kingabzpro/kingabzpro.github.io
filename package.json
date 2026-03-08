@@ -11,12 +11,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test:content": "node scripts/test-content.mjs",
-    "test:ui": "node scripts/test-ui.mjs",
-    "generate:images": "node scripts/generate-images.mjs",
     "generate:favicon": "node scripts/generate-favicon.mjs"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
     "@astrojs/tailwind": "^5.1.5",
     "@fontsource-variable/dm-sans": "^5.0.5",
     "@fontsource-variable/space-grotesk": "^5.2.7",
@@ -25,8 +23,6 @@
     "astro": "^5.16.0",
     "astro-compress": "^2.2.21",
     "astro-icon": "^1.1.0",
-    "gray-matter": "^4.0.3",
-    "openai": "^6.6.0",
     "sharp": "^0.34.4",
     "tailwindcss": "^3.4.17",
     "theme-change": "^2.5.0"

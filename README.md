@@ -8,15 +8,16 @@ Personal portfolio and CV site built with Astro.
 - CV sections driven by markdown files
 - Tailwind CSS and daisyUI for styling
 - GitHub Pages deployment
+- SEO focused single canonical page strategy
 
 ## Tech Stack
 
 - Astro
+- @astrojs/sitemap
 - Tailwind CSS
 - daisyUI
 - Astro Icon
 - sharp
-- Playwright CLI scripts
 
 ## Quick Start
 
@@ -33,9 +34,6 @@ Local dev server runs at `http://localhost:4321`.
 npm run dev
 npm run build
 npm run preview
-npm run test:content
-npm run test:ui
-npm run generate:images
 npm run generate:favicon
 ```
 
@@ -50,15 +48,19 @@ Main content lives in:
 - `src/pages/certificates/*.md`
 - `src/pages/contact/*.md`
 
-## Image Generation
+## SEO Strategy
 
-Generate OpenAI based image assets:
+- Canonical index target: `https://abidaliawan.com/`
+- Generated sitemap via `@astrojs/sitemap` (filtered to include only `/`)
+- Crawl control via [`public/robots.txt`](public/robots.txt) to block thin utility/content routes
 
-```bash
-OPENAI_API_KEY=your_key npm run generate:images
-```
+Sitemap output is generated at build time and published as:
 
-Generate favicon assets:
+- `https://abidaliawan.com/sitemap-index.xml`
+
+## Favicon Generation
+
+Generate favicon assets from `src/assets/profile.png`:
 
 ```bash
 npm run generate:favicon
@@ -77,5 +79,3 @@ GitHub Actions builds from branch `source` and publishes `dist/` to branch `main
 ## Credits
 
 - Original Astro theme: [`astro-cv-esquelete`](https://github.com/mmouzo/astro-cv-esquelete)
-- Original theme creator: [@mmouzo](https://github.com/mmouzo)
-- Legacy source before migration: Hugo + Toha theme (stored in `legacy/hugo`)
