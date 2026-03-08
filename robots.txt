@@ -1,17 +1,10 @@
 User-agent: *
 Allow: /
-Allow: /contact/
 Disallow: /about/
 Disallow: /works/
 Disallow: /studies/
 Disallow: /projects/
 Disallow: /certificates/
-Disallow: /contact/01-
-Disallow: /contact/03-
-Disallow: /contact/04-
-Disallow: /contact/05-
-Disallow: /contact/06-
-Disallow: /contact/07-
-Disallow: /contact/08-
+Disallow: /contact/
 
-Sitemap: https://abidaliawan.com/sitemap.xml
+Sitemap: https://abidaliawan.com/sitemap-index.xml
