@@ -7,6 +7,6 @@ org: NexusML
 tags: ["Machine Learning", "Consulting", "MLOps", "Architecture"]
 ---
 
-- Lead AI consulting projects from scoping to production delivery.
-- Design robust model pipelines with testing and monitoring.
-- Build deployable services for client use cases in NLP and analytics.
+- Lead AI consulting projects from discovery to production rollout.
+- Design robust ML pipelines with testing, monitoring, and CI/CD.
+- Build deployable services for NLP and analytics use cases.

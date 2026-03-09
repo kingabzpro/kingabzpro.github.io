@@ -1,11 +1,11 @@
 ---
-title: Data Science Editor
+title: Data Science Editor and Reviewer
 date: May 2022 - Present
 url: https://www.datacamp.com/
-location: Global Remote
+location: Remote
 org: DataCamp
-tags: ["Editing", "Fact Checking", "Data Science"]
+tags: ["Data Science Editing", "Technical Writing", "Quality Review"]
 ---
 
-- Edit data science articles for technical accuracy and readability.
-- Validate examples, metrics, and claims before release.
+- Review and edit data science content for technical accuracy and readability.
+- Validate examples, claims, and learning flow before publication.

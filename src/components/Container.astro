@@ -32,21 +32,60 @@ function toSortableDate(dateValue?: string): number {
     return 0;
   }
 
-  const direct = Date.parse(dateValue);
+  const normalized = dateValue.trim();
+  const rangeStart = normalized.split(/\s[-\u2013]\s/)[0]?.trim() ?? normalized;
+
+  const direct = Date.parse(rangeStart);
   if (!Number.isNaN(direct)) {
     return direct;
   }
 
-  const monthYearMatch = dateValue.match(/^([A-Za-z]{3,9})\s+(\d{4})$/);
+  const monthYearMatch = rangeStart.match(/^([A-Za-z]{3,9})\s+(\d{4})$/);
   if (monthYearMatch) {
     const parsed = Date.parse(`${monthYearMatch[1]} 1, ${monthYearMatch[2]}`);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  const yearMatch = rangeStart.match(/^(\d{4})$/);
+  if (yearMatch) {
+    const parsed = Date.parse(`Jan 1, ${yearMatch[1]}`);
     return Number.isNaN(parsed) ? 0 : parsed;
   }
 
   return 0;
 }
 
-const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eager: true }));
+function parseDateRange(dateValue?: string): { start: number; end: number; current: boolean } {
+  if (!dateValue) {
+    return { start: 0, end: 0, current: false };
+  }
+
+  const normalized = dateValue.trim();
+  const parts = normalized.split(/\s[-\u2013]\s/);
+  const startPart = parts[0]?.trim() ?? "";
+  const endPart = parts[1]?.trim() ?? startPart;
+  const current = /present/i.test(endPart);
+  const start = toSortableDate(startPart);
+  const end = current ? Number.MAX_SAFE_INTEGER : toSortableDate(endPart);
+
+  return { start, end, current };
+}
+
+const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eager: true }))
+  .sort((a, b) => {
+    const aRange = parseDateRange(a.frontmatter.date);
+    const bRange = parseDateRange(b.frontmatter.date);
+
+    if (aRange.current !== bRange.current) {
+      return aRange.current ? -1 : 1;
+    }
+
+    if (aRange.end !== bRange.end) {
+      return bRange.end - aRange.end;
+    }
+
+    return bRange.start - aRange.start;
+  });
 const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", { eager: true }))
   .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
 const studies = sortMarkdownModules(import.meta.glob("../pages/studies/*.md", { eager: true }));

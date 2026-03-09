@@ -1,11 +1,11 @@
 ---
 title: Staff Writer
-date: Dec 2021 - Present
+date: Oct 2021 - Present
 url: https://www.kdnuggets.com/author/abidali-awan
-location: Global Remote
+location: Remote
 org: KDnuggets
-tags: ["Writing", "Deep Learning", "Career Advice"]
+tags: ["Machine Learning", "Deep Learning", "MLOps", "Technical Writing", "Career Advice"]
 ---
 
-- Publish tutorials on machine learning, MLOps, and data analytics.
-- Translate complex tools into practical guides for broad audiences.
+- Write beginner-friendly and advanced articles on machine learning, MLOps, data analytics, and career growth.
+- Turn complex workflows into practical guides for broad audiences and new practitioners.
