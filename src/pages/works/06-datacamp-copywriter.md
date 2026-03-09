@@ -1,7 +1,7 @@
 ---
 title: Data Science Copywriter
 date: Dec 2021 - Present
-url: https://www.datacamp.com/
+url: https://www.datacamp.com/portfolio/kingabzpro
 location: Remote
 org: DataCamp
 tags: ["Data Analytics", "SEO", "Tutorials", "Technical Writing"]

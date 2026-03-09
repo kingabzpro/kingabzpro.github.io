@@ -1,7 +1,7 @@
 ---
 title: Co-Founder and ML Engineer
 date: Feb 2025 - Present
-url: https://nexusml.com/
+url: https://nexusml.co/
 location: Houston, Texas, United States
 org: NexusML
 tags: ["Machine Learning", "Consulting", "MLOps", "Architecture"]
