@@ -1,5 +1,5 @@
 ---
 title: DagsHub
-icon: mdi:source-branch
+icon: mdi:dog
 url: https://dagshub.com/kingabzpro
 ---
