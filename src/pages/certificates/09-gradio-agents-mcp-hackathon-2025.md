@@ -6,4 +6,4 @@ tags: ["Gradio", "Hugging Face", "MCP"]
 image: /project-placeholder.png
 ---
 
-Issued by Hugging Face with Credential ID `GRADIO2025-F90C4712`.
+Developed agent-based workflows with Gradio and MCP in a Hugging Face hackathon.

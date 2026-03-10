@@ -6,5 +6,4 @@ tags: ["MCP", "Hugging Face", "Hackathon"]
 image: /project-placeholder.png
 ---
 
-Issued by Hugging Face with Credential ID `MCP-1st-Birthday / Auto-Deployer`.
-
+Built an MCP-based Auto-Deployer project during Hugging Face's 1st Birthday Hackathon.

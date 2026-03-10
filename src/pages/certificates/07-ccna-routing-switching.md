@@ -6,4 +6,4 @@ tags: ["Engineering", "Cisco", "Networking"]
 image: /project-placeholder.png
 ---
 
-Issued by Cisco with Credential ID `417774172181BTCL`.
+Validated core networking skills in routing, switching, and network operations.
