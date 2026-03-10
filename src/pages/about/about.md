@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Abid Ali Awan"
-designation: "Data Scientist, AI Engineer & Technical Writer"
+designation: "Data Scientist & Technical Writer"
 location: Islamabad, Pakistan
 website: "https://abid.work"
 headline: "I help AI and data science companies grow fast and reliably through a research, build, test, document, and publish workflow."
