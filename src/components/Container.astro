@@ -89,7 +89,8 @@ const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eage
 const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", { eager: true }))
   .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
 const studies = sortMarkdownModules(import.meta.glob("../pages/studies/*.md", { eager: true }));
-const certificates = sortMarkdownModules(import.meta.glob("../pages/certificates/*.md", { eager: true }));
+const certificates = sortMarkdownModules(import.meta.glob("../pages/certificates/*.md", { eager: true }))
+  .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
 const contact = sortMarkdownModules(import.meta.glob("../pages/contact/*.md", { eager: true }));
 
 function isContactItem(item: MarkdownInstance): boolean {
