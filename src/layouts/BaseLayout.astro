@@ -8,6 +8,7 @@ interface Props {
   canonical?: string;
   image?: string;
   noindex?: boolean;
+  updatedTime?: string;
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
@@ -17,6 +18,7 @@ const {
   canonical,
   image = "/og-image.png",
   noindex = false,
+  updatedTime = new Date().toISOString(),
   structuredData,
 } = Astro.props;
 
@@ -25,6 +27,7 @@ const canonicalUrl = canonical
   ? new URL(canonical, siteUrl).toString()
   : new URL(`${Astro.url.pathname}${Astro.url.search}`, siteUrl).toString();
 const imageUrl = new URL(image, siteUrl).toString();
+const sitemapUrl = new URL("/sitemap.xml", siteUrl).toString();
 const robots = noindex ? "noindex, nofollow" : "index, follow";
 const escapedStructuredData = structuredData
   ? JSON.stringify(structuredData).replace(/</g, "\\u003c")
@@ -44,13 +47,17 @@ const escapedStructuredData = structuredData
         <meta name="author" content="Abid Ali Awan" />
         <meta name="description" content={description} />
         <meta name="robots" content={robots} />
+        <meta name="googlebot" content={robots} />
+        <meta name="bingbot" content={robots} />
         <link rel="canonical" href={canonicalUrl} />
+        <link rel="sitemap" type="application/xml" href={sitemapUrl} />
         <meta property="og:site_name" content="Abid Ali Awan" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={imageUrl} />
+        <meta property="og:updated_time" content={updatedTime} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
