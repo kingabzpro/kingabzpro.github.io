@@ -36,41 +36,6 @@ npm run preview
 npm run generate:favicon
 ```
 
-## Content Structure
-
-Main content lives in:
-
-- `src/pages/about/about.md`
-- `src/pages/works/*.md`
-- `src/pages/studies/*.md`
-- `src/pages/projects/*.md`
-- `src/pages/certificates/*.md`
-- `src/pages/contact/*.md`
-
-## SEO Strategy
-
-- Canonical index target: `https://abidaliawan.com/`
-- Single-file sitemap at `public/sitemap.xml`
-- Crawl control via [`public/robots.txt`](public/robots.txt) to block thin utility/content routes
-
-Sitemap file is copied during build and published as:
-
-- `https://abidaliawan.com/sitemap.xml`
-
-## Favicon Generation
-
-Generate favicon assets from `src/assets/profile.png`:
-
-```bash
-npm run generate:favicon
-```
-
-Generated favicon files:
-
-- `public/favicon.svg`
-- `public/favicon.png`
-- `public/apple-touch-icon.png`
-
 ## Deployment
 
 GitHub Actions builds from branch `source` and publishes `dist/` to branch `main` for GitHub Pages.
