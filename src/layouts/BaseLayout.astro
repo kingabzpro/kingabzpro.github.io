@@ -46,6 +46,7 @@ const escapedStructuredData = structuredData
         <meta name="generator" content={Astro.generator} />
         <meta name="author" content="Abid Ali Awan" />
         <meta name="description" content={description} />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <meta name="robots" content={robots} />
         <meta name="googlebot" content={robots} />
         <meta name="bingbot" content={robots} />
@@ -72,17 +73,58 @@ const escapedStructuredData = structuredData
             )
         }
         <script is:inline>
-            if (localStorage.getItem("theme") === null) {
-                document.documentElement.setAttribute("data-theme", "lofi");
-            } else
-                document.documentElement.setAttribute(
-                    "data-theme",
-                    localStorage.getItem("theme"),
-                );
-        </script>
-        <script>
-            import { themeChange } from "theme-change";
-            themeChange();
+            (() => {
+                const storageKey = "theme";
+                const defaultTheme = "lofi";
+                const darkTheme = "black";
+                const allowedThemes = new Set([defaultTheme, darkTheme]);
+
+                const readStoredTheme = () => {
+                    try {
+                        const storedTheme = localStorage.getItem(storageKey);
+                        return storedTheme && allowedThemes.has(storedTheme)
+                            ? storedTheme
+                            : defaultTheme;
+                    } catch {
+                        return defaultTheme;
+                    }
+                };
+
+                const applyTheme = (theme) => {
+                    document.documentElement.setAttribute("data-theme", theme);
+                };
+
+                const initThemeToggle = () => {
+                    const toggle = document.querySelector("[data-theme-toggle]");
+                    const theme = readStoredTheme();
+
+                    applyTheme(theme);
+
+                    if (!(toggle instanceof HTMLInputElement)) {
+                        return;
+                    }
+
+                    toggle.checked = theme === darkTheme;
+                    toggle.addEventListener("change", () => {
+                        const nextTheme = toggle.checked ? darkTheme : defaultTheme;
+                        applyTheme(nextTheme);
+
+                        try {
+                            localStorage.setItem(storageKey, nextTheme);
+                        } catch {
+                            // Ignore storage failures and keep the in-memory theme.
+                        }
+                    });
+                };
+
+                if (document.readyState === "loading") {
+                    document.addEventListener("DOMContentLoaded", initThemeToggle, {
+                        once: true,
+                    });
+                } else {
+                    initThemeToggle();
+                }
+            })();
         </script>
     </head>
     <body class="flex flex-col min-h-screen">

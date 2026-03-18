@@ -2,6 +2,7 @@
 import { Icon } from "astro-icon/components";
 const { timeframe, title, description, url, tags, url_name, location } =
   Astro.props;
+const isExternal = /^(https?:\/\/|mailto:)/i.test(url ?? "");
 ---
 
 <div class="card card-compact card-bordered border border-[oklch(var(--s))] w-full md:w-112 lg:w-128 hover:shadow-lg transition-all my-4">
@@ -43,7 +44,8 @@ const { timeframe, title, description, url, tags, url_name, location } =
       <div class="self-start justify-self-start md:self-center md:justify-self-end">
         <a
           href={url}
-          target="_blank"
+          target={isExternal ? "_blank" : undefined}
+          rel={isExternal ? "noopener noreferrer" : undefined}
           class="link link-hover text-sm text-left inline-flex justify-start items-center min-h-11 px-2 py-2 md:text-right md:justify-center"
         >
           {url_name}
