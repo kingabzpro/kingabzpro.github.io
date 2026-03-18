@@ -33,6 +33,7 @@
     "daisyui": "^4.12.24"
   },
   "overrides": {
+    "undici": "^7.24.0",
     "astro": {
       "svgo": "4.0.1"
     },
