@@ -9,10 +9,13 @@ import profileImage from "../assets/profile.png";
   <article
     class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
   >
-    <a
-      href="/"
-      aria-label="Go to home"
-      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-sm overflow-hidden"
+    <button
+      type="button"
+      aria-label={`Toggle profile photo color for ${about.frontmatter.name}`}
+      aria-pressed="false"
+      data-photo-toggle
+      data-photo-mode="grayscale"
+      class="profile-photo flex-shrink-0 w-24 md:w-28"
     >
       <Image
         alt={`Profile picture of ${about.frontmatter.name}`}
@@ -22,9 +25,9 @@ import profileImage from "../assets/profile.png";
         quality={100}
         loading="eager"
         fetchpriority="high"
-        class="h-full w-full object-cover grayscale-[50] hover:grayscale-0"
+        class="profile-photo__image h-full w-full object-cover"
       />
-    </a>
+    </button>
 
     <div class="text-center">
       <div class="flex justify-center items-center mb-2">
@@ -51,3 +54,51 @@ import profileImage from "../assets/profile.png";
     </div>
   </article>
 </header>
+
+<style>
+  .profile-photo {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .profile-photo:focus-visible {
+    outline: 3px solid hsl(var(--p));
+    outline-offset: 8px;
+    border-radius: 9999px;
+  }
+
+  .profile-photo__image {
+    border-radius: 9999px;
+    filter: grayscale(1);
+    transition: filter 220ms ease;
+  }
+
+  .profile-photo[data-photo-mode="color"] .profile-photo__image {
+    filter: grayscale(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .profile-photo__image {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  const photoToggle = document.querySelector("[data-photo-toggle]");
+
+  if (photoToggle instanceof HTMLButtonElement) {
+    photoToggle.addEventListener("click", () => {
+      const nextMode =
+        photoToggle.dataset.photoMode === "color" ? "grayscale" : "color";
+
+      photoToggle.dataset.photoMode = nextMode;
+      photoToggle.setAttribute(
+        "aria-pressed",
+        nextMode === "color" ? "true" : "false",
+      );
+    });
+  }
+</script>
