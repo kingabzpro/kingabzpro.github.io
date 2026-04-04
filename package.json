@@ -32,6 +32,7 @@
     "daisyui": "^4.12.24"
   },
   "overrides": {
+    "defu": "^6.1.6",
     "h3": "^1.15.9",
     "picomatch": "^4.0.4",
     "smol-toml": "^1.6.1",
