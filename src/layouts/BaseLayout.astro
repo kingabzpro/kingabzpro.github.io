@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import "@fontsource-variable/dm-sans";
 import dmSansLatinWoff2 from "@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2";
 
@@ -149,7 +150,7 @@ const escapedStructuredData = structuredData
     }
 
     .overflow-y-scroll::-webkit-scrollbar-thumb {
-        background-color: oklch(var(--s));
+        background-color: var(--color-secondary);
     }
 
     .overflow-y-scroll {

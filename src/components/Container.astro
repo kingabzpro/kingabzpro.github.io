@@ -102,7 +102,7 @@ const contactLinks = contact.filter((item) => isContactItem(item));
 const socialLinks = contact.filter((item) => !isContactItem(item));
 ---
 
-<div class="join join-vertical gap-1">
+<div class="join join-vertical gap-1 w-full">
   <AccordionLayout title={"About"} icon={"carbon:identification"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />

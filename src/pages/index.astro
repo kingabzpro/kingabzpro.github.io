@@ -80,16 +80,19 @@ const structuredData = {
 >
   <Header />
   <div
-    class="flex items-center gap-1 absolute top-4 right-4 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10 z-10"
+    class="theme-switcher absolute top-4 right-4 z-10 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10"
   >
-    <Icon name="carbon:moon" class="w-5 h-5" />
-    <input
-      type="checkbox"
-      data-theme-toggle
-      class="toggle bg-secondary h-8 w-14"
-      aria-label="Toggle theme"
-    />
-    <Icon name="carbon:light" class="w-5 h-5" />
+    <Icon name="carbon:moon" class="theme-switcher__icon h-5 w-5" />
+    <label class="theme-switcher__track">
+      <input
+        type="checkbox"
+        data-theme-toggle
+        class="theme-switcher__input"
+        aria-label="Toggle theme"
+      />
+      <span class="theme-switcher__thumb" aria-hidden="true"></span>
+    </label>
+    <Icon name="carbon:light" class="theme-switcher__icon h-5 w-5" />
   </div>
 
   <div

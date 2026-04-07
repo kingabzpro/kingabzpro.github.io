@@ -4,9 +4,9 @@ Personal portfolio and CV site built with Astro.
 
 ## Overview
 
-- Static site output with Astro 5
+- Static site output with Astro 6
 - CV sections driven by markdown files
-- Tailwind CSS and daisyUI for styling
+- Tailwind CSS 4 and daisyUI 5 for styling
 - GitHub Pages deployment
 - SEO focused single canonical page strategy
 
