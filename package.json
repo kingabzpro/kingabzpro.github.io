@@ -24,7 +24,7 @@
     "astro-compress": "^2.4.0",
     "astro-icon": "^1.1.0",
     "sharp": "^0.34.4",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
