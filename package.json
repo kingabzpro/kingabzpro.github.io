@@ -29,7 +29,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "baseline-browser-mapping": "^2.10.0",
-    "daisyui": "^4.12.24"
+    "daisyui": "^5.5.19"
   },
   "overrides": {
     "defu": "^6.1.6",
