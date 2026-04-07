@@ -22,9 +22,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Rollup Linux native package
+      - name: Install Linux native build packages
         if: runner.os == 'Linux' && runner.arch == 'X64'
-        run: npm install --no-save @rollup/rollup-linux-x64-gnu
+        run: npm install --no-save @rollup/rollup-linux-x64-gnu lightningcss-linux-x64-gnu
 
       - name: Build Astro site
         env:
