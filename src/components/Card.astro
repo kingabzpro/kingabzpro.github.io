@@ -24,9 +24,7 @@ const isCtaLink = /^view\b/i.test(url_name ?? "");
 
       <div class="self-start md:justify-self-end md:pt-1 md:text-right">
         {timeframe && (
-          <div class="badge w-max h-max text-left badge-outline inline-block align-middle shadow-md font-mono whitespace-normal leading-tight">
-            {timeframe}
-          </div>
+          <span class="date-label">{timeframe}</span>
         )}
       </div>
     </div>

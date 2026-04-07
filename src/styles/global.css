@@ -67,7 +67,7 @@
 }
 
 .theme-switcher__input:checked + .theme-switcher__thumb {
-  transform: translateX(1.95rem);
+  transform: translateX(calc(4.15rem - 1.75rem - 0.4rem - 3px));
 }
 
 :root[data-theme="black"] .theme-switcher {
@@ -76,6 +76,13 @@
 
 :root[data-theme="black"] .theme-switcher__thumb {
   box-shadow: 0 0 0 1px rgb(255 255 255 / 0.08);
+}
+
+.date-label {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--color-secondary);
+  white-space: nowrap;
 }
 
 @media (prefers-reduced-motion: reduce) {
