@@ -19,7 +19,7 @@
     "@fontsource-variable/space-grotesk": "^5.2.10",
     "@iconify-json/carbon": "^1.2.20",
     "@iconify-json/mdi": "^1.2.3",
-    "astro": "^6.1.4",
+    "astro": "^6.1.10",
     "astro-compress": "^2.4.0",
     "astro-icon": "^1.1.5",
     "sharp": "^0.34.5",
