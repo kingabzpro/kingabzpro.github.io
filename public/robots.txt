@@ -1,4 +1,29 @@
+# This is a one-page public profile site. Keep crawl access open for
+# search engines and answer engines, and advertise the canonical sitemap.
 User-agent: *
+Allow: /
+
+# ChatGPT Search visibility.
+User-agent: OAI-SearchBot
+Allow: /
+
+# User-requested ChatGPT browsing.
+User-agent: ChatGPT-User
+Allow: /
+
+# Claude search and user-requested browsing.
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity answer/search crawling.
+User-agent: PerplexityBot
+Allow: /
+
+# Google Gemini grounding control. This does not affect Google Search.
+User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://abidaliawan.com/sitemap.xml
