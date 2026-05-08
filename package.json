@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/update-sitemap-lastmod.mjs",
+    "generate:sitemap": "node scripts/update-sitemap-lastmod.mjs",
+    "generate:llms": "node scripts/generate-llms.mjs",
+    "prebuild": "npm run generate:sitemap && npm run generate:llms",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",

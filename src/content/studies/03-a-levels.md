@@ -1,0 +1,10 @@
+---
+title: A Levels
+date: 2007 - 2009
+externalUrl: https://thecityschool.edu.pk/
+location: The City School
+institute: The City School
+tags: ["Science", "Engineering", "Math"]
+---
+
+Served as Deputy Head Prefect and earned silver medal in table tennis at Punjab Olympics.

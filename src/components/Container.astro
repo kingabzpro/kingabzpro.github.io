@@ -1,6 +1,6 @@
 ---
 import AccordionLayout from "../layouts/AccordionLayout.astro";
-import * as about from "../pages/about/about.md";
+import * as about from "../content/about/about.md";
 import Card from "./Card.astro";
 import ContactCard from "./ContactCard.astro";
 import ContactForm from "./ContactForm.astro";
@@ -10,7 +10,7 @@ type MarkdownInstance = {
     title: string;
     date?: string;
     tags?: string[];
-    url?: string;
+    externalUrl?: string;
     org?: string;
     location?: string;
     institute?: string;
@@ -71,7 +71,7 @@ function parseDateRange(dateValue?: string): { start: number; end: number; curre
   return { start, end, current };
 }
 
-const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eager: true }))
+const works = sortMarkdownModules(import.meta.glob("../content/works/*.md", { eager: true }))
   .sort((a, b) => {
     const aRange = parseDateRange(a.frontmatter.date);
     const bRange = parseDateRange(b.frontmatter.date);
@@ -86,15 +86,15 @@ const works = sortMarkdownModules(import.meta.glob("../pages/works/*.md", { eage
 
     return bRange.start - aRange.start;
   });
-const projects = sortMarkdownModules(import.meta.glob("../pages/projects/*.md", { eager: true }))
+const projects = sortMarkdownModules(import.meta.glob("../content/projects/*.md", { eager: true }))
   .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
-const studies = sortMarkdownModules(import.meta.glob("../pages/studies/*.md", { eager: true }));
-const certificates = sortMarkdownModules(import.meta.glob("../pages/certificates/*.md", { eager: true }))
+const studies = sortMarkdownModules(import.meta.glob("../content/studies/*.md", { eager: true }));
+const certificates = sortMarkdownModules(import.meta.glob("../content/certificates/*.md", { eager: true }))
   .sort((a, b) => toSortableDate(b.frontmatter.date) - toSortableDate(a.frontmatter.date));
-const contact = sortMarkdownModules(import.meta.glob("../pages/contact/*.md", { eager: true }));
+const contact = sortMarkdownModules(import.meta.glob("../content/contact/*.md", { eager: true }));
 
 function isContactItem(item: MarkdownInstance): boolean {
-  const link = item.frontmatter.url ?? "";
+  const link = item.frontmatter.externalUrl ?? "";
   return link.startsWith("/") || link.startsWith("mailto:") || link.startsWith("#");
 }
 
@@ -103,13 +103,13 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
 ---
 
 <div class="join join-vertical gap-1 w-full">
-  <AccordionLayout title={"About"} icon={"carbon:identification"}>
+  <AccordionLayout id="about" title={"About"} icon={"carbon:identification"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  <AccordionLayout id="work" title={"Work"} icon={"carbon:construction"}>
     {
       works.map((item) => {
         return (
@@ -118,7 +118,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
+            url={item.frontmatter.externalUrl}
             url_name={item.frontmatter.org}
             location={item.frontmatter.location}
           />
@@ -127,7 +127,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Studies"} icon={"carbon:education"}>
+  <AccordionLayout id="studies" title={"Studies"} icon={"carbon:education"}>
     {
       studies.map((item) => {
         return (
@@ -136,7 +136,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
             tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
+            url={item.frontmatter.externalUrl}
             url_name={item.frontmatter.institute}
           />
         );
@@ -144,7 +144,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
+  <AccordionLayout id="projects" title={"Projects"} icon={"carbon:tools"}>
     {
       projects.map((item) => {
         return (
@@ -153,7 +153,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
+            url={item.frontmatter.externalUrl}
             url_name={"GitHub"}
           />
         );
@@ -161,7 +161,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+  <AccordionLayout id="certifications" title={"Certifications"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
@@ -170,7 +170,7 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
+            url={item.frontmatter.externalUrl}
             url_name={"Certificate"}
           />
         );
@@ -178,13 +178,13 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>
+  <AccordionLayout id="contact" title={"Contact"} icon={"carbon:location-person"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
         contactLinks.map((item) => {
           return (
             <ContactCard
-              url={item.frontmatter.url}
+              url={item.frontmatter.externalUrl}
               url_name={item.frontmatter.title}
               icon={item.frontmatter.icon}
             />
@@ -195,13 +195,13 @@ const socialLinks = contact.filter((item) => !isContactItem(item));
     <ContactForm />
   </AccordionLayout>
 
-  <AccordionLayout title={"Links"} icon={"carbon:share"}>
+  <AccordionLayout id="links" title={"Links"} icon={"carbon:share"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
         socialLinks.map((item) => {
           return (
             <ContactCard
-              url={item.frontmatter.url}
+              url={item.frontmatter.externalUrl}
               url_name={item.frontmatter.title}
               icon={item.frontmatter.icon}
             />

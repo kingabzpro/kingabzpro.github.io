@@ -1,14 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /robots.txt
-Allow: /sitemap.xml
-
-# Keep utility/detail markdown routes out of search results.
-Disallow: /about/
-Disallow: /works/
-Disallow: /studies/
-Disallow: /projects/
-Disallow: /certificates/
-Disallow: /contact/
 
 Sitemap: https://abidaliawan.com/sitemap.xml

@@ -1,9 +1,9 @@
 ---
 import { Icon } from "astro-icon/components";
-const { title, icon } = Astro.props;
+const { title, icon, id } = Astro.props;
 ---
 
-<div class="collapse collapse-arrow ease-in-out duration-700 w-full">
+<div id={id} class="collapse collapse-arrow ease-in-out duration-700 w-full scroll-mt-4">
   <input aria-label={title} type="checkbox"/>
   <div class="collapse-title font-extrabold tracking-tight md:text-2xl">
     <div class="flex">

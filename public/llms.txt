@@ -1,0 +1,93 @@
+# Abid Ali Awan
+
+> Official profile of Abid Ali Awan, a Data Scientist, AI engineer, MLOps consultant, and technical writer based in Islamabad, Pakistan.
+
+This file describes the one-page website at https://abidaliawan.com/. The markdown files in `src/content` are source fragments rendered inside the homepage accordions, not separate pages that should be treated as standalone context.
+
+## Primary Page
+
+- [Home and full profile](https://abidaliawan.com/): Canonical page for Abid Ali Awan's about, work, studies, projects, certifications, contact, and social links.
+- [XML sitemap](https://abidaliawan.com/sitemap.xml): Canonical URLs intended for search indexing.
+- [Robots policy](https://abidaliawan.com/robots.txt): Crawler access policy for the site.
+
+## Homepage Sections
+
+- [About](https://abidaliawan.com/#about): I am a data scientist, AI engineer, and technical writer focused on end-to-end delivery: researching, building, testing, documenting, and publishing practical AI and data scienc...
+- [Work](https://abidaliawan.com/#work): Co-Founder and ML Engineer - NexusML - Feb 2025 - Present; Assistant Editor - KDnuggets - Apr 2022 - Present; Staff Writer - KDnuggets - Oct 2021 - Present; Data Science Editor and Reviewer - DataCamp - May 2022 - Present; Data Science Copywriter - DataCamp - Dec 2021 - Present; Technical Writer - Firecrawl - Jul 2025 - Nov 2025; Data Science Consultant - Guidepoint - Sep 2021 - Present; Technical Writer - Machine Learning Mastery - Apr 2023 - Present; and 1 more.
+- [Projects](https://abidaliawan.com/#projects): CI/CD for Machine Learning - Jan 2024; FastAPI for ML - Aug 2024; Deploying LLM Applications with Docker - Nov 2024; Automating Machine Learning Testing - Jul 2024; A to Z MLOps - May 2025; Claude Agent Projects - Sep 2025; Redis ML Project - Mar 2025; Fine Tuning DeepSeek R1 Reasoning Model - Jan 2025; and 10 more.
+- [Studies](https://abidaliawan.com/#studies): MSc Technology Management - Staffordshire University - 2015 - 2017; BSc Electrical Engineering - COMSATS University - 2010 - 2014; A Levels - The City School - 2007 - 2009; O Levels - The City School - 2005 - 2007.
+- [Certifications](https://abidaliawan.com/#certifications): Nova Membership Certificate - Mar 2024; KaggleX Mentorship Program - Nov 2023; KDnuggets Milestone Recognition - Oct 2023; Data Scientist Professional Certificate - Jul 2023 - Jul 2025; Data Scientist Professional Certificate - Aug 2021 - Aug 2023; Registered Engineer Membership - Aug 2021; Cisco Certified Network Associate Routing and Switching (CCNA) - May 2014 - May 2017; MCP's 1st Birthday Hackathon 2025 - Dec 2025; and 1 more.
+
+## Supporting Context
+
+### Work
+
+- Co-Founder and ML Engineer - NexusML - Feb 2025 - Present: Lead AI consulting projects from discovery to production rollout. Design robust ML pipelines with testing, monitoring, and CI/CD. Build deployable services for NLP and analytics... Topics: Machine Learning, Consulting, MLOps, Architecture.
+- Assistant Editor - KDnuggets - Apr 2022 - Present: Curate article pipeline and support the chief editor on editorial planning. Edit technical drafts for clarity, structure, and practical correctness. Coordinate publication workf... Topics: Data Science Editing, Technical Writing, Editorial Operations.
+- Staff Writer - KDnuggets - Oct 2021 - Present: Write beginner-friendly and advanced articles on machine learning, MLOps, data analytics, and career growth. Turn complex workflows into practical guides for broad audiences and... Topics: Machine Learning, Deep Learning, MLOps, Technical Writing, Career Advice.
+- Data Science Editor and Reviewer - DataCamp - May 2022 - Present: Review and edit data science content for technical accuracy and readability. Validate examples, claims, and learning flow before publication. Topics: Data Science Editing, Technical Writing, Quality Review.
+- Data Science Copywriter - DataCamp - Dec 2021 - Present: Write blogs, tutorials, guides, and books on data science topics. Align technical content with learner outcomes and search intent. Topics: Data Analytics, SEO, Tutorials, Technical Writing.
+- Technical Writer - Firecrawl - Jul 2025 - Nov 2025: Published technical content on web scraping and structured data extraction. Created practical API-focused guides for AI and automation use cases. Topics: Technical Writing, LLM, Web Scraping, Developer Tools.
+- Data Science Consultant - Guidepoint - Sep 2021 - Present: Consult experts and clients on data science tooling and practical adoption. Provide guidance on model workflows, tooling choices, and team enablement. Topics: Consulting, Data Science Tools, Advisory.
+- Technical Writer - Machine Learning Mastery - Apr 2023 - Present: Write practical machine learning and productivity tutorials for developers. Publish implementation-first guides with reproducible examples. Topics: Technical Writing, Machine Learning, Productivity.
+- Freelance Writer - Independent - Jul 2021 - Jul 2023: Published tutorials and practical guides on machine learning and data analytics. Wrote for Towards Data Science, Towards AI, Start It Up, and Analytics Vidhya. Focused on beginn... Topics: Technical Writing, Machine Learning, Data Analytics.
+
+### Projects
+
+- CI/CD for Machine Learning - Jan 2024: A beginner project on automating ML training, evaluation, versioning, and deployment with GitHub Actions. Topics: CI/CD, MLOps, Testing.
+- FastAPI for ML - Aug 2024: A simple FastAPI application for machine learning inference. Topics: FastAPI, Machine Learning, API.
+- Deploying LLM Applications with Docker - Nov 2024: A Dockerized document Q and A application deployed on Hugging Face cloud. Topics: LLM, Docker, Deployment.
+- Automating Machine Learning Testing - Jul 2024: Automating machine learning testing with GitHub Actions and DeepChecks. Topics: Testing, Machine Learning, Automation.
+- A to Z MLOps - May 2025: A complete end to end MLOps project pipeline. Topics: MLOps, Machine Learning, Production.
+- Claude Agent Projects - Sep 2025: Three minimal Claude Agent SDK projects from one shot to custom tool agents. Topics: Agents, LLMs, Automation.
+- Redis ML Project - Mar 2025: Model serving with FastAPI and Redis caching to reduce latency for repeated predictions. Topics: Redis, Inference, API.
+- Fine Tuning DeepSeek R1 Reasoning Model - Jan 2025: Kaggle notebook for fine tuning the DeepSeek R1 reasoning model. Topics: Kaggle, Fine-Tuning, DeepSeek.
+- Fine Tuning Qwen3.5 Small - Mar 2026: Kaggle notebook for fine tuning Qwen3.5 Small. Topics: Kaggle, Fine-Tuning, Qwen.
+- Mistral 7B 4bit QLoRA Fine Tuning - Oct 2023: Kaggle notebook for 4 bit QLoRA fine tuning on Mistral 7B. Topics: Kaggle, QLoRA, Mistral.
+- Fine Tune Llama 3.1 for Text Classification - Jul 2024: Kaggle notebook for fine tuning Llama 3.1 for text classification. Topics: Kaggle, Llama, Text Classification.
+- Wav2Vec2 Large XLS R 300M Urdu - Mar 2022: Hugging Face automatic speech recognition model trained on Common Voice 8 Urdu. Topics: Hugging Face, ASR, Urdu.
+- Wav2Vec2 Large XLSR 53 Punjabi - Mar 2022: Hugging Face automatic speech recognition model trained on Common Voice Punjabi data. Topics: Hugging Face, ASR, Punjabi.
+- SavtaDepth Space - Mar 2022: Hugging Face Space for monocular depth estimation demos. Topics: Hugging Face Space, Computer Vision, Demo.
+- Rick and Morty Bot Space - Mar 2022: Hugging Face Space for a Rick and Morty themed chatbot demo. Topics: Hugging Face Space, Chatbot, LLM.
+- JobFit AI - May 2026: AI job matching project that uploads a CV, searches for roles, scores fit, and recommends relevant jobs. Topics: GitHub, AI Agents, Job Search.
+- Nemotron Psychology QA LoRA - Apr 2026: Hugging Face model adapter fine tuned from NVIDIA Nemotron 3 Nano 4B for psychology question answering. Topics: Hugging Face, LoRA, Psychology.
+- DeepSeek OCR 2 Urdu LoRA - Mar 2026: Fine tuned DeepSeek OCR 2 model for Urdu OCR using the Urdu OCR 1M dataset. Topics: Hugging Face, OCR, Urdu.
+
+### Studies
+
+- MSc Technology Management - Staffordshire University - 2015 - 2017: Grade: Distinction (3.7/4.0). Thesis focused on industrial IoT adoption challenges. Topics: Technology Strategy, Project Management, Research.
+- BSc Electrical Engineering - COMSATS University - 2010 - 2014: Grade: 3.09/4.0. Published research papers on energy efficient wireless sensor routing. Topics: Telecommunication, Signals, Wireless Networks.
+- A Levels - The City School - 2007 - 2009: Served as Deputy Head Prefect and earned silver medal in table tennis at Punjab Olympics. Topics: Science, Engineering, Math.
+- O Levels - The City School - 2005 - 2007: Built a strong academic base before moving into engineering and analytics. Topics: STEM, Foundations.
+
+### Certifications
+
+- Nova Membership Certificate - Mar 2024: Recognized by Nova Talent for leadership potential and strong analytical profile. Topics: Leadership, Talent, Recognition.
+- KaggleX Mentorship Program - Nov 2023: Mentored a student through development of a Hindi speech recognition project. Topics: Mentorship, Speech AI, Kaggle.
+- KDnuggets Milestone Recognition - Oct 2023: Editorial strategy contributed to sustained growth in unique page views. Topics: Editorial, Growth, Publishing.
+- Data Scientist Professional Certificate - Jul 2023 - Jul 2025: Validated end to end skills in data management, modeling, and communication. Topics: Data Science, Certification, DataCamp.
+- Data Scientist Professional Certificate - Aug 2021 - Aug 2023: Demonstrated applied competency in analytics, experimentation, and production coding. Topics: Data Science, Certification, DataCamp.
+- Registered Engineer Membership - Aug 2021: Achieved lifetime membership status as a registered engineer with PEC. Topics: Engineering, PEC, Professional Membership.
+- Cisco Certified Network Associate Routing and Switching (CCNA) - May 2014 - May 2017: Validated core networking skills in routing, switching, and network operations. Topics: Engineering, Cisco, Networking.
+- MCP's 1st Birthday Hackathon 2025 - Dec 2025: Built an MCP-based Auto-Deployer project during Hugging Face's 1st Birthday Hackathon. Topics: MCP, Hugging Face, Hackathon.
+- Gradio Agents & MCP Hackathon 2025 - Jun 2025: Developed agent-based workflows with Gradio and MCP in a Hugging Face hackathon. Topics: Gradio, Hugging Face, MCP.
+
+## Topics
+
+Data science, machine learning, MLOps, large language models, natural language processing, model fine-tuning, OCR, technical writing, technical editing, AI education, and production ML systems.
+
+## Official External Profiles
+
+- [GitHub](https://github.com/kingabzpro)
+- [LinkedIn](https://www.linkedin.com/in/1abidaliawan/)
+- [Medium](https://abidaliawan.medium.com/)
+- [DataCamp](https://www.datacamp.com/profile/kingabzpro)
+- [Hugging Face](https://huggingface.co/kingabzpro)
+- [Writing Portfolio](https://abid.work)
+- [Kaggle](https://www.kaggle.com/kingabzpro)
+- [X](https://x.com/1abidaliawan)
+- [DagsHub](https://dagshub.com/kingabzpro)
+
+## Usage Notes
+
+Use https://abidaliawan.com/ as the canonical source. Do not treat markdown fragment routes as standalone public pages; they are source content for the one-page homepage experience.
