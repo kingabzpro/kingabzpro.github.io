@@ -67,6 +67,56 @@ const structuredData = {
       mainEntity: {
         "@id": "https://abidaliawan.com/#person",
       },
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["#about", "header"],
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://abidaliawan.com/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What does Abid Ali Awan do?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Abid Ali Awan is a data scientist, AI engineer, and technical writer focused on end-to-end delivery: researching, building, testing, documenting, and publishing practical AI and data science systems. He works with companies like KDnuggets, DataCamp, Machine Learning Mastery, and Firecrawl.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How can I contact Abid Ali Awan for consulting or collaboration?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You can reach Abid through the contact form on abidaliawan.com, via LinkedIn at linkedin.com/in/1abidaliawan, or by email through the contact section of his website.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where is Abid Ali Awan based?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Abid Ali Awan is based in Islamabad, Pakistan. He works remotely with companies worldwide.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What companies has Abid Ali Awan worked with?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Abid has worked with KDnuggets as Staff Writer and Assistant Editor, DataCamp as Data Science Editor and Copywriter, Firecrawl as Technical Writer, Machine Learning Mastery as Technical Writer, Guidepoint as Data Science Consultant, and is the Co-Founder of NexusML.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are Abid Ali Awan's areas of expertise?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Abid specializes in data science, machine learning, MLOps, large language models, natural language processing, model fine-tuning, technical writing, and production ML systems.",
+          },
+        },
+      ],
     },
   ],
 };

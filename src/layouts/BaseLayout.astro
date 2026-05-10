@@ -72,6 +72,13 @@ const escapedStructuredData = structuredData
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={imageUrl} />
         <title>{title}</title>
+        <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-C8RQZHQ428" async></script>
+        <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C8RQZHQ428');
+        </script>
         {
             escapedStructuredData && (
                 <script
