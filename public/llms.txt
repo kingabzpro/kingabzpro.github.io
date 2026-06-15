@@ -14,7 +14,7 @@ This file describes the one-page website at https://abidaliawan.com/. The markdo
 
 - [About](https://abidaliawan.com/#about): I am a data scientist, AI engineer, and technical writer focused on end-to-end delivery: researching, building, testing, documenting, and publishing practical AI and data scienc...
 - [Work](https://abidaliawan.com/#work): Co-Founder and ML Engineer - NexusML - Feb 2025 - Present; Assistant Editor - KDnuggets - Apr 2022 - Present; Staff Writer - KDnuggets - Oct 2021 - Present; Data Science Editor and Reviewer - DataCamp - May 2022 - Present; Data Science Copywriter - DataCamp - Dec 2021 - Present; Technical Writer - Firecrawl - Jul 2025 - Nov 2025; Data Science Consultant - Guidepoint - Sep 2021 - Present; Technical Writer - Machine Learning Mastery - Apr 2023 - Present; and 1 more.
-- [Projects](https://abidaliawan.com/#projects): CI/CD for Machine Learning - Jan 2024; FastAPI for ML - Aug 2024; Deploying LLM Applications with Docker - Nov 2024; Automating Machine Learning Testing - Jul 2024; A to Z MLOps - May 2025; Claude Agent Projects - Sep 2025; Redis ML Project - Mar 2025; Fine Tuning DeepSeek R1 Reasoning Model - Jan 2025; and 10 more.
+- [Projects](https://abidaliawan.com/#projects): CI/CD for Machine Learning - Jan 2024; FastAPI for ML - Aug 2024; Deploying LLM Applications with Docker - Nov 2024; Automating Machine Learning Testing - Jul 2024; A to Z MLOps - May 2025; Claude Agent Projects - Sep 2025; Redis ML Project - Mar 2025; Fine Tuning DeepSeek R1 Reasoning Model - Jan 2025; and 11 more.
 - [Studies](https://abidaliawan.com/#studies): MSc Technology Management - Staffordshire University - 2015 - 2017; BSc Electrical Engineering - COMSATS University - 2010 - 2014; A Levels - The City School - 2007 - 2009; O Levels - The City School - 2005 - 2007.
 - [Certifications](https://abidaliawan.com/#certifications): Nova Membership Certificate - Mar 2024; KaggleX Mentorship Program - Nov 2023; KDnuggets Milestone Recognition - Oct 2023; Data Scientist Professional Certificate - Jul 2023 - Jul 2025; Data Scientist Professional Certificate - Aug 2021 - Aug 2023; Registered Engineer Membership - Aug 2021; Cisco Certified Network Associate Routing and Switching (CCNA) - May 2014 - May 2017; MCP's 1st Birthday Hackathon 2025 - Dec 2025; and 1 more.
 
@@ -52,6 +52,7 @@ This file describes the one-page website at https://abidaliawan.com/. The markdo
 - JobFit AI - May 2026: AI job matching project that uploads a CV, searches for roles, scores fit, and recommends relevant jobs. Topics: GitHub, AI Agents, Job Search.
 - Nemotron Psychology QA LoRA - Apr 2026: Hugging Face model adapter fine tuned from NVIDIA Nemotron 3 Nano 4B for psychology question answering. Topics: Hugging Face, LoRA, Psychology.
 - DeepSeek OCR 2 Urdu LoRA - Mar 2026: Fine tuned DeepSeek OCR 2 model for Urdu OCR using the Urdu OCR 1M dataset. Topics: Hugging Face, OCR, Urdu.
+- Compound PK - May 2026: Side project for compound investment analysis and financial tools focused on Pakistan. Topics: Investing, Finance, Pakistan.
 
 ### Studies
 
