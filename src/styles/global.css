@@ -63,11 +63,12 @@
   height: 1.75rem;
   border-radius: 9999px;
   background: currentColor;
+  transform: translateX(calc(4.15rem - 1.75rem - 0.4rem - 3px));
   transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
 }
 
 .theme-switcher__input:checked + .theme-switcher__thumb {
-  transform: translateX(calc(4.15rem - 1.75rem - 0.4rem - 3px));
+  transform: translateX(0);
 }
 
 :root[data-theme="black"] .theme-switcher {
