@@ -19,19 +19,19 @@
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.2.8",
     "@fontsource-variable/space-grotesk": "^5.2.10",
-    "@iconify-json/carbon": "^1.2.20",
+    "@iconify-json/carbon": "^1.2.23",
     "@iconify-json/mdi": "^1.2.3",
-    "astro": "^6.3.1",
-    "astro-compress": "^2.4.0",
+    "astro": "^6.4.8",
+    "astro-compress": "^2.4.1",
     "astro-icon": "^1.1.5",
     "sharp": "^0.34.5",
-    "tailwindcss": "^4.2.2"
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.2.2",
-    "baseline-browser-mapping": "^2.10.16",
-    "daisyui": "^5.5.19"
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "baseline-browser-mapping": "^2.10.38",
+    "daisyui": "^5.5.23"
   },
   "overrides": {
     "defu": "^6.1.6",
