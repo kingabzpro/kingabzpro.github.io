@@ -9,6 +9,8 @@ import * as about from "../content/about/about.md";
 const title = `${about.frontmatter.name} - ${about.frontmatter.designation}`;
 const description = "Official website of Abid Ali Awan. Data Scientist and Technical Writer building practical AI systems, production ML pipelines, and technical content.";
 const sameAs = [
+  // Canonical Knowledge Graph anchor — Wikidata QID (primary reconciliation signal)
+  "https://www.wikidata.org/wiki/Q140438501",
   "https://www.linkedin.com/in/1abidaliawan/",
   "https://github.com/kingabzpro",
   "https://huggingface.co/kingabzpro",
@@ -16,6 +18,7 @@ const sameAs = [
   "https://x.com/1abidaliawan",
   "https://kingabzpro.medium.com/",
   "https://www.datacamp.com/profile/kingabzpro",
+  "https://dagshub.com/kingabzpro",
   "https://abid.work",
 ];
 
@@ -46,6 +49,13 @@ const structuredData = {
         addressCountry: "Pakistan",
       },
       sameAs,
+      identifier: [
+        {
+          "@type": "PropertyValue",
+          name: "Wikidata QID",
+          value: "Q140438501",
+        },
+      ],
       knowsAbout: [
         "Data Science",
         "Machine Learning",
@@ -53,6 +63,34 @@ const structuredData = {
         "MLOps",
         "Large Language Models",
         "Technical Writing",
+      ],
+      alumniOf: [
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://www.wikidata.org/wiki/Q1534573",
+          name: "Staffordshire University",
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://www.wikidata.org/wiki/Q5013372",
+          name: "COMSATS University Islamabad",
+        },
+      ],
+      worksFor: [
+        {
+          "@type": "Organization",
+          "@id": "https://www.wikidata.org/wiki/Q105481866",
+          name: "KDnuggets",
+        },
+      ],
+      // Links the Person to the wav2vec 2.0 entity (Q104091027) recorded as notable work on Wikidata
+      subjectOf: [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://www.wikidata.org/wiki/Q104091027",
+          name: "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+          url: "https://huggingface.co/kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+        },
       ],
       contactPoint: [
         {
