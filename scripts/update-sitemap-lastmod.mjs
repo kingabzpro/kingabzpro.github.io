@@ -39,17 +39,38 @@ const homeLastmod = toIsoDate(
   new Date(Math.max(...homeSources.map((filePath) => statSync(filePath).mtimeMs))),
 );
 const urls = [
-  { loc: `${siteUrl}/`, lastmod: homeLastmod },
+  {
+    loc: `${siteUrl}/`,
+    lastmod: homeLastmod,
+    images: [
+      {
+        loc: `${siteUrl}/profile-photo.png`,
+        title: "Abid Ali Awan - Data Scientist & Technical Writer",
+        caption: "Profile photo of Abid Ali Awan",
+      },
+      {
+        loc: `${siteUrl}/og-image.png`,
+        title: "Abid Ali Awan - Open Graph image",
+      },
+    ],
+  },
 ];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls
   .map(
-    ({ loc, lastmod }) => `  <url>
+    ({ loc, lastmod, images }) => `  <url>
     <loc>${escapeXml(loc)}</loc>
     <lastmod>${lastmod}</lastmod>
+${(images ?? [])
+  .map(
+    (image) => `    <image:image>
+      <image:loc>${escapeXml(image.loc)}</image:loc>
+${image.title ? `      <image:title>${escapeXml(image.title)}</image:title>\n` : ""}${image.caption ? `      <image:caption>${escapeXml(image.caption)}</image:caption>\n` : ""}    </image:image>`,
+  )
+  .join("\n")}
   </url>`,
   )
   .join("\n")}
