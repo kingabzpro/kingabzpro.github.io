@@ -19,6 +19,9 @@ const sameAs = [
   "https://kingabzpro.medium.com/",
   "https://www.datacamp.com/profile/kingabzpro",
   "https://dagshub.com/kingabzpro",
+  "https://muckrack.com/abidaliawan",
+  "https://www.analyticsvidhya.com/blog/author/kingabzpro/",
+  "https://www.datascienceportfol.io/abid",
   "https://abid.work",
 ];
 
@@ -40,7 +43,26 @@ const structuredData = {
       name: "Abid Ali Awan",
       alternateName: "kingabzpro",
       url: "https://abidaliawan.com/",
-      image: "https://abidaliawan.com/og-image.png",
+      image: {
+        "@type": "ImageObject",
+        "@id": "https://abidaliawan.com/#profile-photo",
+        url: "https://abidaliawan.com/profile-photo.png",
+        width: 640,
+        height: 640,
+      },
+      gender: "Male",
+      nationality: {
+        "@id": "https://www.wikidata.org/wiki/Q843",
+        name: "Pakistan",
+      },
+      birthPlace: {
+        "@type": "Place",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Islamabad",
+          addressCountry: "Pakistan",
+        },
+      },
       jobTitle: "Data Scientist & Technical Writer",
       description,
       address: {
@@ -81,6 +103,11 @@ const structuredData = {
           "@type": "Organization",
           "@id": "https://www.wikidata.org/wiki/Q105481866",
           name: "KDnuggets",
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.wikidata.org/wiki/Q53806597",
+          name: "DataCamp",
         },
       ],
       // Links the Person to the wav2vec 2.0 entity (Q104091027) recorded as notable work on Wikidata
