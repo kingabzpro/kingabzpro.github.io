@@ -3,8 +3,8 @@ import { Icon } from "astro-icon/components";
 const { title, icon, id } = Astro.props;
 ---
 
-<div id={id} class="collapse collapse-arrow ease-in-out duration-700 w-full scroll-mt-4">
-  <input aria-label={title} type="checkbox"/>
+<div id={id} data-accordion-section class="collapse collapse-arrow ease-in-out duration-700 w-full scroll-mt-4">
+  <input aria-label={title} type="checkbox" data-accordion-toggle/>
   <div class="collapse-title font-extrabold tracking-tight md:text-2xl">
     <div class="flex">
       <Icon name={icon} class="w-8 h-8 mr-4" />
@@ -15,3 +15,44 @@ const { title, icon, id } = Astro.props;
     <slot/>
   </div>
 </div>
+
+<script>
+  const sectionSelector = "[data-accordion-section]";
+  const toggleSelector = "[data-accordion-toggle]";
+
+  const openSectionFromUrl = () => {
+    const id = window.location.hash.slice(1);
+    if (!id) return;
+
+    const section = document.getElementById(id);
+    if (!section?.matches(sectionSelector)) return;
+
+    const toggle = section.querySelector<HTMLInputElement>(toggleSelector);
+    if (toggle) toggle.checked = true;
+  };
+
+  if (document.documentElement.dataset.accordionUrlsReady !== "true") {
+    document.documentElement.dataset.accordionUrlsReady = "true";
+
+    document.addEventListener("change", (event) => {
+      const toggle = event.target;
+      if (!(toggle instanceof HTMLInputElement) || !toggle.matches(toggleSelector)) return;
+
+      const section = toggle.closest<HTMLElement>(sectionSelector);
+      if (!section?.id) return;
+
+      const nextUrl = toggle.checked
+        ? `#${section.id}`
+        : window.location.pathname + window.location.search;
+
+      if (toggle.checked || window.location.hash === `#${section.id}`) {
+        history.replaceState(null, "", nextUrl);
+      }
+    });
+
+    window.addEventListener("hashchange", openSectionFromUrl);
+    document.addEventListener("astro:page-load", openSectionFromUrl);
+  }
+
+  openSectionFromUrl();
+</script>
