@@ -44,12 +44,12 @@ const urls = [
     lastmod: homeLastmod,
     images: [
       {
-        loc: `${siteUrl}/profile-photo.png`,
+        loc: `${siteUrl}/profile-photo.webp`,
         title: "Abid Ali Awan - Data Scientist & Technical Writer",
         caption: "Profile photo of Abid Ali Awan",
       },
       {
-        loc: `${siteUrl}/og-image.png`,
+        loc: `${siteUrl}/og-image.webp`,
         title: "Abid Ali Awan - Open Graph image",
       },
     ],

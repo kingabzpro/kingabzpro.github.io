@@ -3,14 +3,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://abidaliawan.com/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <image:image>
-      <image:loc>https://abidaliawan.com/profile-photo.png</image:loc>
+      <image:loc>https://abidaliawan.com/profile-photo.webp</image:loc>
       <image:title>Abid Ali Awan - Data Scientist &amp; Technical Writer</image:title>
       <image:caption>Profile photo of Abid Ali Awan</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://abidaliawan.com/og-image.png</image:loc>
+      <image:loc>https://abidaliawan.com/og-image.webp</image:loc>
       <image:title>Abid Ali Awan - Open Graph image</image:title>
     </image:image>
   </url>

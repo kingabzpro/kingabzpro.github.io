@@ -5,12 +5,12 @@ const { title, icon, id } = Astro.props;
 
 <div id={id} data-accordion-section class="collapse collapse-arrow ease-in-out duration-700 w-full scroll-mt-4">
   <input aria-label={title} type="checkbox" data-accordion-toggle/>
-  <div class="collapse-title font-extrabold tracking-tight md:text-2xl">
+  <h2 class="collapse-title font-extrabold tracking-tight md:text-2xl">
     <div class="flex">
       <Icon name={icon} class="w-8 h-8 mr-4" />
         {title}
-  </div>
-  </div>
+    </div>
+  </h2>
   <div class="collapse-content">
     <slot/>
   </div>
