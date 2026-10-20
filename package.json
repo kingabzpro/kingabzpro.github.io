@@ -36,7 +36,7 @@
   "overrides": {
     "@iconify/tools": "^5.0.12",
     "defu": "^6.1.6",
-    "devalue": "^5.8.1",
+    "devalue": "^5.9.3",
     "deepmerge-ts": "^8.0.1",
     "esbuild": "^0.28.1",
     "h3": "^1.15.9",
@@ -44,6 +44,7 @@
     "nanoid": "^3.3.17",
     "picomatch": "^4.0.4",
     "postcss": "^8.5.18",
+    "postcss-selector-parser": "^7.1.6",
     "sharp": "^0.35.4",
     "smol-toml": "^1.6.1",
     "svgo": "^4.1.0",
