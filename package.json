@@ -21,7 +21,7 @@
     "@fontsource-variable/space-grotesk": "^5.2.10",
     "@iconify-json/carbon": "^1.2.23",
     "@iconify-json/mdi": "^1.2.3",
-    "astro": "^7.2.8",
+    "astro": "^7.4.2",
     "astro-compress": "^2.4.1",
     "astro-icon": "^1.1.5",
     "tailwindcss": "^4.3.1"
